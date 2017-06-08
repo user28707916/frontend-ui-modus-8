@@ -1,0 +1,45 @@
+{
+	"name": "frontend-ui-modus",
+	"private": true,
+	"description": "Web site on VueJS",
+	"version": "1.0.0",
+	"license": "MIT",
+	"author": "Constantine Genchevsky",
+	"main": "src/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fabrikaodua/frontend-ui-modus.git"
+	},
+	"keywords": [
+		"vue",
+		"webapp",
+		"home work",
+		"training task"
+	],
+	"scripts": {
+		"start": "neutrino start",
+		"build": "neutrino build",
+		"test": "neutrino test",
+		"test:watch": "neutrino test --watch",
+		"coverage": "neutrino test --coverage",
+		"lint": "eslint --ext .js,.jsx,.html,.vue src/"
+	},
+	"neutrino": {
+		"use": [
+			"neutrino-preset-fabrika"
+		]
+	},
+	"dependencies": {
+		"jquery": "~2.2.4",
+		"normalize-css": "~2.3.1",
+		"vue": "^2.3.3",
+		"vue-router": "^2.5.3"
+	},
+	"devDependencies": {
+		"neutrino-preset-fabrika": "^1.0.0"
+	},
+	"engines": {
+		"node": ">=6.9.0",
+		"npm": ">=3.0.0"
+	}
+}
