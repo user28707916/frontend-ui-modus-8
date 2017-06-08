@@ -22,7 +22,7 @@
 		"test": "neutrino test",
 		"test:watch": "neutrino test --watch",
 		"coverage": "neutrino test --coverage",
-		"lint": "eslint --ext .js,.jsx,.html,.vue src/"
+		"lint": "eslint --ext .js,.jsx,.html src/"
 	},
 	"neutrino": {
 		"use": [
