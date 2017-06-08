@@ -1,9 +1,10 @@
 <script>
   import PageHeader from '../components/page-header/page-header.vue';
   import MainMenu from '../components/main-menu/main-menu.vue';
+  import PageFooter from '../components/page-footer/page-footer.vue';
 
   export default {
-    components: { PageHeader, MainMenu },
+    components: { PageHeader, MainMenu, PageFooter },
   };
 </script>
 
@@ -34,5 +35,7 @@
 
       </tbody>
     </table>
+      <page-footer></page-footer>
   </body>
+
 </template>
