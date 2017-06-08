@@ -1,5 +1,6 @@
 # Настройка проекта
 
+[![Build Status](https://travis-ci.com/fabrikaodua/frontend-ui-modus-8.svg?token=SFtUH4jzCXwsGcdDpLyU&branch=master)](https://travis-ci.com/fabrikaodua/frontend-ui-modus-8)
 [![Greenkeeper badge](https://badges.greenkeeper.io/fabrikaodua/frontend-ui-modus-8.svg?token=a8276c6672eeca7f58cc859e5458651d572911373480e926ff69a8341936de58&ts=1496889802839)](https://greenkeeper.io/)
 
 ## Создание проекта
