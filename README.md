@@ -1,5 +1,7 @@
 # Настройка проекта
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fabrikaodua/frontend-ui-modus-8.svg?token=a8276c6672eeca7f58cc859e5458651d572911373480e926ff69a8341936de58&ts=1496889802839)](https://greenkeeper.io/)
+
 ## Создание проекта
 1. Установить в систему Git с сайта https://git-scm.com/downloads (если уже не сделано).
 2. Установить в систему любой GUI для работы с Git (если уже не сделано). Например https://desktop.github.com/ или https://tortoisegit.org/. Многие редакторы кода имеют плагин или встроенную поддержку Git.
