@@ -2,9 +2,10 @@
   import PageHeader from '../components/page-header/page-header.vue';
   import MainMenu from '../components/main-menu/main-menu.vue';
   import PageFooter from '../components/page-footer/page-footer.vue';
+  import MainMenuBg from '../components/main-menu-bg/main-menu-bg.vue';
 
   export default {
-    components: { PageHeader, MainMenu, PageFooter },
+    components: { PageHeader, MainMenu, PageFooter, MainMenuBg },
   };
 </script>
 
@@ -13,6 +14,8 @@
     <page-header>Main page</page-header>
 
     <main-menu />
+    <main-menu-bg></main-menu-bg>
+   
 
     <h2>Список всех пользователей</h2>
     <table class="users-table all-users">
