@@ -1,17 +1,15 @@
 <script>
   import PageHeader from '../components/page-header/page-header.vue';
-  import MainMenu from '../components/main-menu/main-menu.vue';
 
   export default {
-    components: { PageHeader, MainMenu },
+    components: { PageHeader },
   };
 </script>
 
 <template>
   <body>
-    <page-header>About page</page-header>
+    <page-header />
 
-    <main-menu />
-
+    Contacts
   </body>
 </template>

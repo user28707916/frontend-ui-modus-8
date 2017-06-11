@@ -9,8 +9,8 @@
 <template>
   <body>
     <page-header />
-
-    Page not found
+    
+    Blog post
 
   </body>
 </template>

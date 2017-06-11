@@ -10,7 +10,7 @@
   <body>
     <page-header />
 
-    Page not found
+    UI Kit
 
   </body>
 </template>

@@ -9,8 +9,8 @@
 <template>
   <body>
     <page-header />
-
-    Page not found
+    
+    Portfolio 2 columns
 
   </body>
 </template>
