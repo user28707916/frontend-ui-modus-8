@@ -5,3 +5,9 @@ body {
 	line-height: 1.4285em;
 	color: rgba(0, 0, 0, .87);
 }
+
+a {
+	font-family: 'Open Sans';
+	color: #e1524b;
+	line-height: 24.7px;
+}
