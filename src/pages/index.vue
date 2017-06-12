@@ -38,6 +38,7 @@
 
       </tbody>
     </table>
+
       <page-footer></page-footer>
   </body>
 
