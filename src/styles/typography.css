@@ -13,4 +13,9 @@ a {
 	font-family: 'Open Sans';
 	color: #e1524b;
 	line-height: 24.7px;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #bc4742;
 }
