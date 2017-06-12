@@ -1,7 +1,16 @@
 body {
-	background: #fff;
-	font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 1.4285em;
-	color: rgba(0, 0, 0, .87);
+	font-weight: normal;
+	font-style: normal;
+	font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20.8px;
+	color: rgb(119, 119, 119);
+	cursor: default;
+	background: #f3f3f3;
+}
+
+a {
+	font-family: 'Open Sans';
+	color: #e1524b;
+	line-height: 24.7px;
 }

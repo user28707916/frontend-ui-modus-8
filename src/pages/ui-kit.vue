@@ -12,6 +12,10 @@
     <page-header />
 
     UI Kit
+
       <image-content></image-content>
+
+    <a href="">Open Sans</a>
+
   </body>
 </template>

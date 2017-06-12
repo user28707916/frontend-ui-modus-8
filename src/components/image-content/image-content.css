@@ -1,0 +1,14 @@
+.image-content{
+	position: relative;
+	height: 150px;
+	width: 250px;
+	border: 1px solid aquamarine;
+	overflow: hidden;
+}
+
+.content-image{
+	position: absolute;
+
+	height: auto;
+	width: inherit;
+}
