@@ -1,0 +1,21 @@
+.search-box {
+	position: relative;
+	right: 0;
+	height: 85px;
+	width: 200px;
+	background: aqua;
+}
+
+.search-box-button{
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+
+.search-box-input{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+}
