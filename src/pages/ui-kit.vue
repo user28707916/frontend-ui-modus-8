@@ -2,11 +2,10 @@
 	import PageHeader from '../components/page-header/page-header.vue';
 	import ImageContent from '../components/image-content/image-content.vue';
 	import TagItem from '../components/tag-item/tag-item.vue';
-	import MainLogo from '../components/main-logo/main-logo.vue';
 	import SearchBox from '../components/search-box/search-box.vue';
 
 	export default {
-		components: { PageHeader, ImageContent, TagItem, MainLogo, SearchBox }
+		components: { PageHeader, ImageContent, TagItem, SearchBox }
 	};
 </script>
 
