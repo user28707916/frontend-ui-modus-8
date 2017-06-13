@@ -3,12 +3,11 @@
 	right: 0;
 	height: 85px;
 	width: 200px;
-	background-color: blue;
 }
 
 .search-box-button{
 	position: absolute;	
-	background: url(search-box-button.png) 50% 50% no-repeat;
+	background: url(search-box-button.png) no-repeat;
 	height: 34px;
 	width: 34px;
 	right: 0;
@@ -16,8 +15,23 @@
 }
 
 .search-box-input{
+	box-sizing: border-box;
+	height: 40px;
+	width: 200px;
+	background: url(search-box-bg.png) no-repeat;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	text-align: center;
+}
+.search-box-input input {
+	position: relative;
+	box-sizing: border-box;
+	height: 30px;
+	width: 190px;
+	border: 2px solid white;
+	border-radius: 5px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #7f8c8c;
 }
