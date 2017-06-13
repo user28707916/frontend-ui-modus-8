@@ -1,15 +1,24 @@
 .image-content {
 	position: relative;
-	height: 150px;
-	width: 250px;
+	height: 270px;
+	width: 570px;
 	border: 3px solid aquamarine;
 	overflow: hidden;
 }
 
-.content-image {
+/*.content-image {
 	position: absolute;
 	height: inherit;
 	width: auto;
 	left: 50%;
 	transform: translateX(-50%);
+}*/
+
+.content-image {
+	position: absolute;
+	height: auto;
+	width: inherit;
+	top: 50%;
+	transform: translateY(-50%);
 }
+
