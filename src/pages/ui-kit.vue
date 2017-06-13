@@ -4,9 +4,10 @@
 	import TagItem from '../components/tag-item/tag-item.vue';
 	import SearchBox from '../components/search-box/search-box.vue';
 	import ButtonControl from '../components/button-control/button-control.vue';
+    import MainLogo from '../components/main-logo/main-logo.vue';
 
 	export default {
-		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl }
+		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo }
 	};
 </script>
 
@@ -15,6 +16,8 @@
 		<page-header />
 		
 		UI Kit
+
+	    <main-logo></main-logo>
 
 		<image-content></image-content>
 
