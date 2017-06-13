@@ -5,3 +5,9 @@ body {
 	line-height: 1.4285em;
 	color: rgba(0, 0, 0, .87);
 }
+h1 {
+	 font-family: "Myriad Pro",sans-serif;
+	 font-size: 20pt;
+	 font-style:normal;
+	 line-height: 24pt;
+ }
