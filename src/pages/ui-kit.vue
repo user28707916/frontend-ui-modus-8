@@ -3,9 +3,10 @@
 	import ImageContent from '../components/image-content/image-content.vue';
 	import TagItem from '../components/tag-item/tag-item.vue';
 	import SearchBox from '../components/search-box/search-box.vue';
+	import ButtonControl from '../components/button-control/button-control.vue';
 
 	export default {
-		components: { PageHeader, ImageContent, TagItem, SearchBox }
+		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl }
 	};
 </script>
 
@@ -24,6 +25,8 @@
 		<a href="">Open Sans</a>
 
 		<search-box></search-box>
+		
+		<button-control></button-control>
 
 	</body>
 </template>
