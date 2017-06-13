@@ -2,6 +2,6 @@
 
 <template>
   <div class="image-content">
-    <img class="content-image" src="./vestibulum.jpg" alt="Any picture">
+	 <img class="content-image" src="./vestibulum.jpg" alt="Any picture">
   </div>
 </template>

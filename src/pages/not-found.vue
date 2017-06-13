@@ -1,16 +1,16 @@
 <script>
-  import PageHeader from '../components/page-header/page-header.vue';
+	import PageHeader from '../components/page-header/page-header.vue';
 
-  export default {
-    components: { PageHeader },
-  };
+	export default {
+		components: { PageHeader }
+	};
 </script>
 
 <template>
-  <body>
-    <page-header />
+	<body>
+		<page-header />
 
-    Page not found
+		Page not found
 
-  </body>
+	</body>
 </template>
