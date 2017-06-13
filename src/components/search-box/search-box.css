@@ -1,0 +1,28 @@
+.search-box {
+	position: relative;
+	right: 0;
+	height: 85px;
+	width: 200px;
+	background-color: blue;
+}
+
+.search-box-button{
+	position: absolute;
+	background: url(search-box-button-redbg.png),
+				url(search-box-button-whitebg.png),
+				url(search-box-button-lens.png);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: 50% 50%;
+	height: 34px;
+	width: 34px;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+
+.search-box-input{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+}

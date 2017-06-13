@@ -1,10 +1,9 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-	"editor.tabSize": 2,
-	"editor.insertSpaces": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
 	"editor.wordWrap": "on",
 	"files.autoSave": "onFocusChange",
-	"files.eol": "\n",
 	"jshint.enable": false,
 	"eslint.autoFixOnSave": true,
 	"editor.formatOnSave": false,

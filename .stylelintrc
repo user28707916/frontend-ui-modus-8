@@ -17,7 +17,7 @@
         "declaration-no-important": true,
         "declaration-colon-space-before": "never",
         "declaration-colon-space-after": "always",
-        "property-no-vendor-prefix": false,
+        "property-no-vendor-prefix": null,
         "value-no-vendor-prefix": true,
         "number-leading-zero": "always",
         "function-url-quotes": "never",
@@ -35,6 +35,7 @@
         "media-feature-parentheses-space-inside": "never",
         "media-feature-name-no-vendor-prefix": true,
         "media-feature-colon-space-before": "never",
-        "media-feature-colon-space-after": "always"
+        "media-feature-colon-space-after": "always",
+		  "no-missing-end-of-source-newline": null
     }
 }
