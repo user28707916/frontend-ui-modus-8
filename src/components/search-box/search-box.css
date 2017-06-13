@@ -7,9 +7,8 @@
 }
 
 .search-box-button{
-	position: absolute;
-	
-	background: url(search-box-button) 50% 50% no-repeat;
+	position: absolute;	
+	background: url(search-box-button.png) 50% 50% no-repeat;
 	height: 34px;
 	width: 34px;
 	right: 0;
