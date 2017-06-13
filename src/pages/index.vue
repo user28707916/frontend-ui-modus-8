@@ -16,7 +16,7 @@
 		<main-menu />
 		<main-menu-bg></main-menu-bg>
 
-
+        <h1>BLOG</h1>
 		<h2>Список всех пользователей</h2>
 		<table class="users-table all-users">
 		<thead>

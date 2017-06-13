@@ -26,3 +26,11 @@ p {
 	color: #7f8c8c;
 	line-height: 1.2em;
 }
+h1 {
+	 font-family: 'Open Sans',sans-serif;
+	 font-weight: 600;
+	 font-size: 20pt;
+	 font-style:normal;
+	 line-height: 24pt;
+	 color: #7f8c8c;
+ }
