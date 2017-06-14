@@ -2,19 +2,14 @@
 
 <template>
 	<nav class="main-menu">
-        <div class="main-menu-content">
-            <div class="Home" <a href="# "> Home</a></div>
-            <div class="About" <a href="# " >About</a></div>
-            <div class="Services" <a href="# ">Services</a></div>
-                        <div class="portfolio" <a href="# ">Portfolio</a>
-                <div class="portfolio1 "<a href="# ">Portfolio 2</a></div>
-                <div class="portfolio1"<a href="# ">Portfolio 3</a></div>
-                <div classo="portfolio1 "<a href="# ">Portfolio 4</a></div>
-                </div>
-            <div class="Blog" <a href="# ">Blog</a></div>
-            <div class="Blog" <a href="# ">Features</a></div>
-            <div class="Blog" <a href="# ">Contacts</a></div>
-            </div>
-            <div class="/ui-kit" <a href="# ">Examples</a></div>
-
+		<router-link to="/index" active-class="current">Main</router-link>
+		<router-link to="/contacts" active-class="current">Contacts</router-link>
+		<router-link to="/blog" active-class="current">Blog</router-link>
+		<router-link to="/portfolio" active-class="current">Portfolio</router-link>
+		<router-link to="/portfolio-2" active-class="current">Portfolio 2</router-link>
+		<router-link to="/portfolio-3" active-class="current">Portfolio 3</router-link> 
+		<router-link to="/portfolio-4" active-class="current">Portfolio 4</router-link>
+		<router-link to="/ui-kit" active-class="current">Examples</router-link>
+	</nav>
+</template>
 </template>

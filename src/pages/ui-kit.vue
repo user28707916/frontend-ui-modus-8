@@ -18,9 +18,9 @@
 	<content-wrapper> 
 
 		<page-header >
-			<main-menu>
-			ggg
-			</main-menu>
+			<main-menu />
+			
+			
 		</page-header>
 		
 		UI Kit
