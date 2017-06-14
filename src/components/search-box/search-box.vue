@@ -2,7 +2,13 @@
 
 <template>
   <div class="search-box">
-	 <div class="search-box-button"><slot></slot></div> 
-	 <div class="search-box-input"><slot><input type="text"></slot></div>
+	 <div id="show-input">
+	 	<button class="search-box-button" v-on:click="showDiv"></button>
+	 </div>
+	 <div class="search-box-input">
+	 	<input type="text" placeholder="Search the site">
+	 </div>
   </div>  
 </template>
+
+<script src="./search-box.js"></script>

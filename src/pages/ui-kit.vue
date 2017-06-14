@@ -23,8 +23,6 @@
 
         <main-logo></main-logo>
 
-        <button>Кнопка с текстом</button>
-
         <image-content></image-content>
 
         <tag-item></tag-item>
