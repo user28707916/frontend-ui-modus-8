@@ -2,17 +2,17 @@
       font-family: sans-serif;
       position: absolute;
       bottom: 0;
-      width: 100%;
+      width: 1170px;
       height: 350px;
-      background: url(./footer-border.png) repeat-x;
-      background-color: #76c7c0; 
+	  background: url(./footer-border.png) repeat-x;
+	  background-color: #76c7c0;
 }
 
 .tag-footer .tag-content {
 	  display: flex;
       position: absolute;
       top: 48px;
-      left: 75px;
+      left: 5px;
 }
 
 
@@ -20,6 +20,7 @@
 .tag-footer .tag-coll {
       height: 250px;
       width: 370px;
+	  padding-right: 27px;
 }
 
 .tag-footer .tag-content-coll1 {
@@ -139,7 +140,7 @@
 
 .tag-footer .tag-bottom-line .ModusVersus {
       position: absolute;
-      left: 75px;
+      left: 5px;
       top: 10px;
       font-size: 12px;
       color: #ffffff;
@@ -152,26 +153,26 @@
       height: 21px;
       overflow: hidden;
       position: absolute;
-     right: 224px; 
+      right: 144px; 
 }
 .tag-footer .tag-bottom-line .google {
       width: 21px;
       height: 21px;
       overflow: hidden;
       position: absolute;
-      right: 176px; 
+      right: 96px; 
 }
 .tag-footer .tag-bottom-line .twetter {
       width: 21px;
       height: 21px;
       overflow: hidden;
       position: absolute;
-      right: 128px; 
+      right: 48px; 
 }
 .tag-footer .tag-bottom-line .rss {
       width: 21px;
       height: 21px;
       overflow: hidden;
       position: absolute;
-      right: 80px; 
+      right: 0px; 
 }
