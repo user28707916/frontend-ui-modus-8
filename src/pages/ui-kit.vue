@@ -22,13 +22,9 @@
 
 	    <main-logo></main-logo>
 
-		
-
 		<image-content></image-content>
 
 		<tag-item></tag-item>
-
-		
 
 		<a href="">Open Sans</a>
 
