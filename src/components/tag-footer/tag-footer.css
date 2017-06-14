@@ -1,0 +1,177 @@
+.tag-footer {
+      font-family: sans-serif;
+      position: absolute;
+      bottom: 0;
+      width: 1200px;
+      height: 350px;
+      background: url(./footer-border.png) repeat-x;
+      background-color: #76c7c0; 
+}
+
+.tag-footer .tag-content {
+	  display: flex;
+      position: absolute;
+      top: 48px;
+      left: 5px;
+}
+
+
+
+.tag-footer .tag-coll {
+      height: 250px;
+      width: 370px;
+}
+
+.tag-footer .tag-content-coll1 {
+      background: url(./modus.png) no-repeat;
+      
+}
+
+.tag-footer .tag-content-coll1 .text {
+      padding-top: 50px;
+      color: #ffffff;
+      font-size: 13px;
+      padding-bottom: 30px;
+}
+
+
+
+.tag-footer .tag-content-coll1 .phone {
+      word-spacing: 20px;
+      color: #ffffff;
+      font-size: 20px;
+      margin-bottom: 7px;
+}
+
+.tag-footer .tag-content-coll1 .phone:last-child {
+      
+}
+
+.tag-footer .tag-content-coll1 .mail {
+      word-spacing: 20px;
+      color: #ffffff;
+      font-size: 20px;
+}
+
+
+.tag-footer .tag-content-coll2 {
+      color: #ffffff;
+}
+
+.tag-footer .tag-content-coll2 .companymain{
+      display: flex;
+      vertical-align: top;
+}
+
+.tag-footer .tag-content-coll2 .company {
+      margin-top: -1px;
+      padding-left: 10px;
+      color: #777777;
+      font-size: 20px;
+}
+.tag-footer .tag-content-coll2 .company1 {
+      font-size: 13px;
+      padding-top: 50px;
+      margin-left: -60px;
+}
+
+.tag-footer .tag-content-coll2 .community {
+      font-size: 20px;
+      margin-top: -1px;
+      padding-left: 60px;
+      color: #777777;
+}
+
+.tag-footer .tag-content-coll2 .community1 {
+      font-size: 13px;
+      margin-left: -75px;
+      padding-top: 50px;
+}
+
+.tag-footer .tag-content-coll2 .companymenu {
+      word-spacing: 10px; 
+      
+}
+
+.tag-footer .tag-content-coll2 .communitymenu {
+      word-spacing: 10px;
+}
+
+.tag-footer .tag-content-coll3 {
+      color: #ffffff;
+      background: url(./fromtheBLOG.png) no-repeat;
+}
+
+.tag-footer .tag-content-coll3 .image1 img{
+      float: left;
+      height: 70px;
+      width: 70px;
+      overflow: hidden;
+      margin-right: 10px;
+      
+}
+
+.tag-footer .tag-content-coll3 .imageblog {
+      margin-top: 45px; 
+}
+
+.tag-footer .tag-content-coll3 .text {
+      margin-top: 35px; 
+}
+
+
+.tag-footer .tag-content-coll3 .image2 img{
+      float: left;
+      height: 70px;
+      width: 70px;
+      overflow: hidden;
+      margin-right: 10px;
+      
+}
+
+.tag-footer .tag-bottom-line {
+      width: 100%;
+      height: 50px;  
+      position: absolute;
+      bottom: 0;
+      background-color: #6ab3ac;
+}
+
+.tag-footer .tag-bottom-line .ModusVersus {
+      position: absolute;
+      left: 5px;
+      top: 10px;
+      font-size: 12px;
+      color: #ffffff;
+}
+.tag-footer .tag-bottom-line .logopicture{
+      display: inline-block;
+}
+.tag-footer .tag-bottom-line .facebook {
+      width: 21px;
+      height: 21px;
+      overflow: hidden;
+      position: absolute;
+     right: 224px; 
+}
+.tag-footer .tag-bottom-line .google {
+      width: 21px;
+      height: 21px;
+      overflow: hidden;
+      position: absolute;
+      right: 176px; 
+}
+.tag-footer .tag-bottom-line .twetter {
+      width: 21px;
+      height: 21px;
+      overflow: hidden;
+      position: absolute;
+      right: 128px; 
+}
+.tag-footer .tag-bottom-line .rss {
+      width: 21px;
+      height: 21px;
+      overflow: hidden;
+      position: absolute;
+      right: 80px; 
+}
