@@ -15,6 +15,7 @@
 <template>
 	<body>
 	<content-wrapper> 
+
 		<page-header />
 		
 		UI Kit
@@ -36,5 +37,6 @@
 		<button-control></button-control>
 
 		</content-wrapper>
+		
 	</body>
 </template>
