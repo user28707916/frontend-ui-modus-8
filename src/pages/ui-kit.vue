@@ -5,19 +5,23 @@
 	import SearchBox from '../components/search-box/search-box.vue';
 	import ButtonControl from '../components/button-control/button-control.vue';
     import MainLogo from '../components/main-logo/main-logo.vue';
+	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 
 	export default {
-		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo }
+		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo, ContentWrapper }
 	};
 </script>
 
 <template>
 	<body>
+	<content-wrapper> 
 		<page-header />
 		
 		UI Kit
 
 	    <main-logo></main-logo>
+
+		
 
 		<image-content></image-content>
 
@@ -31,5 +35,6 @@
 		
 		<button-control></button-control>
 
+		</content-wrapper>
 	</body>
 </template>
