@@ -33,4 +33,29 @@ h1 {
 	 font-style:normal;
 	 line-height: 24pt;
 	 color: #7f8c8c;
- }
+	 text-transform: uppercase;
+}
+h2 {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 600;
+	font-size: 24pt;
+	font-style:normal;
+	line-height: 21pt;
+	color: #76c7c0;
+}
+h3 {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 700;
+	font-size: 20pt;
+	font-style:normal;
+	line-height: 24pt;
+	color: #000000;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20pt;
+	font-style: normal;
+	line-height: 24pt;
+	color: #7f8c8c;
+}
