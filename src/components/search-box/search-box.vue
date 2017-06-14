@@ -8,3 +8,5 @@
 	 </div>
   </div>  
 </template>
+
+<script src="./search-box.js"></script>
