@@ -7,9 +7,9 @@
 	import MainLogo from '../components/main-logo/main-logo.vue';
 	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 	import TagFooter from '../components/tag-footer/tag-footer.vue';
-
+	import MainMenu from '../components/main-menu/main-menu.vue';
 	export default {
-		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo, ContentWrapper, TagFooter }
+		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo, ContentWrapper, TagFooter, MainMenu }
 	};
 </script>
 
@@ -17,7 +17,11 @@
 	<body>
 	<content-wrapper> 
 
-		<page-header />
+		<page-header >
+			<main-menu>
+			ggg
+			</main-menu>
+		</page-header>
 		
 		UI Kit
 
