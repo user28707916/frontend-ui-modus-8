@@ -2,7 +2,7 @@
 
 <template>
   <header class="page-header">
-	 Logo
-	 <slot>Default header text</slot>
+	
+	 <slot></slot>
   </header>
 </template>
