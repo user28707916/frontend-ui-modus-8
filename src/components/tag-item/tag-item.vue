@@ -8,6 +8,8 @@
 				<div class="itemmenu logo"><a href="#">LOGO DESIGN</a></div>
 				<div class="itemmenu"><a href="#">PHOTOGRAPHY</a></div>
 				<div class="itemmenu"><a href="#">WORDPRESS</a></div>
+				
+				<slot></slot>
 		</div> 
 	 </nav>
 </template>
