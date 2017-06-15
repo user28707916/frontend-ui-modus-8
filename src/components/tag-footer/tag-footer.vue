@@ -33,17 +33,18 @@
              </div>
              <div class="tag-content-coll3 tag-coll">
                     <div class="imageblog">
-                              <div class="member">
-                                        <div class="image1"><img src="./foto.png" alt="">
+					          <div class="member">
+							            <div class="blog">from the <strong>BLOG</strong></div>					        <div class="image1"><img src="./foto.png" alt="">
                                         <div class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit
                                         </div>
-                                        <div class="text1">26 May, 2013</div>    
+                                        <div class="text2">26 May, 2013</div>    
                                         </div> 
                                         <div class="image2"><img src="./foto.png" alt="">
                                         <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit
                                         </div>
-                                        <div class="text1">26 May, 2013</div>  
-                                        </div>     
+                                        <div class="text2">26 May, 2013</div>  
+                                        </div>  
+									       
                               </div>  
                     </div>
               </div>
