@@ -8,8 +8,8 @@ cache:
   - node_modules
 # before_script:
 script:
-  - npm run lint
   - npm test
+  - npm run build
 notifications:
     slack: 
       on_pull_requests: false
