@@ -29,6 +29,10 @@
 	border-radius: 4px;
 }
 
+.mainmenu a:hover {
+    color: #ffffff;
+}
+
 .mainmenu .itemmenu:nth-child(5) {
 	background-color: #62a29e;
 	border-bottom: 3px solid #528b86;
