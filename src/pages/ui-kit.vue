@@ -13,7 +13,20 @@
 	import TileLarge from '../components/tile-large/tile-large.vue';
 	
 	export default {
-		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo, ContentWrapper, TagFooter, MainMenu, TileSmall, TileMedium, TileLarge }
+		components: {
+			PageHeader,
+			ImageContent,
+			TagItem,
+			SearchBox,
+			ButtonControl,
+			MainLogo,
+			ContentWrapper,
+			TagFooter,
+			MainMenu,
+			TileSmall,
+			TileMedium,
+			TileLarge
+		}
 	};
 </script>
 
