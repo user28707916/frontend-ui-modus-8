@@ -3,7 +3,7 @@
 <template>
 
 <a class="main-logo" href="#">
-  <img src="./logo.png" alt="picture">
+  <img src="../images/logo.png" alt="Modus versus logo" >
 </a>
 
 </template>
