@@ -1,4 +1,4 @@
-/*.main-menu {
+/* {
     font-size: 14px;
     box-sizing: border-box;
     position: absolute;
@@ -8,12 +8,12 @@
     border: 0px;
     background-color: blue;
     text-align: center;
-}*/
+*/
 
 nav a {
     display: inline-block;
     padding: 18px 30px;
-    color: #ffffff !important;
+    color: #fff !important;
     font-weight: bold;
     font-size: 14px;
     text-decoration: none !important;
@@ -35,8 +35,7 @@ nav a:last-child {
 }
 
 
-/*.main-menu {}
-
+/*
 .main-menu {}
 
 .main-menu {}
@@ -51,4 +50,4 @@ nav a:last-child {
 .main-menu:active {
     background: #e8645a;
     box-shadow: 0 4px #e2534b;
-}*/
+*/
