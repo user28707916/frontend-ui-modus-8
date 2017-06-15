@@ -12,3 +12,4 @@
 		<router-link to="/ui-kit" active-class="current">Examples</router-link>
 	</nav>
 </template>
+</template>
