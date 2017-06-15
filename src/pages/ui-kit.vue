@@ -33,9 +33,9 @@
 		
 		<button-control></button-control>
 
-        <tag-footer></tag-footer>
+	 </content-wrapper>
 
-	</content-wrapper>
+	 <tag-footer></tag-footer>
 
-	</body>
+</body>
 </template>

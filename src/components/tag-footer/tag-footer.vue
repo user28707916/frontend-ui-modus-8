@@ -4,7 +4,7 @@
   <div class="tag-footer">
       <div class="tag-content"> 
             <div class="tag-content-coll1 tag-coll">
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</p>
+                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</div>
                 <div> 
                     <div class="phone">Phone: 182 2569 5896</div>
                     <div class="mail">e-mail: info@modu.versus</div>
@@ -13,22 +13,22 @@
 
             <div class="tag-content-coll2 tag-coll">
                 <div class="companymain">
-                    <div class="company">Company</div>
-                    <div class="company1">  
-                          <div class="companymenu">&gt; About</div>
-                          <div class="companymenu">&gt; FAQ</div>
-                          <div class="companymenu">&gt; Conatact</div>
-                          <div class="companymenu">&gt; Terms</div>
-                          <div class="companymenu">&gt; Privacy</div>
-                          <div class="companymenu">&gt; Testimonials</div>
-                    </div>
-                    <div class="community">Community</div>
-                    <div class="community1">
-                          <div class="communitymenu">&gt; Blog</div>
-                          <div class="communitymenu">&gt; Forum</div>
-                          <div class="communitymenu">&gt; Support</div>
-                          <div class="communitymenu">&gt; Newsleter</div>
-                    </div>
+                    <h3 class="company">Company</h3>
+                    <ul class="company1">  
+                          <li class="companymenu">&gt; About</li>
+                          <li class="companymenu">&gt; FAQ</li>
+                          <li class="companymenu">&gt; Contact</li>
+                          <li class="companymenu">&gt; Terms</li>
+                          <li class="companymenu">&gt; Privacy</li>
+                          <li class="companymenu">&gt; Testimonials</li>
+                    </ul>
+                    <h3 class="community">Community</h3>
+                    <ul class="community1">
+                          <li class="communitymenu">&gt; Blog</li>
+                          <li class="communitymenu">&gt; Forum</li>
+                          <li class="communitymenu">&gt; Support</li>
+                          <li class="communitymenu">&gt; Newsleter</li>
+                    </ul>
                 </div>       
              </div>
              <div class="tag-content-coll3 tag-coll">
@@ -49,13 +49,16 @@
               </div>
       </div>
       <div class="tag-bottom-line"> 
-          <div class="ModusVersus">2013  ModusVersus</div>
+           <div class="tagpicture">
+              <div class="ModusVersus">2013  ModusVersus</div>
               <div class="logopicture">
                   <div class="facebook"><img src="./Facebook.png" alt=""></div>
                   <div class="google"><img src="./google.png" alt=""></div>
                   <div class="twetter"><img src="./twetter.png" alt=""></div>
                   <div class="rss"><img src="./rss.png" alt=""></div>
-              </div>  
+              </div> 
+		   </div>   
       </div>
    </div>
+   
 </template>
