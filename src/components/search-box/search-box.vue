@@ -3,7 +3,7 @@
 <template>
   <div class="search-box">
 	 <div id="show-input">
-	 	<button class="search-box-button" v-on:click="showDiv"></button>
+	 	<button class="search-box-button" v-on:click="toggle"></button>
 	 </div>
 	 <div class="search-box-input">
 	 	<input type="text" placeholder="Search the site">

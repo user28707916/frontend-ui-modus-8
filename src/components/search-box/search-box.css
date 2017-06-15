@@ -20,7 +20,7 @@
 	border: none;
 }
 
-.search-box-input{
+.search-box .search-box-input{
 	display: none;
 	position: absolute;
 	right: 0;
@@ -28,6 +28,10 @@
 	background: url(search-box-bg.png) no-repeat;
 	width: 100%;
 	height: 46px;
+}
+
+.search-box .search-box-input.shown {
+	display: block;
 }
 
 .search-box input{
