@@ -1,23 +1,17 @@
-/* {
-    font-size: 14px;
-    box-sizing: border-box;
-    position: absolute;
-    right: 250px;
-    top: 0px;
-    border-radius: 5px;
-    border: 0px;
-    background-color: blue;
-    text-align: center;
-*/
+.main-menu {
+    display: inline-block;
+    margin: 60px auto 45px;
+    box-shadow: 0 1px 1px #ccc;
+    font-family: 'Open Sans Semibold', sans-serif;
+}
 
-nav a {
+.main-menu a {
     display: inline-block;
     padding: 18px 30px;
     color: #fff !important;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none !important;
-    right: 250px;
     line-height: 1;
     text-transform: uppercase;
     background-color: transparent;
@@ -26,28 +20,14 @@ nav a {
     transition: background-color 0.25s;
 }
 
-nav a:first-child {
+.main-menu a:first-child {
     border-radius: 2px 0 0 2px;
 }
 
-nav a:last-child {
+.main-menu a:last-child {
     border-radius: 0 2px 2px 0;
 }
 
-
-/*
-.main-menu {}
-
-.main-menu {}
-
-.main-menu:hover {
-    box-shadow: 0 3px #e2534b;
-    transform: translateY(3px);
+.main-menu .menu-liste .menu-item {
+    background-color: #e35885;
 }
-
-.main-menu:active {}
-
-.main-menu:active {
-    background: #e8645a;
-    box-shadow: 0 4px #e2534b;
-*/
