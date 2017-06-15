@@ -1,0 +1,22 @@
+.pagination {
+  width: 570px;
+  /*display: inline-block;*/
+  padding: 10px;
+
+}
+.pagination a, 
+.pagination span {
+  display: inline-block;
+  background-color: #8c9898;
+  border-radius: 5px;
+  color:#f0f1f1;
+  padding: 14px 18px;
+  text-decoration: none;
+  min-width: 40px;
+  height: 40px;
+  
+  }
+
+.pagination a:active{
+  background-color: #649792;
+}
