@@ -54,6 +54,25 @@
 		
 		<button-control></button-control>
 			
+
+
+		<tile-small>
+			<image-content />
+		</tile-small>
+		<tile-small>
+			<image-content />
+		</tile-small>
+		<tile-small>
+			<image-content />
+		</tile-small>
+		<tile-small>
+			<image-content />
+		</tile-small>
+		<tile-small>
+			<image-content />
+		</tile-small>
+
+
 		<tile-small>
 			<div slot="text">
 				<span>Small Block</span>
