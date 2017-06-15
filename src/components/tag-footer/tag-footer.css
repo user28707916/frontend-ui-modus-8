@@ -17,14 +17,13 @@
 
 .tag-footer .tag-coll {
       height: 250px;
-      width: 370px;
-	  padding-right: 30px;
+      padding-right: 30px;
 	  margin-top: 50px;
 }
 
 .tag-footer .tag-content-coll1 {
       background: url(./page-logo/modus.png) no-repeat;
-      
+      width: 400px;
 }
 
 .tag-footer .tag-content-coll1 .text {
@@ -56,6 +55,7 @@
 
 .tag-footer .tag-content-coll2 {
       color: #ffffff;
+	  width: 400px;
 }
 
 .tag-footer .tag-content-coll2 .companymain{
@@ -119,6 +119,7 @@
 
 .tag-footer .tag-content-coll3 .imageblog {
       margin-top: 5px; 
+	  width: 370px;
 }
 
 .tag-footer .tag-content-coll3 .text {
@@ -147,6 +148,7 @@
 	  background-color: #6ab3ac;
 	  padding-top: 14px;
 	  margin-top: 50px;
+	  
 }
 
 .tag-footer .tagpicture {
@@ -154,13 +156,14 @@
 	  justify-content: center;
 	  flex-direction: row;
 	  align-items: center;
+	  margin-top: 7px;
 }
 
 .tag-footer .tag-bottom-line .ModusVersus {
-	  margin-left: -25px;
+	  position: relative;
 	  font-size: 12px;
       color: #ffffff;
-	  margin-right: 903px;
+	  margin-right: 1072px;
 }
 .tag-footer .tag-bottom-line .logopicture{
       display: flex;
@@ -170,23 +173,26 @@
       width: 21px;
       height: 21px;
       overflow: hidden;
+	  position: relative;
+	  right: 142px;
 }
 .tag-footer .tag-bottom-line .google {
       width: 21px;
       height: 21px;
       overflow: hidden;
-	  margin-left: 27px;
+      position: relative;
+	  right: 94px;
 }
 .tag-footer .tag-bottom-line .twetter {
       width: 21px;
       height: 21px;
-      overflow: hidden;
-	  margin-left: 27px;
+      position: relative;
+	  right: 47px;
 }
 .tag-footer .tag-bottom-line .rss {
       width: 21px;
       height: 21px;
-      overflow: hidden;
-	  margin-left: 27px;
+      position: relative;
+	  right: 0;
       
 }
