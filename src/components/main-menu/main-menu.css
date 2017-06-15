@@ -1,7 +1,6 @@
 .main-menu {
     display: inline-block;
     margin: 60px auto 45px;
-    box-shadow: 0 1px 1px #ccc;
     font-family: 'Open Sans Semibold', sans-serif;
 }
 
@@ -18,6 +17,9 @@
     -webkit-transition: background-color 0.25s;
     -moz-transition: background-color 0.25s;
     transition: background-color 0.25s;
+    /*background: #62a29e;
+    box-shadow: 0 4px #528b86;
+    border-radius: 5px;*/
 }
 
 .main-menu a:first-child {
@@ -28,6 +30,22 @@
     border-radius: 0 2px 2px 0;
 }
 
-.main-menu .menu-liste .menu-item {
-    background-color: #e35885;
+
+/*.main-menu :hover. {
+    background: #e8645a;
+    box-shadow: 0 4px #e2534b;
+    ;
 }
+
+.main-menu .menu-list .menu-item:active {
+    box-shadow: 0 3px #e2534b;
+    transform: translateY(3px);
+    - При активации должно откликаться в таком виде */
+
+
+}
+*/ */
+/*box-shadow: 0 4px #528b86;
+        background: #62a29e;
+		border-radius: 5px;
+		 - При наведение на пунтк должно откликаться  в таком виде  */
