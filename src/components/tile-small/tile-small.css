@@ -1,0 +1,32 @@
+.tile-small{
+	background-color: #f8f8f8;
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    height: 270px;
+    border-radius: 6px;
+    margin: 10px;
+    text-align: center;
+	border: 2px solid lightcoral;
+	border-bottom: solid 3px #e5e6e6;
+}
+
+.tile-small:hover {
+    display: inline-block;
+    background-color: #83ccc5;
+    transition-duration: 0.3s;
+}
+
+.tile-small span{
+	font-family: 'Open Sans',sans-serif;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	position: relative;
+	top: 210px;
+	display: none;
+}
+
+.tile-small:hover span{
+	display: inline-block;
+}

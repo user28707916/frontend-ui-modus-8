@@ -1,3 +1,26 @@
 .main-menu {
-  font-size: 20px;
+    font-size: 13px;
+    /*font-family: ;*/
 }
+
+
+/*
+.main-menu {}
+
+.main-menu {}
+
+.main-menu {}
+
+.main-menu:hover {
+    box-shadow: 0 3px #e2534b;
+    transform: translateY(3px);
+}
+
+.main-menu:active {}
+
+.main-menu:active {
+    background: #e8645a;
+    box-shadow: 0 4px #e2534b;
+}
+
+\*/

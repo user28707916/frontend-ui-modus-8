@@ -7,9 +7,13 @@
 	import MainLogo from '../components/main-logo/main-logo.vue';
 	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 	import TagFooter from '../components/tag-footer/tag-footer.vue';
-
+	import MainMenu from '../components/main-menu/main-menu.vue';
+	import TileSmall from '../components/tile-small/tile-small.vue';
+	import TileMedium from '../components/tile-medium/tile-medium.vue';
+	import TileLarge from '../components/tile-large/tile-large.vue';
+	
 	export default {
-		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo, ContentWrapper, TagFooter }
+		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo, ContentWrapper, TagFooter, MainMenu, TileSmall, TileMedium, TileLarge }
 	};
 </script>
 
@@ -17,7 +21,11 @@
 	<body>
 	<content-wrapper> 
 
-		<page-header />
+		<page-header >
+			<main-menu />
+			
+			
+		</page-header>
 		
 		UI Kit
 
@@ -32,10 +40,29 @@
 		<search-box></search-box>
 		
 		<button-control></button-control>
+			
+		<tile-small>
+			<div slot="text">
+				<span>Small Block</span>
+			</div>
+		</tile-small>
 
-        <tag-footer></tag-footer>
+		<tile-medium>
+			<div slot="text">
+				<span>Medium Block</span>
+			</div>
+		</tile-medium>
 
-	</content-wrapper>
+		<tile-large>
+			<div slot="text">
+				<span>Large Block</span>
+			</div>
+		</tile-large>
 
-	</body>
+	 </content-wrapper>
+
+	 <tag-footer></tag-footer>
+
+
+</body>
 </template>

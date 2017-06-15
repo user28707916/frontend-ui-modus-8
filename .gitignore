@@ -28,3 +28,9 @@ node_modules
 .npm
 
 /build
+package-lock.json
+package.json
+package.json
+.DS_Store
+package.json
+package.json
