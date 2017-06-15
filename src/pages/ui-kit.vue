@@ -8,8 +8,12 @@
 	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 	import TagFooter from '../components/tag-footer/tag-footer.vue';
 	import MainMenu from '../components/main-menu/main-menu.vue';
+	import TileSmall from '../components/tile-small/tile-small.vue';
+	import TileMedium from '../components/tile-medium/tile-medium.vue';
+	import TileLarge from '../components/tile-large/tile-large.vue';
+	
 	export default {
-		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo, ContentWrapper, TagFooter, MainMenu }
+		components: { PageHeader, ImageContent, TagItem, SearchBox, ButtonControl, MainLogo, ContentWrapper, TagFooter, MainMenu, TileSmall, TileMedium, TileLarge }
 	};
 </script>
 
@@ -36,10 +40,29 @@
 		<search-box></search-box>
 		
 		<button-control></button-control>
+			
+		<tile-small>
+			<div slot="text">
+				<span>Small Block</span>
+			</div>
+		</tile-small>
+
+		<tile-medium>
+			<div slot="text">
+				<span>Medium Block</span>
+			</div>
+		</tile-medium>
+
+		<tile-large>
+			<div slot="text">
+				<span>Large Block</span>
+			</div>
+		</tile-large>
 
 	 </content-wrapper>
 
 	 <tag-footer></tag-footer>
+
 
 </body>
 </template>
