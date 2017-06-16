@@ -33,9 +33,10 @@
 
 <template>
 	<body>
+	<page-header ></page-header>
 	<content-wrapper> 
 
-		<page-header >
+		
 			<main-menu />
 			
 			
