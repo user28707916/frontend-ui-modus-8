@@ -1,4 +1,4 @@
-<style src="./main-logo.css"/>
+<style src="./images/main-logo.css"/>
 
 <template>
 
