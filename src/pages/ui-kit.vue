@@ -11,6 +11,7 @@
 	import TileSmall from '../components/tile-small/tile-small.vue';
 	import TileMedium from '../components/tile-medium/tile-medium.vue';
 	import TileLarge from '../components/tile-large/tile-large.vue';
+	import PageFooter from '../components/page-footer/page-footer.vue';
 	
 	export default {
 		components: {
@@ -25,7 +26,8 @@
 			MainMenu,
 			TileSmall,
 			TileMedium,
-			TileLarge
+			TileLarge,
+			PageFooter
 		}
 	};
 </script>
