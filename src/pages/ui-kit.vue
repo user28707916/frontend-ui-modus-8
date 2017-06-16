@@ -22,7 +22,7 @@
 			ButtonControl,
 			//MainLogo,
 			ContentWrapper,
-			PageFooter
+			PageFooter,
 			MainMenu,
 			TileSmall,
 			TileMedium,
