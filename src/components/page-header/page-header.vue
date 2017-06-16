@@ -2,10 +2,12 @@
 
 <script>
 	import MainLogo from '../main-logo/main-logo.vue';
+	import Mainmenu from '../main-menu/main-menu.vue';
 	
 	export default {
 		components: {
-		MainLogo
+		MainLogo,
+		Mainmenu
 		}
 	};
 </script>
