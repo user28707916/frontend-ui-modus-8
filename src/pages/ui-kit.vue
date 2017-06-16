@@ -4,7 +4,7 @@
 	import TagItem from '../components/tag-item/tag-item.vue';
 	import SearchBox from '../components/search-box/search-box.vue';
 	import ButtonControl from '../components/button-control/button-control.vue';
-	//import MainLogo from '../components/main-logo/main-logo.vue';
+	import MainLogo from '../components/main-logo/main-logo.vue';
 	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 	//import PageFooter from '../components/page-footer/page-footer.vue';
 	import MainMenu from '../components/main-menu/main-menu.vue';
@@ -20,7 +20,7 @@
 			TagItem,
 			SearchBox,
 			ButtonControl,
-			//MainLogo,
+			MainLogo,
 			ContentWrapper,
 			//PageFooter,
 			MainMenu,
