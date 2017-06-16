@@ -55,7 +55,7 @@
 
 		<search-box></search-box>
 
-		<LinkExternal></LinkExternal>
+		<LinkExternal></LinkExternal></br>
 		
 		<button-control></button-control>
 			

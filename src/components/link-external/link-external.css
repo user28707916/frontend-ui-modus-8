@@ -2,16 +2,20 @@
 a.link-external {
 	position: relative;
 	box-sizing: border-box;
-	display: block;
+	display: inline-block;
 	padding-left: 58px;
-	line-height: 24px;
 	padding-top: 7px;
+	line-height: 24px;
 	text-decoration: underline;
 	margin-bottom: 20px;
 	height: 40px;
-	width: 228px;
+	width: auto;
+	max-width: 1000px;
 	font-size: 20px;
 	color: #7f8c8c;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 a.link-external::before {
