@@ -17,7 +17,10 @@
 
 <template>
 <header class="page-header">
+	<div class="div1">
+	
 	<main-logo class="header-logo"> </main-logo>
 	<main-menu class="header-menu">	</main-menu>
+	</div>
 </header>
 </template>

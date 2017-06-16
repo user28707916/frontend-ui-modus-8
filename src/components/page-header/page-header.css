@@ -1,10 +1,10 @@
 .page-header {
-	top:0;
-	background: url(./bg-header.jpg) repeat-x;
-	background-color: #76c7c0;
 	height: 80px;
 	width: 100%;
 	position: relative;
+	background-image: url(./bg-header.jpg);
+	background-repeat: repeat-x;
+	background-color: #76c7c0;
 }
 
 .header-logo {
