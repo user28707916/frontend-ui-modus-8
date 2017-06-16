@@ -6,12 +6,12 @@
 	import ButtonControl from '../components/button-control/button-control.vue';
 	import MainLogo from '../components/main-logo/main-logo.vue';
 	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
-	//import PageFooter from '../components/page-footer/page-footer.vue';
+	import PageFooter from '../components/page-footer/page-footer.vue';
 	import MainMenu from '../components/main-menu/main-menu.vue';
 	import TileSmall from '../components/tile-small/tile-small.vue';
 	import TileMedium from '../components/tile-medium/tile-medium.vue';
 	import TileLarge from '../components/tile-large/tile-large.vue';
-	import PageFooter from '../components/page-footer/page-footer.vue';
+	
 	
 	export default {
 		components: {
@@ -22,12 +22,11 @@
 			ButtonControl,
 			MainLogo,
 			ContentWrapper,
-			//PageFooter,
+			PageFooter,
 			MainMenu,
 			TileSmall,
 			TileMedium,
 			TileLarge,
-			PageFooter
 		}
 	};
 </script>
