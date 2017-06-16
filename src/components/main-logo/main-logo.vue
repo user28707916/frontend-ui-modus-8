@@ -1,9 +1,9 @@
-<style src="./images/main-logo.css"/>
+<style src="./main-logo.css"/>
 
 <template>
 
 <a class="main-logo" href="#">
-  <img src="../images/logo.png" alt="Modus versus logo" >
+  <img src="./logo.png" alt="Modus versus logo" >
 </a>
 
 </template>
