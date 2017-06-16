@@ -11,7 +11,7 @@
 	import TileSmall from '../components/tile-small/tile-small.vue';
 	import TileMedium from '../components/tile-medium/tile-medium.vue';
 	import TileLarge from '../components/tile-large/tile-large.vue';
-	
+	import LinkExternal from '../components/link-external/link-external.vue';
 	
 	export default {
 		components: {
@@ -27,6 +27,7 @@
 			TileSmall,
 			TileMedium,
 			TileLarge,
+			LinkExternal,
 		}
 	};
 </script>
@@ -53,6 +54,8 @@
 		<a href="">Open Sans</a>
 
 		<search-box></search-box>
+
+		<LinkExternal></LinkExternal>
 		
 		<button-control></button-control>
 			

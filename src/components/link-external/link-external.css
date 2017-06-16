@@ -1,0 +1,32 @@
+
+a.link-external {
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	padding-left: 58px;
+	line-height: 24px;
+	padding-top: 7px;
+	text-decoration: underline;
+	margin-bottom: 20px;
+	height: 40px;
+	width: 228px;
+	font-size: 20px;
+	color: #7f8c8c;
+}
+
+a.link-external::before {
+	content:url('link-external-green.png');
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40px;
+	width: 40px;	
+}
+
+a.link-external:hover {
+	color: #e2534b;
+}
+
+a.link-external:hover:before {
+	content:url('link-external-red.png');
+}
