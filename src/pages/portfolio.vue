@@ -41,9 +41,13 @@
 			<tile-large></tile-large>
 			<tile-large></tile-large>
 		</tiles-grid>
-
+		
 		</content-wrapper>
 		<page-footer></page-footer>
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
 	</body>
 </template>
