@@ -22,15 +22,11 @@
     padding-top: 8px;
 }
 
-.mainmenu .logo a:hover {
+.mainmenu a:hover {
 	color: #ffffff;
 	background: #e8645a;
 	border-bottom: 3px solid #e2534b;
 	border-radius: 4px;
-}
-
-.mainmenu a:hover {
-    color: #ffffff;
 }
 
 .mainmenu .itemmenu:nth-child(5) {
