@@ -26,7 +26,7 @@
 			TileSmall,
 			TileMedium,
 			TileLarge,
-			LinkExternal,
+			LinkExternal, 
 			Tabs
 		}
 	};
@@ -61,13 +61,7 @@
 		<button-control></button-control>
 
 		<tabs></tabs>
-
-		<tile-small>
-		
-		</tile-small>
-		
-		<tile-medium></tile-medium>
-
+	
 	 </content-wrapper>
 
 	 <page-footer></page-footer>

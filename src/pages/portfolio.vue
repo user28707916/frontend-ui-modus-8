@@ -38,10 +38,12 @@
 			<tile-medium></tile-medium>
 			<tile-medium></tile-medium>
 		</tiles-grid>
-		
+
 		</content-wrapper>
 		<page-footer></page-footer>
 
+		</content-wrapper>
+		<page-footer></page-footer>
 
 	</body>
 </template>
