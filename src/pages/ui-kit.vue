@@ -11,7 +11,6 @@
 	import TileMedium from '../components/tile-medium/tile-medium.vue';
 	import TileLarge from '../components/tile-large/tile-large.vue';
 	import LinkExternal from '../components/link-external/link-external.vue';
-	import Tabs from '../components/tabs/tabs.vue';
 	
 	export default {
 		components: {
@@ -27,7 +26,6 @@
 			TileMedium,
 			TileLarge,
 			LinkExternal,
-			Tabs
 		}
 	};
 </script>
@@ -59,6 +57,7 @@
 		<LinkExternal></LinkExternal></br>
 		
 		<button-control></button-control>
+<<<<<<< HEAD
 
 		<tile-small> </tile-small>
 
@@ -70,7 +69,11 @@
 		</tile-small>
 		
 		<tile-medium></tile-medium>
+=======
+>>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
 
+		<tabs></tabs>
+	
 	 </content-wrapper>
 
 	 <page-footer></page-footer>

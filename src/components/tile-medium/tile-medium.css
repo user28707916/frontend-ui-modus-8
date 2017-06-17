@@ -5,8 +5,12 @@
     width: 370px;
     height: 270px;
     border-radius: 6px;
+<<<<<<< HEAD
     margin: 0 30px 35px 0; 
 	border: 2px solid lightcoral;
+=======
+    margin: 0 27px 37px 0; 
+>>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
     text-align: center;
 	border-bottom: solid 3px #e5e6e6;
 }
@@ -18,7 +22,11 @@
 }
 
 .tile-medium-hover{
+<<<<<<< HEAD
 	margin-top: 30%;
+=======
+	margin-top: 110px;
+>>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
     display: none;
 	width: 100%;
 }
@@ -47,6 +55,12 @@
     top: 60px;
 }
 
+<<<<<<< HEAD
 .tile-medium:nth-child(3n+3){
 	margin-right: 0;
 }
+=======
+/*.tile-medium:nth-child(3n+3){
+	margin-right: 0;
+}*/
+>>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
