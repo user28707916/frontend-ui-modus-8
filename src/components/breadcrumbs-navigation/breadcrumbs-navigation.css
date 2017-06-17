@@ -1,0 +1,28 @@
+ul.breadcrumb-navigation {
+    padding: 10px 16px;
+    list-style: none;
+    font-size: 17px;
+    color: #7f8c8c;
+    font-family: 'Open Sans Semibold', sans-serif;
+    ;
+}
+
+ul.breadcrumb-navigation li {
+    display: inline;
+}
+
+ul.breadcrumb-navigation li+li:before {
+    padding: 8px;
+    color: #7f8c8c;
+    content: "/\00a0";
+}
+
+ul.breadcrumb-navigation li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb-navigation li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
