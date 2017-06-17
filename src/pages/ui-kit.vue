@@ -60,9 +60,12 @@
 		
 		<button-control></button-control>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
 		<tile-small> </tile-small>
 =======
+=======
+>>>>>>> 8c93273b4e07ddf248a0efb35ff89c21525b0fa4
 		
 		<tabs></tabs>
 
@@ -102,6 +105,8 @@
 			</div>
 		</tile-large>
 >>>>>>> 8c93273b4e07ddf248a0efb35ff89c21525b0fa4
+
+		
 
 		
 
