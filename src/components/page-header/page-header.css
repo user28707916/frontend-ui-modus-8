@@ -13,7 +13,13 @@
 	left: 100px;
 }
 
-.search-header {
+.header-menu {
+	position: absolute;
+	top: 25px;
+	left: 564px;
+}
+
+.header-search {
 	position: absolute;
 	top: 25px;
 	left: 1070px;
