@@ -1,7 +1,7 @@
     .main-menu {
         display: inline-block;
         position: absolute;
-        right: 237px;
+        right: 250px;
         top: 4px;
         left: 500px;
         border-radius: 5px;
@@ -30,6 +30,12 @@
     
     .main-menu a:hover {
         text-decoration: none;
+    }
+    
+    .main-menu .menu-item {
+        list-style-type: none;
+        text-decoration: none;
+        display: inline;
     }
     
     .main-menu .current:hover {
