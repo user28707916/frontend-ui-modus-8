@@ -26,7 +26,6 @@
 			</li>
 			<router-link to="/ui-kit" <li class="menu-item" <router-link to="/ui-kit" active-class="current">Examples</router-link>
 			</li> в main-menu.vue
-	
 		</ul>
 	</nav>
 </template>
