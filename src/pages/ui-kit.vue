@@ -59,56 +59,17 @@
 		<LinkExternal></LinkExternal></br>
 		
 		<button-control></button-control>
-<<<<<<< HEAD
-<<<<<<< HEAD
-			
+
 		<tile-small> </tile-small>
-=======
-=======
->>>>>>> 8c93273b4e07ddf248a0efb35ff89c21525b0fa4
-		
+
 		<tabs></tabs>
 
 
 		<tile-small>
-			<image-content />
-		</tile-small>
-		<tile-small>
-			<image-content />
-		</tile-small>
-		<tile-small>
-			<image-content />
-		</tile-small>
-		<tile-small>
-			<image-content />
-		</tile-small>
-		<tile-small>
-			<image-content />
-		</tile-small>
-
-
-		<tile-small>
-			<div slot="text">
-				<span>Small Block</span>
-			</div>
-		</tile-small>
-
-		<tile-medium>
-			<div slot="text">
-				<span>Medium Block</span>
-			</div>
-		</tile-medium>
-
-		<tile-large>
-			<div slot="text">
-				<span>Large Block</span>
-			</div>
-		</tile-large>
->>>>>>> 8c93273b4e07ddf248a0efb35ff89c21525b0fa4
-
 		
-
+		</tile-small>
 		
+		<tile-medium></tile-medium>
 
 	 </content-wrapper>
 
