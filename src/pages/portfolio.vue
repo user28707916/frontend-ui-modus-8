@@ -21,12 +21,12 @@
 		
 		<page-header />
 
+		
 		<content-wrapper>
 		
-		<div class="portfolio-bg">
-			<h1>Portfolio</h1>
-		</div>
 		
+		<h1>Portfolio</h1>
+
 		<tag-item></tag-item>
 
 		</content-wrapper>
