@@ -11,7 +11,6 @@
 	import TileMedium from '../components/tile-medium/tile-medium.vue';
 	import TileLarge from '../components/tile-large/tile-large.vue';
 	import LinkExternal from '../components/link-external/link-external.vue';
-	import Tabs from '../components/tabs/tabs.vue';
 	
 	export default {
 		components: {
