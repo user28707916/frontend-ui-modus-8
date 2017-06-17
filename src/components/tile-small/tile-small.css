@@ -7,7 +7,6 @@
     border-radius: 6px;
     margin: 10px;
     text-align: center;
-	border: 2px solid lightcoral;
 	border-bottom: solid 3px #e5e6e6;
 }
 
@@ -17,16 +16,32 @@
     transition-duration: 0.3s;
 }
 
-.tile-small span{
-	font-family: 'Open Sans',sans-serif;
-	color: white;
-	font-size: 16px;
-	font-weight: 700;
-	position: relative;
-	top: 210px;
-	display: none;
+.tile-small-hover{
+	margin-top: 40%;
+    display: none;
+	width: 100%;
 }
 
-.tile-small:hover span{
+.tile-small:hover .tile-small-hover{
+	text-align: center;
 	display: inline-block;
+}
+
+.tile-small-hover button{
+	margin: 5px;
+	border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+	background: url(./images/eye.png);
+}
+
+.tile-small-hover span{
+	display: block;
+    text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+    color: white;
+    position: relative;
+    top: 60px;
 }

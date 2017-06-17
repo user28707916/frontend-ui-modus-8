@@ -4,7 +4,6 @@
 	import TagItem from '../components/tag-item/tag-item.vue';
 	import SearchBox from '../components/search-box/search-box.vue';
 	import ButtonControl from '../components/button-control/button-control.vue';
-	import MainLogo from '../components/main-logo/main-logo.vue';
 	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 	import PageFooter from '../components/page-footer/page-footer.vue';
 	import MainMenu from '../components/main-menu/main-menu.vue';
@@ -12,6 +11,7 @@
 	import TileMedium from '../components/tile-medium/tile-medium.vue';
 	import TileLarge from '../components/tile-large/tile-large.vue';
 	import LinkExternal from '../components/link-external/link-external.vue';
+	import Tabs from '../components/tabs/tabs.vue';
 	
 	export default {
 		components: {
@@ -20,7 +20,6 @@
 			TagItem,
 			SearchBox,
 			ButtonControl,
-			MainLogo,
 			ContentWrapper,
 			PageFooter,
 			MainMenu,
@@ -28,24 +27,26 @@
 			TileMedium,
 			TileLarge,
 			LinkExternal,
+			Tabs
 		}
 	};
 </script>
 
 <template>
 	<body>
+	
 	<page-header ></page-header>
 	<content-wrapper> 
 
+	
 		
 			<main-menu />
 			
 			
-		</page-header>
+		
 		
 		UI Kit
 
-	    <main-logo></main-logo>
 
 		<image-content></image-content>
 
@@ -58,7 +59,12 @@
 		<LinkExternal></LinkExternal></br>
 		
 		<button-control></button-control>
+<<<<<<< HEAD
 			
+		<tile-small> </tile-small>
+=======
+		
+		<tabs></tabs>
 
 
 		<tile-small>
@@ -95,6 +101,9 @@
 				<span>Large Block</span>
 			</div>
 		</tile-large>
+>>>>>>> 8c93273b4e07ddf248a0efb35ff89c21525b0fa4
+
+		
 
 	 </content-wrapper>
 
