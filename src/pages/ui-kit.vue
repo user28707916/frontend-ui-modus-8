@@ -60,10 +60,7 @@
 		
 		<button-control></button-control>
 
-		<tile-small> </tile-small>
-
 		<tabs></tabs>
-
 
 		<tile-small>
 		
