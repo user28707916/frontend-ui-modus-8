@@ -63,4 +63,7 @@ h4 {
     color: #7f8c8c;
 }
 
-hr {}
+hr {
+    color: #e5e6e6;
+    line-height: 3px;
+}
