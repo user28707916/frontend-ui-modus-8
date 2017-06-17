@@ -3,11 +3,13 @@
 <script>
 	import MainLogo from '../main-logo/main-logo.vue';
 	import Mainmenu from '../main-menu/main-menu.vue';
+	// import SearchBox from '../components/search-box/search-box.vue';
 	
 	export default {
 		components: {
 		MainLogo,
-		Mainmenu
+		Mainmenu,
+		// SearchBox
 		}
 	};
 </script>
@@ -19,6 +21,8 @@
 <header class="page-header">
 	
 	<main-logo class="header-logo"> </main-logo>
+
+	
 	
 </header>
 </template>
