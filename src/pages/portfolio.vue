@@ -39,7 +39,7 @@
 			<tile-medium></tile-medium>
 			<tile-medium></tile-medium>
 			<tile-large></tile-large>
-		
+			<tile-large></tile-large>
 		</tiles-grid>
 
 		</content-wrapper>
