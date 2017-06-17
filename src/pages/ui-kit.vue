@@ -25,8 +25,7 @@
 			TileSmall,
 			TileMedium,
 			TileLarge,
-			LinkExternal, 
-			Tabs
+			LinkExternal,
 		}
 	};
 </script>
