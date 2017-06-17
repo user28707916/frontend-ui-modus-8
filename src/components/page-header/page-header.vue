@@ -3,13 +3,13 @@
 <script>
 	import MainLogo from '../main-logo/main-logo.vue';
 	import Mainmenu from '../main-menu/main-menu.vue';
-	// import SearchBox from '../components/search-box/search-box.vue';
+	 import SearchBox from '../search-box/search-box.vue';
 	
 	export default {
 		components: {
 		MainLogo,
 		Mainmenu,
-		// SearchBox
+		 SearchBox
 		}
 	};
 </script>
@@ -22,7 +22,7 @@
 	
 	<main-logo class="header-logo"> </main-logo>
 
-	
+	<search-box class="search-header"> </search-box>
 	
 </header>
 </template>
