@@ -1,10 +1,6 @@
-.tiles-grid{
+.tiles-grid {
     padding: 0;
     margin: 35px 0;
-<<<<<<< HEAD
     width: 1250px;
-=======
-	width: 1250px;
->>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
     display: inline-block;
 }

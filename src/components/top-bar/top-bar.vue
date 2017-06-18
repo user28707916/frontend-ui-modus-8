@@ -1,3 +1,15 @@
+
+
+<script>
+import BreadcrumbsNavigation from '../breadcrumbs-navigation/breadcrumbs-navigation.vue';
+
+export default {
+	components: {
+		BreadcrumbsNavigation
+	}
+};
+
+</script>
 <style src="./top-bar.css" />
 <script>
 import BreadcrumbsNavigation from '../breadcrumbs-navigation/breadcrumbs-navigation.vue';
@@ -13,3 +25,5 @@ export default {
 <breadcrumbs-navigation class="breadcrumbs"></breadcrumbs-navigation>
 	</div>
 </templat
+</template>
+  
