@@ -26,28 +26,12 @@ export default {
 	
 		<page-header />
 		<top-bar/>
-		<breadcrumbs-navigation/>
-		<h1>Portfolio</h1>
-	
 		<content-wrapper>
 	
 			<tag-item></tag-item>
 	
-			<tiles-grid>
-				<tile-small></tile-small>
-				<tile-small></tile-small>
-				<tile-small></tile-small>
-				<tile-small></tile-small>
-				<tile-medium></tile-medium>
-				<tile-medium></tile-medium>
-				<tile-medium></tile-medium>
-				<tile-large></tile-large>
-				<tile-large></tile-large>
-			</tiles-grid>
-	
 		</content-wrapper>
 		<page-footer></page-footer>
 	
-		<<<<<<< HEAD=======>>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
 	</body>
 </template>

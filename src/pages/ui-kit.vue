@@ -38,10 +38,11 @@ export default {
 	<body>
 	
 		<page-header></page-header>
+		<top-bar/>
 		<content-wrapper>
 	
 			<main-menu /> UI Kit
-			<top-bar/>
+	
 			<breadcrumbs-navigation/>
 			<image-content></image-content>
 	
