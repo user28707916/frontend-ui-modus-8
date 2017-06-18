@@ -63,6 +63,9 @@ export default {
 	
 			<tabs></tabs>
 	
+
+			<h2>Tiles grid</h2>
+			
 			<tiles-grid>
 				<tile-small>
 					<image-content></image-content>
