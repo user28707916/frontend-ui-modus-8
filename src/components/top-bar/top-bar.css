@@ -1,8 +1,10 @@
-.top-bar {
-    background-color: #ececec;
-    overflow: hidden;
-    height: 80px;
-    width: 100%;
-    position: relative;
-    background-image: url(./bg-portgolio.png) no-repeat;
-}
+	    .top-bar {
+	        background-color: #ececec;
+	        overflow: hidden;
+	        width: 100%;
+	        background-image: url(./bg-portgolio.png) no-repeat;
+	    }
+	    
+	    .top-bar .breadcrumbs-navigation {}
+	    
+	    .top-bar h1 {}

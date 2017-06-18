@@ -1,4 +1,3 @@
-<style src="../styles/common.css"/>
 
 <script>
 import PageHeader from '../components/page-header/page-header.vue';
@@ -10,24 +9,29 @@ import PageFooter from '../components/page-footer/page-footer.vue';
 import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 import TagItem from '../components/tag-item/tag-item.vue';
 import ImageContent from '../components/image-content/image-content.vue';
-import BreadcrumbsNavigation from '../components/breadcrumbs-navigation/breadcrumbs-navigation.vue';
 import TopBar from '../components/top-bar/top-bar.vue';
 
 export default {
 	components: {
-		PageHeader, TilesGrid, TileSmall, TileMedium, TileLarge, PageFooter, ContentWrapper, TagItem, ImageContent, BreadcrumbsNavigation, TopBar
+		PageHeader,
+		TilesGrid,
+		TileSmall,
+		TileMedium,
+		TileLarge,
+		PageFooter,
+		ContentWrapper,
+		TagItem,
+		ImageContent,
+		TopBar
 	}
-}
-
+};
 </script>
-
+<style src="../styles/common.css"/>
 <template>
 	<body>
 	
 		<page-header />
 		<top-bar/>
-		<breadcrumbs-navigation/>
-		<h1>Portfolio</h1>
 	
 		<content-wrapper>
 	
@@ -48,6 +52,5 @@ export default {
 		</content-wrapper>
 		<page-footer></page-footer>
 	
-		<<<<<<< HEAD=======>>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
 	</body>
 </template>

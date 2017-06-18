@@ -1,30 +1,30 @@
  <style src="./page-header.css" />
 
 <script>
-	import MainLogo from '../main-logo/main-logo.vue';
-	import MainMenu from '../main-menu/main-menu.vue';
-	import SearchBox from '../search-box/search-box.vue';
-	
-	export default {
-		components: {
+import MainLogo from '../main-logo/main-logo.vue';
+import MainMenu from '../main-menu/main-menu.vue';
+import SearchBox from '../search-box/search-box.vue';
+
+export default {
+	components: {
 		MainLogo,
 		MainMenu,
-		 SearchBox
-		}
-	};
+		SearchBox
+	}
+};
 </script>
 
 
 
 
 <template>
-<header class="page-header">
+	<header class="page-header">
 	
-	<main-logo class="header-logo"> </main-logo>
-
-	<main-menu class="header-menu"></main-menu>
-
-	<search-box class="header-search"> </search-box>
+		<main-logo class="header-logo"> </main-logo>
 	
-</header>
+		<main-menu class="header-menu"></main-menu>
+	
+		<search-box class="header-search"> </search-box>
+	
+	</header>
 </template>

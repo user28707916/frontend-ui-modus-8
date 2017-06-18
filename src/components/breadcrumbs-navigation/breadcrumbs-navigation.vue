@@ -7,8 +7,8 @@
 				<router-link to="/index">Home</router-link>
 			</li>
 			<li>
-				<router-link to="/portfolio">Pordtfolio</router-link>
+				<router-link to="" active-class="current"></router-link>
 			</li>
 		</ul>
 	</div>
-</templat
+</template>

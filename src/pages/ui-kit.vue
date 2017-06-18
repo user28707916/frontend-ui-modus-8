@@ -11,8 +11,7 @@ import TileSmall from '../components/tile-small/tile-small.vue';
 import TileMedium from '../components/tile-medium/tile-medium.vue';
 import TileLarge from '../components/tile-large/tile-large.vue';
 import LinkExternal from '../components/link-external/link-external.vue';
-import BreadcrumbsNavigation from '../components/breadcrumbs-navigation/breadcrumbs-navigation.vue';
-import TopBar from '../components/top-bar/top-bar.vue';
+
 
 export default {
 	components: {
@@ -28,8 +27,7 @@ export default {
 		TileMedium,
 		TileLarge,
 		LinkExternal,
-		BreadcrumbsNavigation,
-		TopBar,
+
 	}
 };
 </script>
@@ -42,7 +40,7 @@ export default {
 	
 			<main-menu /> UI Kit
 			<top-bar/>
-			<breadcrumbs-navigation/>
+	
 			<image-content></image-content>
 	
 			<tag-item></tag-item>
@@ -56,16 +54,15 @@ export default {
 	
 			<button-control></button-control>
 	
-				<tabs></tabs>
+			<tabs></tabs>
 	
-				<tile-small></tile-small>
+			<tile-small></tile-small>
 	
-				<tile-medium></tile-medium>
-
-				<tile-large></tile-large>
-				
+			<tile-medium></tile-medium>
 	
-				<tabs></tabs>
+			<tile-large></tile-large>
+	
+			<tabs></tabs>
 	
 		</content-wrapper>
 	
