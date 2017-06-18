@@ -10,9 +10,9 @@ import MainMenu from '../components/main-menu/main-menu.vue';
 import TileSmall from '../components/tile-small/tile-small.vue';
 import TileMedium from '../components/tile-medium/tile-medium.vue';
 import TileLarge from '../components/tile-large/tile-large.vue';
-import TilesGrid from '../components/tiles-grid/tiles-grid.vue';
 import LinkExternal from '../components/link-external/link-external.vue';
-
+import BreadcrumbsNavigation from '../components/breadcrumbs-navigation/breadcrumbs-navigation.vue';
+import TopBar from '../components/top-bar/top-bar.vue';
 
 export default {
 	components: {
@@ -28,7 +28,8 @@ export default {
 		TileMedium,
 		TileLarge,
 		LinkExternal,
-		TilesGrid
+		BreadcrumbsNavigation,
+		TopBar,
 	}
 };
 </script>
@@ -37,11 +38,12 @@ export default {
 	<body>
 	
 		<page-header></page-header>
+		<top-bar/>
 		<content-wrapper>
 	
 			<main-menu /> UI Kit
-			<top-bar/>
 	
+			<breadcrumbs-navigation/>
 			<image-content></image-content>
 	
 			<tag-item></tag-item>
@@ -53,40 +55,19 @@ export default {
 			</br>
 	
 			<button-control></button-control>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nulla varius, dapibus purus pharetra, eleifend purus. Quisque venenatis erat nec vestibulum ullamcorper. Suspendisse iaculis feugiat lacus et porttitor. Quisque consequat vulputate nibh sed pharetra. Quisque leo velit, euismod pulvinar augue ac, consectetur sollicitudin nisi. Nunc porta, tortor a fermentum consequat, dolor enim blandit velit, at porttitor risus orci vitae enim. Duis vulputate, tellus non hendrerit auctor, erat quam cursus erat, vitae feugiat purus nulla vel mi.</p>
-
-			<p>Duis dapibus aliquam mi, integer feugiat malesuada libero, sit amet molestie lorem dapibus ac. Suspendisse posuere ac est vitae pretium. Maecenas porttitor at justo vitae imperdiet. Nam posuere facilisis lorem eget pharetra. Duis feugiat ligula eros, id faucibus metus egestas porta. Nullam tincidunt at ex sed condimentum. Aliquam eget auctor est, a aliquam ipsum. Nulla facilisi. Duis rhoncus efficitur odio, sollicitudin dictum ex ornare eget.</p>
-
-			<p>Nullam ut turpis sodales magna euismod ultricies et mattis neque. Fusce quis magna erat. Nullam finibus, eros non tristique blandit, nibh eros placerat risus, a interdum lacus elit in arcu. Donec felis ante, pharetra pulvinar tincidunt at, molestie non velit. Cras lorem nisl, tempus quis mi quis, fringilla ullamcorper ipsum. Suspendisse feugiat sem ligula, eget commodo risus cursus vitae. Curabitur non ornare orci. Vivamus sed volutpat ex, eu venenatis massa.</p>
-	
-			<tabs></tabs>
-	
-
-			<h2>Tiles grid</h2>
-
-			<tiles-grid>
-				<tile-small>
-					<image-content></image-content>
+			<<<<<<< HEAD <tile-small>
 				</tile-small>
-				<tile-small>
-					<image-content></image-content>
-				</tile-small>
-				<tile-large>
-					<image-content></image-content>
-				</tile-large>
-				<tile-medium>
-					<image-content></image-content>
-				</tile-medium>
-				<tile-medium>
-					<image-content></image-content>
-				</tile-medium>
-				<tile-medium>
-					<image-content></image-content>
-				</tile-medium>
-			</tiles-grid>
 	
-			<tabs></tabs>
+				<tabs></tabs>
+	
+				<tile-small>
+	
+				</tile-small>
+	
+				<tile-medium></tile-medium>
+				======= >>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
+	
+				<tabs></tabs>
 	
 		</content-wrapper>
 	
