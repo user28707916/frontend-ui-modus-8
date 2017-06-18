@@ -28,7 +28,7 @@ export default {
 		TileMedium,
 		TileLarge,
 		LinkExternal,
-
+		TilesGrid
 	}
 };
 </script>
@@ -65,7 +65,7 @@ export default {
 	
 
 			<h2>Tiles grid</h2>
-			
+
 			<tiles-grid>
 				<tile-small>
 					<image-content></image-content>
