@@ -25,7 +25,7 @@
 				<router-link to="/contacts" active-class="current" Contacts</router-link>
 			</li>
 			<router-link to="/ui-kit" <li class="menu-item" <router-link to="/ui-kit" active-class="current">Examples</router-link>
-			</li> в main-menu.vue
+			</li>
 		</ul>
 	</nav>
 </template>
