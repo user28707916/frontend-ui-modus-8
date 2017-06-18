@@ -10,10 +10,8 @@
 
 <template>
 	<body>
-		<page-header>Main page</page-header>
+		<page-header></page-header>
 
-		<main-menu />
-		<main-menu-bg></main-menu-bg>
 
         <h1>Blog</h1>
 		<h4>Список всех пользователей</h4>
