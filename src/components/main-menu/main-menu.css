@@ -31,3 +31,33 @@
 		background-color: #76c7c0;
 		border-bottom: 3px solid #528b86;
 	}
+	
+	.sub-menu {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 200px;
+		position: absolute;
+		background-color: #e8645a;
+		border-radius: 5px;
+	}
+	
+	.sub-menu .sub-item {
+		background-color: #e8645a;
+		border-radius: 5px;
+	}
+	
+	.menu-list .menu-item:hover .sub-menu {
+		display: block;
+	}
+	
+	.link-sub {
+		box-sizing: border-box;
+		display: block;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #fff;
+		padding: 10px 20px;
+		line-height: 30px;
+	}

@@ -2,7 +2,7 @@
 import PageHeader from '../components/page-header/page-header.vue';
 import ImageContent from '../components/image-content/image-content.vue';
 import TagItem from '../components/tag-item/tag-item.vue';
-// import SearchBox from '../components/search-box/search-box.vue';
+import SearchBox from '../components/search-box/search-box.vue';
 import ButtonControl from '../components/button-control/button-control.vue';
 import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 import PageFooter from '../components/page-footer/page-footer.vue';
@@ -19,7 +19,7 @@ export default {
 		PageHeader,
 		ImageContent,
 		TagItem,
-		// SearchBox,
+		SearchBox,
 		ButtonControl,
 		ContentWrapper,
 		PageFooter,
