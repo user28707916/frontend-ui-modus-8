@@ -53,6 +53,12 @@ export default {
 			</br>
 	
 			<button-control></button-control>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nulla varius, dapibus purus pharetra, eleifend purus. Quisque venenatis erat nec vestibulum ullamcorper. Suspendisse iaculis feugiat lacus et porttitor. Quisque consequat vulputate nibh sed pharetra. Quisque leo velit, euismod pulvinar augue ac, consectetur sollicitudin nisi. Nunc porta, tortor a fermentum consequat, dolor enim blandit velit, at porttitor risus orci vitae enim. Duis vulputate, tellus non hendrerit auctor, erat quam cursus erat, vitae feugiat purus nulla vel mi.</p>
+
+			<p>Duis dapibus aliquam mi, integer feugiat malesuada libero, sit amet molestie lorem dapibus ac. Suspendisse posuere ac est vitae pretium. Maecenas porttitor at justo vitae imperdiet. Nam posuere facilisis lorem eget pharetra. Duis feugiat ligula eros, id faucibus metus egestas porta. Nullam tincidunt at ex sed condimentum. Aliquam eget auctor est, a aliquam ipsum. Nulla facilisi. Duis rhoncus efficitur odio, sollicitudin dictum ex ornare eget.</p>
+
+			<p>Nullam ut turpis sodales magna euismod ultricies et mattis neque. Fusce quis magna erat. Nullam finibus, eros non tristique blandit, nibh eros placerat risus, a interdum lacus elit in arcu. Donec felis ante, pharetra pulvinar tincidunt at, molestie non velit. Cras lorem nisl, tempus quis mi quis, fringilla ullamcorper ipsum. Suspendisse feugiat sem ligula, eget commodo risus cursus vitae. Curabitur non ornare orci. Vivamus sed volutpat ex, eu venenatis massa.</p>
 	
 			<tabs></tabs>
 	
