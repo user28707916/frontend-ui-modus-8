@@ -1,0 +1,8 @@
+.top-bar {
+    background-color: #ececec;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    background-image: url(./top-bar.png) no-repeat;
+}
