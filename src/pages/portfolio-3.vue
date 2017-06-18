@@ -25,10 +25,10 @@ export default {
 		<page-header />
 	
 		<content-wrapper>
-			<tag-item>
-				<h1>Portfolio 3 columns</h1>
-				<tile-medium class="medium" />
-				<pagination-menu class="pagination" />
+			<tag-item></tag-item>
+			<h1>Portfolio 3 columns</h1>
+			<tile-medium class="medium" />
+			<pagination-menu class="pagination" />
 		</content-wrapper>
 		<page-footer></page-footer>
 	</body>

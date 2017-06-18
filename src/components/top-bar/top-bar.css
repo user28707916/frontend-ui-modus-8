@@ -4,7 +4,7 @@
 	height: 93px;
 	width: 100%;
 	position: relative;
-	background: url(./bg-portgolio.png) no-repeat 0 0, url(./top-bar.png) no-repeat 163px 167px;
+	/*background: url(./bg-portgolio.png) no-repeat 0 0, url(./top-bar.png) no-repeat 163px 167px;*/
 }
 
 .breadcrumbs {
