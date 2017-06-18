@@ -10,6 +10,7 @@ import MainMenu from '../components/main-menu/main-menu.vue';
 import TileSmall from '../components/tile-small/tile-small.vue';
 import TileMedium from '../components/tile-medium/tile-medium.vue';
 import TileLarge from '../components/tile-large/tile-large.vue';
+import TilesGrid from '../components/tiles-grid/tiles-grid.vue';
 import LinkExternal from '../components/link-external/link-external.vue';
 
 
@@ -62,11 +63,26 @@ export default {
 	
 			<tabs></tabs>
 	
-			<tile-small></tile-small>
-	
-			<tile-medium></tile-medium>
-	
-			<tile-large></tile-large>
+			<tiles-grid>
+				<tile-small>
+					<image-content></image-content>
+				</tile-small>
+				<tile-small>
+					<image-content></image-content>
+				</tile-small>
+				<tile-large>
+					<image-content></image-content>
+				</tile-large>
+				<tile-medium>
+					<image-content></image-content>
+				</tile-medium>
+				<tile-medium>
+					<image-content></image-content>
+				</tile-medium>
+				<tile-medium>
+					<image-content></image-content>
+				</tile-medium>
+			</tiles-grid>
 	
 			<tabs></tabs>
 	
