@@ -31,7 +31,7 @@ export default {
 	<body>
 	
 		<page-header />
-		<top-bar/>
+		<top-bar></top-bar>
 	
 		<content-wrapper>
 	
