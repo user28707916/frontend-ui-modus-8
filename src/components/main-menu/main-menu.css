@@ -28,24 +28,32 @@
 	}
 	
 	.current:visited {
-		background-color: #76c7c0;
+		background-color: #62a29e;
 		border-bottom: 3px solid #528b86;
 	}
 	
 	.sub-menu {
 		display: none;
 		list-style: none;
-		margin: 0;
-		padding: 0;
-		width: 200px;
 		position: absolute;
-		background-color: #e8645a;
+		background-color: #e2534b;
 		border-radius: 5px;
+		width: 200px;
+		padding: 5px;
 	}
 	
-	.sub-menu .sub-item {
-		background-color: #e8645a;
+	.sub-item {
+		display: block;
 		border-radius: 5px;
+		background-color: #e5655d;
+		background-image: url(./arrow.png);
+		background-repeat: no-repeat;
+		background-position: 11px 18px;
+		margin-bottom: 5px;
+	}
+	
+	.sub-item:last-child {
+		margin-bottom: 0;
 	}
 	
 	.menu-list .menu-item:hover .sub-menu {
@@ -57,8 +65,26 @@
 		box-sizing: border-box;
 		display: block;
 		text-decoration: none;
-		text-transform: uppercase;
 		color: #fff;
-		padding: 10px 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 25px;
+		padding-right: 15px;
+		width: 190px;
 		line-height: 30px;
+	}
+	
+	.sub-menu .sub-item:hover {
+		background-color: #76c7c0;
+	}
+	
+	.link-sub:hover {
+		height: inherit;
+		color: #fff;
+	}
+	
+	.item-portfolio {
+		background-image: url(./ul_arrow.png);
+		background-repeat: no-repeat;
+		background-position: 8px 20px;
 	}
