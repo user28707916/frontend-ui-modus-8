@@ -12,19 +12,19 @@
 			<li class="menu-item">
 				<router-link to="/services" class="link" active-class="current">Services</router-link>
 			</li>
-			<li class="menu-item">
+			<li class="menu-item item-portfolio">
 				<router-link to="/portfolio" class="link" active-class="current">Portfolio</router-link>
 					<ul class="sub-menu">
 						<li class="sub-item">
-							<router-link to="/portfolio-2" class="link-sub" active-class="current">Portfolio-2</router-link>
+							<router-link to="/portfolio-2" class="link-sub" active-class="current">Portfolio 2 column page</router-link>
 						</li>
 
 						<li class="sub-item">
-							<router-link to="/portfolio-3" class="link-sub" active-class="current">Portfolio-3</router-link>
+							<router-link to="/portfolio-3" class="link-sub" active-class="current">Portfolio 2 column page</router-link>
 						</li>
 
 						<li class="sub-item">
-							<router-link to="/portfolio-4" class="link-sub" active-class="current">Portfolio-4</router-link>
+							<router-link to="/portfolio-4" class="link-sub" active-class="current">Portfolio 2 column page</router-link>
 						</li>
 					</ul>
 			</li>

@@ -1,24 +1,25 @@
 .page-header {
 	height: 80px;
 	width: 100%;
-	/*position: relative;*/
+	position: relative;
 	background-image: url(./bg-header.png);
 	background-repeat: repeat-x;
 	background-color: #76c7c0;
 }
 
-/*.header-logo {
+.header-logo {
 	position: absolute;
 	top: 25px;
-	left: 100px;
-}*/
+	left: 130px;
+}
 
 .header-menu {
 	position: absolute;
+	left: 300px;
 }
-/*
+
 .header-search {
 	position: absolute;
-	top: 25px;
-	left: 1070px;
-}*/
+	top: 20px;
+	left: 1150px;
+}
