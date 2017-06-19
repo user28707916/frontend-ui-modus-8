@@ -3,20 +3,20 @@
 <template>
   <div class="page-footer">
       <div class="page-content"> 
-            <div class="page-content-coll1 tag-coll">
+            <div class="page-content-coll-one tag-coll">
                 <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</div>
                 <div> 
-				   <div class="phone">
-                     <div class="phone1">Phone:</div>
-					 <div class="phone1 digits"> 182 2569 5896</div>
+				   <div class="phones">
+                     <div class="phone">Phone:</div>
+					 <div class="phone digits"> 182 2569 5896</div>
 				   </div>
                     <div class="mail">e-mail: info@modu.versus</div>
                 </div>
             </div>
-            <div class="page-content-coll2 tag-coll">
+            <div class="page-content-coll-two tag-coll">
                 <div class="companymain">
                     <h3 class="company">Company</h3>
-                    <ul class="company1">  
+                    <ul class="company-one">  
                           <li class="companymenu"><i class="fa fa-angle-right"> About</i></li>
                           <li class="companymenu"><i class="fa fa-angle-right"> FAQ</i></li>
                           <li class="companymenu"><i class="fa fa-angle-right"> Contact</i></li>
@@ -26,10 +26,10 @@
                     </ul>
 				</div>	
 			</div>
-			<div class="page-content-coll3 tag-coll">
-			    <div class="companymain1">
+			<div class="page-content-coll-free tag-coll">
+			    <div class="companymain-one">
                     <h3 class="community">Community</h3>
-                    <ul class="community1">
+                    <ul class="community-one">
                           <li class="communitymenu"><i class="fa fa-angle-right"> Blog</i></li>
                           <li class="communitymenu"><i class="fa fa-angle-right"> Forum</i></li>
                           <li class="communitymenu"><i class="fa fa-angle-right"> Support</i></li>
@@ -37,19 +37,19 @@
                     </ul>
                 </div>       
              </div>
-             <div class="page-content-coll4 tag-coll">
+             <div class="page-content-coll-four tag-coll">
                     <div class="imageblog">
 					          <div class="member">
 							            <div class="blog">from the <strong>BLOG</strong></div>					        
-										<div class="image1"><img src="./page-png/foto.png" alt="">
-                                        <div class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+										<div class="image-one"><img src="./page-png/foto.png" alt="">
+                                        <div class="text-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit
                                         </div>
-                                        <div class="text2">26 May, 2013</div>    
+                                        <div class="text-two">26 May, 2013</div>    
                                         </div> 
-                                        <div class="image2"><img src="./page-png/foto.png" alt="">
+                                        <div class="image-two"><img src="./page-png/foto.png" alt="">
                                         <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit
                                         </div>
-                                        <div class="text2">26 May, 2013</div>  
+                                        <div class="text-two">26 May, 2013</div>  
                                         </div>  
 									       
                               </div>  
