@@ -16,7 +16,7 @@
 			<slot></slot>  <!-- Cлот для изображения -->
 			<div class="tile-small-hover"> 
 				<button type="button" class="hover-button" />
-				<!-- <link-external></link-external> -->
+				<link-external></link-external>
 				<span> Lorem ipsum </span>
 			</div> 
 		</div>
