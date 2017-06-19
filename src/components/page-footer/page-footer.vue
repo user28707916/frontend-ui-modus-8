@@ -15,19 +15,19 @@
                 <div class="companymain">
                     <h3 class="company">Company</h3>
                     <ul class="company1">  
-                          <li class="companymenu">&gt; About</li>
-                          <li class="companymenu">&gt; FAQ</li>
-                          <li class="companymenu">&gt; Contact</li>
-                          <li class="companymenu">&gt; Terms</li>
-                          <li class="companymenu">&gt; Privacy</li>
-                          <li class="companymenu">&gt; Testimonials</li>
+                          <li class="companymenu"><i class="fa fa-angle-right"> About</i></li>
+                          <li class="companymenu"><i class="fa fa-angle-right"> FAQ</i></li>
+                          <li class="companymenu"><i class="fa fa-angle-right"> Contact</i></li>
+                          <li class="companymenu"><i class="fa fa-angle-right"> Terms</i></li>
+                          <li class="companymenu"><i class="fa fa-angle-right"> Privacy</i></li>
+                          <li class="companymenu"><i class="fa fa-angle-right"> Testimonials</i></li>
                     </ul>
                     <h3 class="community">Community</h3>
                     <ul class="community1">
-                          <li class="communitymenu">&gt; Blog</li>
-                          <li class="communitymenu">&gt; Forum</li>
-                          <li class="communitymenu">&gt; Support</li>
-                          <li class="communitymenu">&gt; Newsleter</li>
+                          <li class="communitymenu"><i class="fa fa-angle-right"> Blog</i></li>
+                          <li class="communitymenu"><i class="fa fa-angle-right"> Forum</i></li>
+                          <li class="communitymenu"><i class="fa fa-angle-right"> Support</i></li>
+                          <li class="communitymenu"><i class="fa fa-angle-right"> Newsleter</i></li>
                     </ul>
                 </div>       
              </div>
