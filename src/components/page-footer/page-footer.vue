@@ -6,7 +6,10 @@
             <div class="page-content-coll1 tag-coll">
                 <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</div>
                 <div> 
-                    <div class="phone">Phone: 182 2569 5896</div>
+				   <div class="phone">
+                     <div class="phone1">Phone:</div>
+					 <div class="phone1 digits"> 182 2569 5896</div>
+				   </div>
                     <div class="mail">e-mail: info@modu.versus</div>
                 </div>
             </div>

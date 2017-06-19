@@ -37,11 +37,20 @@
 
 
 .page-footer .page-content-coll1 .phone {
-      word-spacing: 20px;
-      color: #ffffff;
+	  color: #ffffff;
       font-size: 20px;
       margin-bottom: 7px;
+	  display: flex;
 }
+
+.page-footer .page-content-coll1 .phone1 {
+	   margin-right: 20px;
+}
+
+.page-footer .page-content-coll1 .digits {
+	   word-spacing: 5px
+}
+
 
 .page-footer .page-content-coll1 .phone:last-child {
       
