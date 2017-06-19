@@ -1,13 +1,11 @@
-
 a.link-external {
 	position: relative;
 	box-sizing: border-box;
 	display: inline-block;
-	padding-left: 58px;
+	padding-left: 40px;
 	padding-top: 7px;
 	line-height: 24px;
 	text-decoration: none;
-	margin-bottom: 20px;
 	height: 40px;
 	width: auto;
 	max-width: 1000px;
@@ -19,12 +17,12 @@ a.link-external {
 }
 
 a.link-external::before {
-	content:url('link-external-green.png');
+	content: url('link-external-green.png');
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 40px;
-	width: 40px;	
+	width: 40px;
 }
 
 a.link-external:hover {
@@ -32,5 +30,5 @@ a.link-external:hover {
 }
 
 a.link-external:hover:before {
-	content:url('link-external-red.png');
+	content: url('link-external-red.png');
 }
