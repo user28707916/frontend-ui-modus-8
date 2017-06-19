@@ -1,9 +1,8 @@
 <script>
 	import PageHeader from '../components/page-header/page-header.vue';
-	import MainMenuBg from '../components/main-menu-bg/main-menu-bg.vue';
 
 	export default {
-		components: { PageHeader, MainMenuBg }
+		components: { PageHeader }
 	};
 </script>
 
