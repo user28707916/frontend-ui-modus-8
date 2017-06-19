@@ -13,7 +13,6 @@
                     <div class="mail">e-mail: info@modu.versus</div>
                 </div>
             </div>
-
             <div class="page-content-coll2 tag-coll">
                 <div class="companymain">
                     <h3 class="company">Company</h3>
@@ -25,6 +24,10 @@
                           <li class="companymenu"><i class="fa fa-angle-right"> Privacy</i></li>
                           <li class="companymenu"><i class="fa fa-angle-right"> Testimonials</i></li>
                     </ul>
+				</div>	
+			</div>
+			<div class="page-content-coll3 tag-coll">
+			    <div class="companymain1">
                     <h3 class="community">Community</h3>
                     <ul class="community1">
                           <li class="communitymenu"><i class="fa fa-angle-right"> Blog</i></li>
@@ -34,7 +37,7 @@
                     </ul>
                 </div>       
              </div>
-             <div class="page-content-coll3 tag-coll">
+             <div class="page-content-coll4 tag-coll">
                     <div class="imageblog">
 					          <div class="member">
 							            <div class="blog">from the <strong>BLOG</strong></div>					        

@@ -25,6 +25,7 @@
 .page-footer .page-content-coll1 {
       background: url(./page-logo/modus.png) no-repeat;
       width: 400px;
+	  margin-left: 27px;
 }
 
 .page-footer .page-content-coll1 .text {
@@ -48,7 +49,7 @@
 }
 
 .page-footer .page-content-coll1 .digits {
-	   word-spacing: 5px
+       word-spacing: 5px;
 }
 
 
@@ -65,41 +66,37 @@
 
 .page-footer .page-content-coll2 {
       color: #ffffff;
-	  width: 400px;
-}
-
-.page-footer .page-content-coll2 .companymain{
-      display: flex;
-      vertical-align: top;
+	  width: 200px;
+	  margin-top: 10px;
 }
 
 .page-footer .page-content-coll2 .company {
-      margin-top: -1px;
-      padding-left: 10px;
       color: #777777;
       font-size: 20px;
+
 }
 .page-footer .page-content-coll2 .company1 {
       font-size: 13px;
-      padding-top: 37px;
-      margin-left: -105px;
-	  list-style-type: none;
+      list-style-type: none;
 }
 
-.page-footer .page-content-coll2 .community {
-	  margin-left: 20px;
-      font-size: 20px;
-      margin-top: -1px;
-      padding-left: 60px;
+.page-footer .page-content-coll3 {
+      color: #ffffff;
+	  width: 200px;
+	  margin-top: 10px;
+	  
+}
+
+.page-footer .page-content-coll3 .community {
+	  font-size: 20px;
       color: #777777;
-	  margin-left: 14px;
 }
 
-.page-footer .page-content-coll2 .community1 {
+.page-footer .page-content-coll3 .community1 {
       font-size: 13px;
-      margin-left: -125px;
-      padding-top: 37px;
-	  list-style-type: none;
+      list-style-type: none;
+	 
+	  
 }
 
 .page-footer .page-content-coll2 .companymenu {
@@ -107,7 +104,7 @@
       
 }
 
-.page-footer .page-content-coll2 .communitymenu {
+.page-footer .page-content-coll3 .communitymenu {
       word-spacing: 7px;
 }
 
@@ -119,7 +116,7 @@
 	  padding-bottom: 24px;
 }
 
-.page-footer .page-content-coll3 .image1 img{
+.page-footer .page-content-coll4 .image1 img{
       float: left;
       height: 70px;
       width: 70px;
@@ -128,23 +125,23 @@
       
 }
 
-.page-footer .page-content-coll3 .imageblog {
+.page-footer .page-content-coll4 .imageblog {
       margin-top: 5px; 
 	  width: 370px;
 }
 
-.page-footer .page-content-coll3 .text {
+.page-footer .page-content-coll4 .text {
       margin-top: 35px; 
 	  color: #ffffff;
 }
 
-.page-footer .page-content-coll3 .text1 {
+.page-footer .page-content-coll4 .text1 {
 	  color: #ffffff;
 }
 
 
 
-.page-footer .page-content-coll3 .image2 img{
+.page-footer .page-content-coll4 .image2 img{
       float: left;
       height: 70px;
       width: 70px;
