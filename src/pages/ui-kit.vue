@@ -55,19 +55,17 @@ export default {
 			</br>
 	
 			<button-control></button-control>
-			<<<<<<< HEAD <tile-small>
-				</tile-small>
+			<tile-small>
+			</tile-small>
 	
-				<tabs></tabs>
+			<tabs></tabs>
 	
-				<tile-small>
+			<tile-small>
 	
-				</tile-small>
+			</tile-small>
 	
-				<tile-medium></tile-medium>
-				======= >>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
-	
-				<tabs></tabs>
+			<tile-medium></tile-medium>
+			<tabs></tabs>
 	
 		</content-wrapper>
 	
