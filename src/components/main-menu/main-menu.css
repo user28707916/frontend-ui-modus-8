@@ -58,7 +58,6 @@
 	
 	.menu-list .menu-item:hover .sub-menu {
 		display: block;
-		z-index: 1;
 	}
 	
 	.link-sub {
