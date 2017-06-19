@@ -13,10 +13,10 @@
 <template>
 	<div class="tile-large">
 		<div class="tile-large-content">
-			<slot></slot>  <!-- Cлот для изображения -->
+			<slot></slot>  <!-- Slot for image -->
 			<div class="tile-large-hover"> 
 				<button type="button" class="hover-button" />
-				<!-- <link-external></link-external> -->
+				<link-external></link-external>
 				<span> Lorem ipsum </span>
 			</div> 
 		</div>
