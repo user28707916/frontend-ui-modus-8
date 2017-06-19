@@ -22,12 +22,12 @@
 	  margin-right: 30px;
 }
 
-.page-footer .page-content-coll1 {
+.page-footer .page-content-coll-one {
       background: url(./page-logo/modus.png) no-repeat;
       width: 370px;
 }
 
-.page-footer .page-content-coll1 .text {
+.page-footer .page-content-coll-one .text {
       padding-top: 50px;
       color: #ffffff;
       font-size: 13px;
@@ -36,74 +36,67 @@
 
 
 
-.page-footer .page-content-coll1 .phone {
+.page-footer .page-content-coll-one .phones {
 	  color: #ffffff;
       font-size: 20px;
       margin-bottom: 7px;
 	  display: flex;
 }
 
-.page-footer .page-content-coll1 .phone1 {
+.page-footer .page-content-coll-one .phone {
 	   margin-right: 20px;
 }
 
-.page-footer .page-content-coll1 .digits {
+.page-footer .page-content-coll-one .digits {
        word-spacing: 5px;
 }
 
-
-.page-footer .page-content-coll1 .phone:last-child {
-      
-}
-
-.page-footer .page-content-coll1 .mail {
+.page-footer .page-content-coll-one .mail {
       word-spacing: 20px;
       color: #ffffff;
       font-size: 20px;
 }
 
 
-.page-footer .page-content-coll2 {
+.page-footer .page-content-coll-two {
       color: #ffffff;
 	  width: 170px;
 	  margin-top: 10px;
 }
 
-.page-footer .page-content-coll2 .company {
+.page-footer .page-content-coll-two .company {
       color: #777777;
       font-size: 20px;
 
 }
-.page-footer .page-content-coll2 .company1 {
+.page-footer .page-content-coll-two .company-one {
       font-size: 13px;
       list-style-type: none;
 }
 
-.page-footer .page-content-coll3 {
+.page-footer .page-content-coll-two .companymenu {
+      word-spacing: 7px; 
+}
+
+.page-footer .page-content-coll-free {
       color: #ffffff;
 	  width: 170px;
 	  margin-top: 10px;
 }
 
-.page-footer .page-content-coll3 .community {
+.page-footer .page-content-coll-free .community {
 	  font-size: 20px;
       color: #777777;
 }
 
-.page-footer .page-content-coll3 .community1 {
+.page-footer .page-content-coll-free .community-one {
       font-size: 13px;
       list-style-type: none;
 	 
 	  
 }
 
-.page-footer .page-content-coll2 .companymenu {
-      word-spacing: 7px; 
-	  
-      
-}
-
-.page-footer .page-content-coll3 .communitymenu {
+.page-footer .page-content-coll-free .communitymenu {
       word-spacing: 7px;
 	  
 }
@@ -116,7 +109,7 @@
 	  padding-bottom: 24px;
 }
 
-.page-footer .page-content-coll4 .image1 img{
+.page-footer .page-content-coll-four .image-one img{
       float: left;
       height: 70px;
       width: 70px;
@@ -125,24 +118,24 @@
       
 }
 
-.page-footer .page-content-coll4 .imageblog {
+.page-footer .page-content-coll-four .imageblog {
       margin-top: 5px; 
 	  width: 370px;
 	  
 }
 
-.page-footer .page-content-coll4 .text {
+.page-footer .page-content-coll-four .text {
       margin-top: 35px; 
 	  color: #ffffff;
 }
 
-.page-footer .page-content-coll4 .text1 {
+.page-footer .page-content-coll-four .text-one {
 	  color: #ffffff;
 }
 
 
 
-.page-footer .page-content-coll4 .image2 img{
+.page-footer .page-content-coll-four .image-two img{
       float: left;
       height: 70px;
       width: 70px;
