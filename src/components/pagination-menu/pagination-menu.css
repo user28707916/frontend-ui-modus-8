@@ -44,51 +44,6 @@
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
-.pagination{
-  width: 570px;
-  /*display: inline-block;*/
-  padding: 10px;
-  white-space: nowrap;
-
-.pagination {
-	width: 570px;
-	padding: 10px;
-	white-space: nowrap;
-}
-.pagination a, 
-.pagination span{
-  box-sizing: border-box;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  background-color: #8c9898;
-  border-radius: 5px;
-  line-height: 12px;
-  /*border-bottom: 3px solid #7f8c8c;*/
-  color:#f0f1f1;
-  padding: 14px 18px;
-  text-decoration: none;
-  min-width: 40px;
-  height: 40px;
-  
-  }
-
-.pagination .active{
-  background-color: #649792;
-  /*border-bottom: 3px solid #528b86;*/
-   
-}
-.pagination :hover{
-    background-color: #e5655d;
-    /*border-bottom: 3px solid #e2534b*/
-}
-.pagination .prev{
-margin-right: 30px;
-
-}
-.pagination .next{
-margin-left: 30px;
-}
 
 .pagination .next {
 	margin-left: 30px;

@@ -11,7 +11,8 @@ import TileSmall from '../components/tile-small/tile-small.vue';
 import TileMedium from '../components/tile-medium/tile-medium.vue';
 import TileLarge from '../components/tile-large/tile-large.vue';
 import LinkExternal from '../components/link-external/link-external.vue';
-
+import BreadcrumbsNavigation from '../components/breadcrumbs-navigation/breadcrumbs-navigation.vue';
+import TopBar from '../components/top-bar/top-bar.vue';
 
 export default {
 	components: {
@@ -27,7 +28,8 @@ export default {
 		TileMedium,
 		TileLarge,
 		LinkExternal,
-
+		BreadcrumbsNavigation,
+		TopBar,
 	}
 };
 </script>
@@ -36,33 +38,36 @@ export default {
 	<body>
 	
 		<page-header></page-header>
+		<top-bar/>
 		<content-wrapper>
 	
 			<main-menu /> UI Kit
-			<top-bar/>
 	
+			<breadcrumbs-navigation/>
 			<image-content></image-content>
 	
 			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
 	
-			<search-box></search-box>
 	
 			<LinkExternal></LinkExternal>
 			</br>
 	
 			<button-control></button-control>
+			<<<<<<< HEAD <tile-small>
+				</tile-small>
 	
-			<tabs></tabs>
+				<tabs></tabs>
 	
-			<tile-small></tile-small>
+				<tile-small>
 	
-			<tile-medium></tile-medium>
+				</tile-small>
 	
-			<tile-large></tile-large>
+				<tile-medium></tile-medium>
+				======= >>>>>>> 4cceda26bb5ffda006595382f93e79d38128e854
 	
-			<tabs></tabs>
+				<tabs></tabs>
 	
 		</content-wrapper>
 	
