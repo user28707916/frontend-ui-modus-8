@@ -5,6 +5,7 @@
 	background-image: url(./bg-header.png);
 	background-repeat: repeat-x;
 	background-color: #76c7c0;
+	z-index: 1;
 }
 
 .header-logo {
