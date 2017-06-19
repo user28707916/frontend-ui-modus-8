@@ -13,6 +13,8 @@
 
 
         <h1>Blog</h1>
+		<h2>H2 smth</h2>
+		<h3>H3 smth</h3>
 		<h4>Список всех пользователей</h4>
 		<table class="users-table all-users">
 		<thead>

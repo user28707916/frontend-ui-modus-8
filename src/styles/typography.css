@@ -36,6 +36,7 @@ h1 {
 	line-height: 24pt;
 	color: #7f8c8c;
 	text-transform: uppercase;
+	margin: 0;
 }
 
 h2 {
@@ -45,6 +46,7 @@ h2 {
 	font-style: normal;
 	line-height: 21pt;
 	color: #76c7c0;
+	margin: 0;
 }
 
 h3 {
@@ -54,6 +56,7 @@ h3 {
 	font-style: normal;
 	line-height: 24pt;
 	color: #000;
+	margin: 0;
 }
 
 h4 {
@@ -63,6 +66,7 @@ h4 {
 	font-style: normal;
 	line-height: 24pt;
 	color: #7f8c8c;
+	margin: 0;
 }
 
 hr {
