@@ -17,6 +17,7 @@ import ListCross from '../components/list-cross/list-cross.vue';
 import ListArrow from '../components/list-arrow/list-arrow.vue';
 import ListCheck from '../components/list-check/list-check.vue';
 import ListUnordered from '../components/list-unordered/list-unordered.vue';
+import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 
 export default {
 	components: {
@@ -37,7 +38,8 @@ export default {
 		ListCross,
 		ListArrow,
 		ListCheck,
-		ListUnordered
+		ListUnordered,
+		BlogSideBar
 	}
 };
 </script>
@@ -84,6 +86,8 @@ export default {
 			<list-check></list-check>
 
 			<list-unordered></list-unordered>
+
+			<blog-side-bar></blog-side-bar>
 
 		</content-wrapper>
 
