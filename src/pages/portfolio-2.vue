@@ -7,6 +7,7 @@ import TopBar from '../components/top-bar/top-bar.vue';
 import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
 import TilesGrid from '../components/tiles-grid/tiles-grid.vue';
 import TileLarge from '../components/tile-large/tile-large.vue';
+import ImageContent from '../components/image-content/image-content.vue';
 
 
 export default {
@@ -18,7 +19,8 @@ export default {
 		TopBar,
 		PaginationMenu,
 		TilesGrid,
-		TileLarge
+		TileLarge,
+		ImageContent
 	}
 };
 </script>
@@ -36,7 +38,7 @@ export default {
 			<tag-item class="tag-item-portfolio"> </tag-item>
 
 			<tiles-grid>
-				<tile-large> </tile-large>
+				<tile-large> <image-content src="./components/image-content/image-placeholder.png"></image-content> </tile-large>
 				<tile-large> </tile-large>
 				<tile-large> </tile-large>
 				<tile-large> </tile-large>
