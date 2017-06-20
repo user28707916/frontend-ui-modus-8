@@ -1,10 +1,22 @@
-.image-content {
-	display: block;
+.tile-large-content > .image-content {
 	position: absolute;
+	display: block;
 	height: 270px;
 	width: 570px;
 	border-radius: 6px;
 	overflow: hidden;
+}
+
+.tile-medium-content > .image-content {
+}
+
+.tile-small-content > .image-content {
+}
+
+.tile-large-content > .image-content:hover img,
+.tile-medium-content > .image-content:hover img,
+.tile-small-content > .image-content:hover img {
+	display: none;
 }
 
 .image-content > .image {
@@ -16,8 +28,15 @@
 	border-radius: 6px;
 }
 
-.image-content:hover img {
-	display: none;
+.teaser-item > .image-content {
+	display: block;
+	float: left;
+	height: 270px;
+	width: 570px;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-right: 30px;
+	border-bottom: solid 3px #e5e6e6;
 }
 
 
