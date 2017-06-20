@@ -16,6 +16,9 @@ import ListCross from '../components/list-cross/list-cross.vue';
 import ListArrow from '../components/list-arrow/list-arrow.vue';
 import ListCheck from '../components/list-check/list-check.vue';
 import ListUnordered from '../components/list-unordered/list-unordered.vue';
+import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
+import TeaserItem from '../components/teaser-item/teaser-item.vue';
+import MotivationInfo from '../components/motivation-info/motivation-info.vue';
 
 export default {
 	components: {
@@ -35,7 +38,10 @@ export default {
 		ListCross,
 		ListArrow,
 		ListCheck,
-		ListUnordered
+		ListUnordered,
+		BlogSideBar,
+		TeaserItem,
+		MotivationInfo
 	}
 };
 </script>
@@ -52,8 +58,7 @@ export default {
 			 UI Kit
 	
 			<breadcrumbs-navigation/>
-			<image-content></image-content>
-	
+			
 			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
@@ -61,7 +66,7 @@ export default {
 	
 			<LinkExternal></LinkExternal>
 			</br>
-	
+			<motivation-info></motivation-info>
 			<button-control></button-control>
 			<tile-small>
 			</tile-small>
@@ -83,9 +88,15 @@ export default {
 
 			<list-unordered></list-unordered>
 
+			<teaser-item > </teaser-item>
+			<br>
+			<blog-side-bar></blog-side-bar>
+			
+            <page-footer></page-footer>
+
 		</content-wrapper>
 
-		<page-footer></page-footer>
+		
 	
 	</body>
 </template>

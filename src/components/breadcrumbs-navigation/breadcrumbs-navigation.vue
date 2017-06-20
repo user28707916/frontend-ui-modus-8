@@ -2,12 +2,12 @@
 
 <template>
 	<div class="breadcrumbs-navigation">
-		<ul class="breadcrumb-navigation">
-			<li>
+		<ul class="br_crumb-nav">
+			<li class="first">
 				<router-link to="/index">Home</router-link>
 			</li>
-			<li>
-				<router-link to="" active-class="current"></router-link>
+			<li class="last">
+				<router-link to="/portfolio" class="page_link">Portfolio</router-link>
 			</li>
 		</ul>
 	</div>
