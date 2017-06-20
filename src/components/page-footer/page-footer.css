@@ -1,7 +1,8 @@
 
 .page-footer {
-      bottom: 0;
-      width: 100%;
+	  position: absolute;
+      width: 2170px;
+	  left: -480px;
       height: 350px;
 	  background: url(./page-png/footer-border.png) repeat-x;
 	  background-color: #76c7c0;

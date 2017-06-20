@@ -92,10 +92,11 @@ export default {
 			<br>
 			<blog-side-bar></blog-side-bar>
 			
+            <page-footer></page-footer>
 
 		</content-wrapper>
 
-		<page-footer></page-footer>
+		
 	
 	</body>
 </template>
