@@ -34,6 +34,28 @@ export default{
 		<content-wrapper>
 			<tag-item class="tag-item-portfolio"> </tag-item>
 
+			<tiles-grid>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+
+			
+			
+			</tiles-grid>
+
 
 			<pagination-menu class="pagination-portfolio"> </pagination-menu>
 		</content-wrapper>

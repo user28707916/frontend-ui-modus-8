@@ -35,11 +35,21 @@ export default {
 		<content-wrapper>
 			<tag-item class="tag-item-portfolio"> </tag-item>
 			
-			<tile-medium class="medium" />
-			<pagination-menu class="pagination" />
 
-
-
+			<tiles-grid>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+				<tile-medium> </tile-medium>
+			</tiles-grid>
 
 			<pagination-menu class="pagination-portfolio"> </pagination-menu>
 		</content-wrapper>
