@@ -1,10 +1,10 @@
 .top-bar {
-	background-color: #ececec;
 	overflow: hidden;
-	height: 93px;
+	height: 95px;
 	width: 100%;
 	position: relative;
-	background: url(./bg-portgolio.png) no-repeat 0 0;
+	background-image: url(./bg-top-bar.png);
+	background-repeat: no-repeat;
 	margin-bottom: 30px;
 }
 
