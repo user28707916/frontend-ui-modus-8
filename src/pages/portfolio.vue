@@ -20,7 +20,8 @@ export default {
 		TopBar,
 		PaginationMenu,
 		ButtonControl,
-		LinkExternal
+		LinkExternal,
+
 	}
 };
 </script>
@@ -36,6 +37,11 @@ export default {
 		<content-wrapper>
 	
 			<tag-item class="tag-item-portfolio"> </tag-item>
+
+			<section>
+
+			
+			</section>
 
 
 			<pagination-menu class="pagination-portfolio"> </pagination-menu>
