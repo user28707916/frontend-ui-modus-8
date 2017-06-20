@@ -38,7 +38,7 @@ export default {
 			<tag-item class="tag-item-portfolio"> </tag-item>
 
 			<tiles-grid>
-				<tile-large> <image-content src="./components/image-content/vestibulum.jpg"></image-content> </tile-large>
+				<tile-large> <image-content src="./components/image-content/image-placeholder.png"></image-content> </tile-large>
 				<tile-large> </tile-large>
 				<tile-large> </tile-large>
 				<tile-large> </tile-large>

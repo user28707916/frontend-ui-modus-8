@@ -4,6 +4,7 @@
 	height: 270px;
 	width: 570px;
 	border-radius: 6px;
+	overflow: hidden;
 }
 
 .image-content > .image {
