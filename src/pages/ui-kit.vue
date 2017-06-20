@@ -13,6 +13,7 @@ import TileLarge from '../components/tile-large/tile-large.vue';
 import LinkExternal from '../components/link-external/link-external.vue';
 import BreadcrumbsNavigation from '../components/breadcrumbs-navigation/breadcrumbs-navigation.vue';
 import TopBar from '../components/top-bar/top-bar.vue';
+import ListCross from '../components/list-cross/list-cross.vue';
 
 export default {
 	components: {
@@ -30,6 +31,7 @@ export default {
 		LinkExternal,
 		BreadcrumbsNavigation,
 		TopBar,
+		ListCross
 	}
 };
 </script>
@@ -40,6 +42,8 @@ export default {
 		<page-header></page-header>
 		<top-bar/>
 		<content-wrapper>
+
+		    
 	
 			<main-menu /> UI Kit
 	
@@ -66,8 +70,14 @@ export default {
 	
 			<tile-medium></tile-medium>
 			<tabs></tabs>
-	
+
+			<list-cross></list-cross>
+
+			
+
 		</content-wrapper>
+
+		
 	
 		<page-footer></page-footer>
 	

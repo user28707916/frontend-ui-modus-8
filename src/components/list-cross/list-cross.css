@@ -1,0 +1,13 @@
+.list-cross {
+	line-height: 21px;	
+}
+
+.list-cross .list-close{
+	list-style-type: none;
+}
+
+.fa-close {
+    color: #e1524b; /* Цвет иконки */
+	padding-right: 5px;
+}
+
