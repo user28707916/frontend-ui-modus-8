@@ -1,9 +1,9 @@
-	.menu-list {
+	.main-menu > .menu-list {
 		position: relative;
 		list-style: none;
 	}
 	
-	.menu-list .menu-item {
+	.main-menu > .menu-list > .menu-item {
 		display: inline-block;
 		border-radius: 5px;
 		text-align: center;
@@ -11,7 +11,7 @@
 		height: 30px;
 	}
 	
-	.menu-item .link {
+	.main-menu .menu-item > .link {
 		box-sizing: border-box;
 		display: block;
 		text-decoration: none;
@@ -21,18 +21,18 @@
 		line-height: 30px;
 	}
 	
-	.link:hover {
+	.main-menu .link:hover {
 		background-color: #e8645a;
 		border-radius: 5px;
 		border-bottom: 3px solid #e2534b;
 	}
 	
-	.current:visited {
+	.main-menu .current:visited {
 		background-color: #62a29e;
 		border-bottom: 3px solid #528b86;
 	}
 	
-	.sub-menu {
+	.main-menu .sub-menu {
 		display: none;
 		list-style: none;
 		position: absolute;
@@ -42,7 +42,7 @@
 		padding: 5px;
 	}
 	
-	.sub-item {
+	.sub-menu > .sub-item {
 		display: block;
 		border-radius: 5px;
 		background-color: #e5655d;
@@ -52,15 +52,18 @@
 		margin-bottom: 5px;
 	}
 	
-	.sub-item:last-child {
+	.main-menu .sub-item:last-child {
 		margin-bottom: 0;
 	}
 	
-	.menu-list .menu-item:hover .sub-menu {
+	.main-menu .menu-list > .menu-item:hover .sub-menu {
 		display: block;
 	}
+	/*.menu-list .link:hover .sub-menu {
+		display: block;
+	}*/
 	
-	.link-sub {
+	.main-menu .sub-menu .link-sub {
 		box-sizing: border-box;
 		display: block;
 		text-decoration: none;
@@ -73,16 +76,16 @@
 		line-height: 30px;
 	}
 	
-	.sub-menu .sub-item:hover {
+	.main-menu .sub-menu > .sub-item:hover {
 		background-color: #76c7c0;
 	}
 	
-	.link-sub:hover {
+	.main-menu .sub-menu .link-sub:hover {
 		height: inherit;
 		color: #fff;
 	}
 	
-	.item-portfolio {
+	.main-menu .item-portfolio {
 		background-image: url(./ul_arrow.png);
 		background-repeat: no-repeat;
 		background-position: 8px 20px;
