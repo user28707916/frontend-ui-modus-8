@@ -49,10 +49,9 @@ export default {
 
 			<pagination-menu class="pagination-portfolio"> </pagination-menu>
 
-		 <page-footer></page-footer>
+		 </content-wrapper>
 
-         </content-wrapper>
+		 <page-footer></page-footer>
 		
-	
 	</body>
 </template>

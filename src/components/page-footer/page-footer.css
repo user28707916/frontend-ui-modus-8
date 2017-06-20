@@ -1,9 +1,7 @@
 
 .page-footer {
-	  position: absolute;
-      width: 2170px;
-	  left: -480px;
-      height: 350px;
+	  width: 100%;
+	  height: 350px;
 	  background: url(./page-png/footer-border.png) repeat-x;
 	  background-color: #76c7c0;
 }
@@ -13,6 +11,7 @@
       justify-content: center;
 	  flex-direction: row;
 	  align-items: center;
+	  margin-left: 20px;
 }
 
 
@@ -159,6 +158,7 @@
 	  flex-direction: row;
 	  align-items: center;
 	  margin-top: 7px;
+	  margin-left: 20px;
 }
 
 .page-footer .page-bottom-line .ModusVersus {
