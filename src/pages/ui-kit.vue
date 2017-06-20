@@ -13,6 +13,9 @@ import LinkExternal from '../components/link-external/link-external.vue';
 import BreadcrumbsNavigation from '../components/breadcrumbs-navigation/breadcrumbs-navigation.vue';
 import TopBar from '../components/top-bar/top-bar.vue';
 import ListCross from '../components/list-cross/list-cross.vue';
+import ListArrow from '../components/list-arrow/list-arrow.vue';
+import ListCheck from '../components/list-check/list-check.vue';
+import ListUnordered from '../components/list-unordered/list-unordered.vue';
 
 export default {
 	components: {
@@ -29,7 +32,10 @@ export default {
 		LinkExternal,
 		BreadcrumbsNavigation,
 		TopBar,
-		ListCross
+		ListCross,
+		ListArrow,
+		ListCheck,
+		ListUnordered
 	}
 };
 </script>
@@ -71,12 +77,14 @@ export default {
 
 			<list-cross></list-cross>
 
-			
+			<list-arrow></list-arrow>
+
+			<list-check></list-check>
+
+			<list-unordered></list-unordered>
 
 		</content-wrapper>
 
-		
-	
 		<page-footer></page-footer>
 	
 	</body>
