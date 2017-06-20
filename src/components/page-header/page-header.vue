@@ -21,9 +21,9 @@ export default {
 
 <template>
 
-	<content-wrapper>
-	<header class="page-header">
 	
+	<header class="page-header">
+		<content-wrapper>
 		<main-logo class="header-logo"> </main-logo>
 	
 		<main-menu class="header-menu"> </main-menu>
@@ -31,7 +31,7 @@ export default {
 		<search-box class="header-search"> </search-box>
 	
 		
-	
-	</header>
 	</content-wrapper>
+	</header>
+	
 </template>
