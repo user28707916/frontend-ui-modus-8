@@ -17,6 +17,7 @@ import ListArrow from '../components/list-arrow/list-arrow.vue';
 import ListCheck from '../components/list-check/list-check.vue';
 import ListUnordered from '../components/list-unordered/list-unordered.vue';
 import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
+import TeaserItem from '../components/teaser-item/teaser-item.vue';
 
 export default {
 	components: {
@@ -37,7 +38,8 @@ export default {
 		ListArrow,
 		ListCheck,
 		ListUnordered,
-		BlogSideBar
+		BlogSideBar,
+		TeaserItem
 	}
 };
 </script>
@@ -55,8 +57,6 @@ export default {
 	
 			<breadcrumbs-navigation/>
 			
-			<image-content src="./components/image-content/vestibulum.jpg"></image-content>
-	
 			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
@@ -86,7 +86,10 @@ export default {
 
 			<list-unordered></list-unordered>
 
+			<teaser-item > </teaser-item>
+			<br>
 			<blog-side-bar></blog-side-bar>
+			
 
 		</content-wrapper>
 
