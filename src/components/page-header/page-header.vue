@@ -4,12 +4,14 @@
 import MainLogo from '../main-logo/main-logo.vue';
 import MainMenu from '../main-menu/main-menu.vue';
 import SearchBox from '../search-box/search-box.vue';
+import ContentWrapper from '../content-wrapper/content-wrapper.vue';
 
 export default {
 	components: {
 		MainLogo,
 		MainMenu,
-		SearchBox
+		SearchBox,
+		ContentWrapper
 	}
 };
 </script>
@@ -18,6 +20,8 @@ export default {
 
 
 <template>
+
+	<content-wrapper>
 	<header class="page-header">
 	
 		<main-logo class="header-logo"> </main-logo>
@@ -29,4 +33,5 @@ export default {
 		
 	
 	</header>
+	</content-wrapper>
 </template>
