@@ -15,6 +15,7 @@ import BreadcrumbsNavigation from '../components/breadcrumbs-navigation/breadcru
 import TopBar from '../components/top-bar/top-bar.vue';
 import ListCross from '../components/list-cross/list-cross.vue';
 import ListArrow from '../components/list-arrow/list-arrow.vue';
+import ListCheck from '../components/list-check/list-check.vue';
 
 export default {
 	components: {
@@ -34,6 +35,7 @@ export default {
 		TopBar,
 		ListCross,
 		ListArrow,
+		ListCheck 
 	}
 };
 </script>
@@ -74,8 +76,10 @@ export default {
 			<tabs></tabs>
 
 			<list-cross></list-cross>
-			
+
 			<list-arrow></list-arrow>
+
+			<list-check></list-check>
 
 			
 
