@@ -6,7 +6,6 @@ import SearchBox from '../components/search-box/search-box.vue';
 import ButtonControl from '../components/button-control/button-control.vue';
 import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 import PageFooter from '../components/page-footer/page-footer.vue';
-import MainMenu from '../components/main-menu/main-menu.vue';
 import TileSmall from '../components/tile-small/tile-small.vue';
 import TileMedium from '../components/tile-medium/tile-medium.vue';
 import TileLarge from '../components/tile-large/tile-large.vue';
@@ -28,7 +27,6 @@ export default {
 		ButtonControl,
 		ContentWrapper,
 		PageFooter,
-		MainMenu,
 		TileSmall,
 		TileMedium,
 		TileLarge,
@@ -53,7 +51,7 @@ export default {
 
 		    
 	
-			<main-menu /> UI Kit
+			 UI Kit
 	
 			<breadcrumbs-navigation/>
 			<image-content></image-content>
