@@ -1,28 +1,26 @@
 
 <script>
 import PageHeader from '../components/page-header/page-header.vue';
-import TilesGrid from '../components/tiles-grid/tiles-grid.vue';
-import TileSmall from '../components/tile-small/tile-small.vue';
-import TileMedium from '../components/tile-medium/tile-medium.vue';
-import TileLarge from '../components/tile-large/tile-large.vue';
 import PageFooter from '../components/page-footer/page-footer.vue';
 import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 import TagItem from '../components/tag-item/tag-item.vue';
 import ImageContent from '../components/image-content/image-content.vue';
 import TopBar from '../components/top-bar/top-bar.vue';
+import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
+import ButtonControl from '../components/button-control/button-control.vue';
+import LinkExternal from '../components/link-external/link-external.vue';
 
 export default {
 	components: {
 		PageHeader,
-		TilesGrid,
-		TileSmall,
-		TileMedium,
-		TileLarge,
 		PageFooter,
 		ContentWrapper,
 		TagItem,
 		ImageContent,
-		TopBar
+		TopBar,
+		PaginationMenu,
+		ButtonControl,
+		LinkExternal
 	}
 };
 </script>
@@ -31,24 +29,16 @@ export default {
 	<body>
 	
 		<page-header />
-		<top-bar></top-bar>
+		<top-bar>
+			<h1>Portfolio</h1>
+		</top-bar>
 	
 		<content-wrapper>
 	
-			<tag-item></tag-item>
-	
-			<tiles-grid>
-				<tile-small></tile-small>
-				<tile-small></tile-small>
-				<tile-small></tile-small>
-				<tile-small></tile-small>
-				<tile-medium></tile-medium>
-				<tile-medium></tile-medium>
-				<tile-medium></tile-medium>
-				<tile-large></tile-large>
-				<tile-large></tile-large>
-			</tiles-grid>
-	
+			<tag-item class="tag-item-portfolio"> </tag-item>
+
+
+			<pagination-menu class="pagination-portfolio"> </pagination-menu>
 		</content-wrapper>
 		<page-footer></page-footer>
 	

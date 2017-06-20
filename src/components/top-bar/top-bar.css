@@ -5,15 +5,16 @@
 	width: 100%;
 	position: relative;
 	background: url(./bg-portgolio.png) no-repeat 0 0;
+	margin-bottom: 30px;
 }
 
 .breadcrumbs {
 	position: absolute;
-	right: 167px;
-	top: 0;
+	right: 0;
+	top: -25px;
 }
 
 .naiming {
-	margin-left: 175px;
+	margin-left: 0;
 	margin-top: 25px;
 }
