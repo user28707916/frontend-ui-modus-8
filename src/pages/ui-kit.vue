@@ -52,7 +52,8 @@ export default {
 			 UI Kit
 	
 			<breadcrumbs-navigation/>
-			<image-content></image-content>
+			
+			<image-content src="./components/image-content/vestibulum.jpg"></image-content>
 	
 			<tag-item></tag-item>
 	
