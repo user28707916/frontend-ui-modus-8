@@ -21,7 +21,8 @@ import TeaserItem from '../components/teaser-item/teaser-item.vue';
 import MotivationInfo from '../components/motivation-info/motivation-info.vue';
 import ShareBar from '../components/share-bar/share-bar.vue';
 import DataTable from '../components/data-table/data-table.vue';
-import AddressInfo from '../components/address-info/address-info.vue';
+import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';import AddressInfo from '../components/address-info/address-info.vue';
+
 
 export default {
 	components: {
@@ -46,9 +47,9 @@ export default {
 		TeaserItem,
 		MotivationInfo,
 		ShareBar,
-		DataTable,
-		AddressInfo
-	}
+		FeedbackQuote,		
+		BlogPostHeader,
+		AddressInfo	}
 };
 </script>
 
@@ -58,17 +59,14 @@ export default {
 		<page-header></page-header>
 		<top-bar/>
 		<content-wrapper>
-
-		    
 	
-			 UI Kit
+			UI Kit
 	
 			<breadcrumbs-navigation/>
-			<address-info></address-info>
-			<tag-item></tag-item>
+				
+			<address-info></address-info>			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
-	
 	
 			<LinkExternal></LinkExternal>
 			</br>
@@ -76,6 +74,7 @@ export default {
 			<button-control></button-control>
 			<tile-small>
 			</tile-small>
+			<feedback-quote/>
 	
 			<tabs></tabs>
 	
@@ -85,25 +84,27 @@ export default {
 	
 			<tile-medium></tile-medium>
 			<tabs></tabs>
-
+	
 			<list-cross></list-cross>
-
+	
 			<list-arrow></list-arrow>
-
+	
 			<list-check></list-check>
-
+	
 			<list-unordered></list-unordered>
-
-			<teaser-item > </teaser-item>
+	
+			<teaser-item> </teaser-item>
 			<br>
 			<blog-side-bar></blog-side-bar>
-
+	
 			<data-table></data-table>
-
+	
 			<share-bar></share-bar>
+	
+			<blog-post-header> </blog-post-header>
 
 		</content-wrapper>
-
+	
 		<page-footer></page-footer>
 	
 	</body>
