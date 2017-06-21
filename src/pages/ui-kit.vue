@@ -18,6 +18,7 @@ import ListCheck from '../components/list-check/list-check.vue';
 import ListUnordered from '../components/list-unordered/list-unordered.vue';
 import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 import TeaserItem from '../components/teaser-item/teaser-item.vue';
+import MotivationInfo from '../components/motivation-info/motivation-info.vue';
 
 export default {
 	components: {
@@ -39,7 +40,8 @@ export default {
 		ListCheck,
 		ListUnordered,
 		BlogSideBar,
-		TeaserItem
+		TeaserItem,
+		MotivationInfo
 	}
 };
 </script>
@@ -64,7 +66,7 @@ export default {
 	
 			<LinkExternal></LinkExternal>
 			</br>
-	
+			<motivation-info></motivation-info>
 			<button-control></button-control>
 			<tile-small>
 			</tile-small>
@@ -90,6 +92,7 @@ export default {
 			<br>
 			<blog-side-bar></blog-side-bar>
 			
+            
 
 		</content-wrapper>
 
