@@ -49,7 +49,7 @@ export default {
 		TeaserItem,
 		MotivationInfo,
 		ShareBar,
-		FeedbackQuote,		
+		FeedbackQuote,
 		BlogPostHeader,
 		DataTable,
 		AddressInfo	}
