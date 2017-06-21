@@ -20,6 +20,7 @@ import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 import TeaserItem from '../components/teaser-item/teaser-item.vue';
 import MotivationInfo from '../components/motivation-info/motivation-info.vue';
 import ShareBar from '../components/share-bar/share-bar.vue';
+import DataTable from '../components/data-table/data-table.vue';
 
 export default {
 	components: {
@@ -43,7 +44,8 @@ export default {
 		BlogSideBar,
 		TeaserItem,
 		MotivationInfo,
-		ShareBar
+		ShareBar,
+		DataTable
 	}
 };
 </script>
@@ -93,13 +95,14 @@ export default {
 			<teaser-item > </teaser-item>
 			<br>
 			<blog-side-bar></blog-side-bar>
-			
-            
+
+			<data-table></data-table>
+
+			<share-bar></share-bar>
 
 		</content-wrapper>
 
 		<page-footer></page-footer>
-		<share-bar></share-bar>
 	
 	</body>
 </template>
