@@ -22,6 +22,9 @@ import MotivationInfo from '../components/motivation-info/motivation-info.vue';
 import ShareBar from '../components/share-bar/share-bar.vue';
 import DataTable from '../components/data-table/data-table.vue';
 import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
+import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
+import AddressInfo from '../components/address-info/address-info.vue';
+
 
 export default {
 	components: {
@@ -46,15 +49,16 @@ export default {
 		TeaserItem,
 		MotivationInfo,
 		ShareBar,
+		FeedbackQuote,
+		BlogPostHeader,
 		DataTable,
-		FeedbackQuote
-	}
+		AddressInfo	}
 };
 </script>
 
 <template>
 	<body>
-	
+		
 		<page-header></page-header>
 		<top-bar/>
 		<content-wrapper>
@@ -62,8 +66,8 @@ export default {
 			UI Kit
 	
 			<breadcrumbs-navigation/>
-	
-			<tag-item></tag-item>
+				
+			<address-info></address-info>			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
 	
@@ -100,6 +104,8 @@ export default {
 	
 			<share-bar></share-bar>
 	
+			<blog-post-header> </blog-post-header>
+
 		</content-wrapper>
 	
 		<page-footer></page-footer>
