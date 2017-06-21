@@ -16,13 +16,15 @@ export default {
 <template>
 	
 	<div class="top-bar">
-	<content-wrapper>
+	<content-wrapper>		
+
 		<h1 class="naiming">
 			<slot>Blog</slot>
 		</h1>
 		<breadcrumbs-navigation class="breadcrumbs"></breadcrumbs-navigation>
 		</content-wrapper>
 	</div>
+
 	
 </template>
 

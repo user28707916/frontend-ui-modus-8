@@ -9,6 +9,8 @@ import TopBar from '../components/top-bar/top-bar.vue';
 import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
 import ButtonControl from '../components/button-control/button-control.vue';
 import LinkExternal from '../components/link-external/link-external.vue';
+import TeaserItem from '../components/teaser-item/teaser-item.vue';
+
 
 export default {
 	components: {
@@ -20,7 +22,9 @@ export default {
 		TopBar,
 		PaginationMenu,
 		ButtonControl,
-		LinkExternal
+		LinkExternal,
+		TeaserItem
+
 	}
 };
 </script>
@@ -37,10 +41,17 @@ export default {
 	
 			<tag-item class="tag-item-portfolio"> </tag-item>
 
+			<teaser-item class="teaser-item-portfolio"> </teaser-item>
+			<teaser-item class="teaser-item-portfolio"> </teaser-item>
+			<teaser-item class="teaser-item-portfolio"> </teaser-item>
+			<teaser-item class="teaser-item-portfolio"> </teaser-item>
+
 
 			<pagination-menu class="pagination-portfolio"> </pagination-menu>
-		</content-wrapper>
-		<page-footer></page-footer>
-	
+
+		 </content-wrapper>
+
+		 <page-footer></page-footer>
+		
 	</body>
 </template>
