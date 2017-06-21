@@ -21,6 +21,7 @@ import TeaserItem from '../components/teaser-item/teaser-item.vue';
 import MotivationInfo from '../components/motivation-info/motivation-info.vue';
 import ShareBar from '../components/share-bar/share-bar.vue';
 import DataTable from '../components/data-table/data-table.vue';
+import AddressInfo from '../components/address-info/address-info.vue';
 
 export default {
 	components: {
@@ -45,14 +46,15 @@ export default {
 		TeaserItem,
 		MotivationInfo,
 		ShareBar,
-		DataTable
+		DataTable,
+		AddressInfo
 	}
 };
 </script>
 
 <template>
 	<body>
-	
+		
 		<page-header></page-header>
 		<top-bar/>
 		<content-wrapper>
@@ -62,7 +64,7 @@ export default {
 			 UI Kit
 	
 			<breadcrumbs-navigation/>
-			
+			<address-info></address-info>
 			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
