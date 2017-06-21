@@ -19,6 +19,7 @@ import ListUnordered from '../components/list-unordered/list-unordered.vue';
 import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 import TeaserItem from '../components/teaser-item/teaser-item.vue';
 import MotivationInfo from '../components/motivation-info/motivation-info.vue';
+import ShareBar from '../components/share-bar/share-bar.vue';
 
 export default {
 	components: {
@@ -41,7 +42,8 @@ export default {
 		ListUnordered,
 		BlogSideBar,
 		TeaserItem,
-		MotivationInfo
+		MotivationInfo,
+		ShareBar
 	}
 };
 </script>
@@ -97,6 +99,7 @@ export default {
 		</content-wrapper>
 
 		<page-footer></page-footer>
+		<share-bar></share-bar>
 	
 	</body>
 </template>
