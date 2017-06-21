@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-.motivation-info-background {
+.motivation-info .topbg {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -16,30 +16,30 @@
 	background-color: #ececec;
 }
 
-.motivation-info-message {
+.motivation-info > .text-message {
 	position: relative;
 	top: 65px;
 	color: #777;
 	line-height: 1.6em;
 }
 
-.motivation-info-message > h2 {
+.motivation-info > .text-message > h2 {
 	text-transform: uppercase;
 	line-height: 48px;
 	font-size: 40px;
 	color: #e1524b;
 }
 
-.motivation-info-windows {
-	padding: 0;
-	text-align: left;
+.motivation-info .allwindows {
 	position: absolute;
+	text-align: left;
+	padding: 0;
 	top: 194px;
 	height: 360px;
 	width: 100%;
 }
 
-.motivation-info-rearWindowLeft {
+.motivation-info .rearWindowLeft {
 	position: absolute;
 	top: 60px;
 	left: 0;
@@ -49,7 +49,7 @@
 	border-radius: 8px;
 }
 
-.motivation-info-rearWindowLeft::before {
+.motivation-info .rearWindowLeft::before {
 	position: absolute;
 	left: 10px;
 	top: 16px;
@@ -61,7 +61,7 @@
 	box-shadow: 20px 0 #ececec, 40px 0 #ececec;
 }
 
-.motivation-info-rearWindowLeft::after {
+.motivation-info .rearWindowLeft::after {
 	position: absolute;
 	right: 19px;
 	top: 19px;
@@ -72,7 +72,7 @@
 	border-radius: 3px;
 }
 
-.motivation-info-rearWindowRigth {
+.motivation-info .rearWindowRigth {
 	position: absolute;
 	top: 60px;
 	right: 0;
@@ -82,7 +82,7 @@
 	border-radius: 8px;
 }
 
-.motivation-info-rearWindowRigth::before {
+.motivation-info .rearWindowRigth::before {
 	position: absolute;
 	left: 10px;
 	top: 16px;
@@ -94,7 +94,7 @@
 	box-shadow: 20px 0 #ececec, 40px 0 #ececec;
 }
 
-.motivation-info-rearWindowRigth::after {
+.motivation-info .rearWindowRigth::after {
 	position: absolute;
 	right: 19px;
 	top: 19px;
@@ -105,7 +105,7 @@
 	border-radius: 3px;
 }
 
-.motivation-info-rearWindowLeft.transformed {
+.motivation-info .rearWindowLeft.transformed {
 	position: absolute;
 	left: 33%;
 	transform: scale(2, 1.7);
