@@ -25,25 +25,23 @@ export default {
 		</div>
 		<div class="image-file-container"></div>
 		<div class="datum">
-			<slot>25 May 2013</slot>
+			<slot>25 May 2013</slot>,
 		</div>
 		<div class="author">
 			<slot>
 				Hosted by <a href="#">Admin</a> in <a href="#">Wordpress</a>
 			</slot>
 		</div>
-		<div class="categhory">
-		<div class="for-icon-cathegory"></div>
-			<slot>
-				<a href="#">Design</a> ,
-				<a href="#">Template</a>
-			</slot>
+		
+		<div class="icon-category"><img src="./icon-design.png" alt=""> </div>
+		<div class="category">
+				<a href="#"><slot>Design</slot></a> ,
+				<a href="#"><slot>Template</slot></a>
 		</div>
+		
+		<div class="icon-comments"><img src="./icon-comments.png" alt=""></div>
 		<div class="comments">
-		<div class="for-icon-comments"></div>
-			<slot>
-				<a href="#">22</a>
-			</slot>
+				<a href="#"><slot>22</slot></a>
 		</div>
 	</div>
 	</content-wrapper>

@@ -22,6 +22,8 @@ import MotivationInfo from '../components/motivation-info/motivation-info.vue';
 import ShareBar from '../components/share-bar/share-bar.vue';
 import DataTable from '../components/data-table/data-table.vue';
 import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
+import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
+
 
 export default {
 	components: {
@@ -47,7 +49,8 @@ export default {
 		MotivationInfo,
 		ShareBar,
 		DataTable,
-		FeedbackQuote
+		FeedbackQuote,
+		BlogPostHeader
 	}
 };
 </script>
