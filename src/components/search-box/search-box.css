@@ -10,7 +10,7 @@
 .search-box button {
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 0;
 	margin: 0;
 	padding: 0;
 	background: url(search-box-button.png) no-repeat;
@@ -23,7 +23,7 @@
 .search-box .search-box-input {
 	display: none;
 	position: absolute;
-	right: 0;
+	left: -165px;
 	bottom: 0;
 	background: url(search-box-bg.png) no-repeat;
 	width: 100%;
