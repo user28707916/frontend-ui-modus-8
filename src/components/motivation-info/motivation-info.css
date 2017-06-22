@@ -87,11 +87,11 @@
 }
 
 .motivation-info img {
-position: absolute;
-left: 0;
-width: inherit;
-height: inherit;
-border-radius: 6px;
+	position: absolute;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	border-radius: 6px;
 }
 
 .motivation-info .image-wrapper {
@@ -113,7 +113,6 @@ border-radius: 6px;
 	top: 120px;
 	font-size: 20px;
 	font-weight: 700;
-	
 }
 
 .motivation-info .transformed-left .image-wrapper,
@@ -123,7 +122,7 @@ border-radius: 6px;
 }
 
 .motivation-info .transformed-left .text-field,
- .motivation-info .transformed-right .text-field {
+.motivation-info .transformed-right .text-field {
 	font-size: 30px;
 }
 
