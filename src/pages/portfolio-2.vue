@@ -38,9 +38,9 @@ export default {
 			<tag-item class="tag-item-portfolio"> </tag-item>
 
 			<tiles-grid>
-				<tile-large> <image-content src="./components/image-content/image-placeholder.png"></image-content> </tile-large>
-				<tile-large> </tile-large>
-				<tile-large> </tile-large>
+				<tile-large text="1 large tile"> <image-content src="./components/image-content/image-placeholder.png"></image-content> </tile-large>
+				<tile-large text="2 large tile"> </tile-large>
+				<tile-large > </tile-large>
 				<tile-large> </tile-large>
 				<tile-large> </tile-large>
 				<tile-large> </tile-large>
