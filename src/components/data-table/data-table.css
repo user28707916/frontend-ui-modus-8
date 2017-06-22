@@ -1,0 +1,36 @@
+.data-table {
+	background: #f8f8f8;
+	height: 212px;
+	width: 1170px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 4px #e5e6e6;
+	margin: 20px;
+}
+
+.data-table th {
+	background: #ececec;
+	padding-left: 15px;
+	box-shadow: 0 3px #e5e6e6;
+	border-right: 1px solid #ddd;
+	text-align: left;
+}
+
+.data-table .firstmain-col {
+	border-radius: 5px 0 0;
+}
+
+.data-table .lastmain-col {
+	border-radius: 0 5px 0 0;
+	border-right: none;
+}
+
+.data-table td {
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #e5e6e6;
+	padding-left: 15px;
+}
+
+.data-table .lastcell {
+	border-right: none;
+}
