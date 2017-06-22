@@ -13,19 +13,18 @@
 .tile-small-content > .image-content {
 }
 
-.tile-large-content > .image-content:hover img,
-.tile-medium-content > .image-content:hover img,
-.tile-small-content > .image-content:hover img {
+.tile-large-content:hover img,
+.tile-medium-content:hover img,
+.tile-small-content:hover img {
 	display: none;
 }
 
-.image-content > .image {
+.image-content > img {
 	position: relative;
 	height: auto;
 	width: inherit;
 	top: 50%;
 	transform: translateY(-50%);
-	border-radius: 6px;
 }
 
 .teaser-item > .image-content {
