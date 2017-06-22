@@ -24,6 +24,7 @@ import DataTable from '../components/data-table/data-table.vue';
 import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
 import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
 import AddressInfo from '../components/address-info/address-info.vue';
+import FormFeedback from '../components/form-feedback/form-feedback.vue';
 
 
 export default {
@@ -52,13 +53,15 @@ export default {
 		FeedbackQuote,
 		BlogPostHeader,
 		DataTable,
-		AddressInfo	}
+		AddressInfo,
+		FormFeedback
+	}
 };
 </script>
 
 <template>
 	<body>
-		
+	
 		<page-header></page-header>
 		<top-bar/>
 		<content-wrapper>
@@ -66,8 +69,9 @@ export default {
 			UI Kit
 	
 			<breadcrumbs-navigation/>
-				
-			<address-info></address-info>			<tag-item></tag-item>
+	
+			<address-info></address-info>
+			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
 	
@@ -105,7 +109,8 @@ export default {
 			<share-bar></share-bar>
 	
 			<blog-post-header> </blog-post-header>
-
+			<form-feedback />
+	
 		</content-wrapper>
 	
 		<page-footer></page-footer>

@@ -1,0 +1,9 @@
+.feedback-section {
+	width: 770px;
+	height: 510px;
+	display: block;
+}
+
+.input-text, .input-url, .input-email {
+	margin-bottom: 20px;
+}

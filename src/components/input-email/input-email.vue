@@ -1,3 +1,4 @@
+<style src="./input-email.css" />
 <template>
-  <input type="text" name="email" id="email-field">
+	<input class="input-email" type="text" name="email" id="email-field">
 </template>
