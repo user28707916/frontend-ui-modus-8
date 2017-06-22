@@ -23,6 +23,7 @@ import ShareBar from '../components/share-bar/share-bar.vue';
 import DataTable from '../components/data-table/data-table.vue';
 import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
 import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
+import AddressInfo from '../components/address-info/address-info.vue';
 
 
 export default {
@@ -48,9 +49,10 @@ export default {
 		TeaserItem,
 		MotivationInfo,
 		ShareBar,
-		DataTable,
 		FeedbackQuote,
-		BlogPostHeader
+		BlogPostHeader,
+		DataTable,
+		AddressInfo
 	}
 };
 </script>
@@ -66,9 +68,11 @@ export default {
 	
 			<breadcrumbs-navigation/>
 	
-			<tag-item></tag-item>
+			<address-info></address-info>
+			<tag-item></tag-item> 
 	
 			<a href="">Open Sans</a>
+			<blockquote>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </blockquote>
 	
 			<LinkExternal></LinkExternal>
 			</br>
@@ -104,7 +108,7 @@ export default {
 			<share-bar></share-bar>
 	
 			<blog-post-header> </blog-post-header>
-
+	
 		</content-wrapper>
 	
 		<page-footer></page-footer>

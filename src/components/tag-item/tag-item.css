@@ -1,5 +1,4 @@
 .tag-item .item-menu {
-	margin-right: 20px;
 	font-size: 14px;
 	line-height: 30px;
 	background: #98a3a3;
@@ -8,8 +7,14 @@
 	display: inline-block;
 }
 
+.tag-item .item-menu:nth-child(-n+4) {
+	margin-right: 20px;
+}
+
 .tag-item .tag-design {
 	display: inline-block;
+	width: 600px;
+	
 }
 
 .tag-item a{
@@ -18,9 +23,8 @@
 	text-decoration: none;
 	color: #ffffff;
 	padding-left: 11px;
-	padding-right: 11px;
-	padding-bottom: 6px;
-    padding-top: 6px;
+	padding-right: 13px;
+	line-height: 30px;
 }
 
 .tag-item a:hover {
