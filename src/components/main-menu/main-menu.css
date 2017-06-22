@@ -18,7 +18,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		color: #fff;
-		padding: 5px 20px;
+		padding: 2px 20px;
 		line-height: 30px;
 	}
 	
@@ -50,7 +50,7 @@
 		background-color: #e5655d;
 		background-image: url(./arrow.png);
 		background-repeat: no-repeat;
-		background-position: 11px 14px;
+		background-position: 11px 11px;
 		margin-bottom: 5px;
 	}
 	
@@ -67,8 +67,8 @@
 		display: block;
 		text-decoration: none;
 		color: #fff;
-		padding-top: 5px;
-		padding-bottom: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
 		padding-left: 25px;
 		padding-right: 15px;
 		width: 190px;
@@ -87,5 +87,5 @@
 	.main-menu .item-portfolio, .main-menu .item-portfolio > .current {
 		background-image: url(./ul_arrow.png);
 		background-repeat: no-repeat;
-		background-position: 8px 15px;
+		background-position: 8px 13px;
 	}
