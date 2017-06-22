@@ -24,6 +24,7 @@ import DataTable from '../components/data-table/data-table.vue';
 import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
 import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
 import AddressInfo from '../components/address-info/address-info.vue';
+import FeatureItem from '../components/feature-item/feature-item.vue';
 
 
 export default {
@@ -52,7 +53,8 @@ export default {
 		FeedbackQuote,
 		BlogPostHeader,
 		DataTable,
-		AddressInfo
+		AddressInfo,
+		FeatureItem
 	}
 };
 </script>
@@ -108,6 +110,10 @@ export default {
 			<share-bar></share-bar>
 	
 			<blog-post-header> </blog-post-header>
+
+			<h4>Feature Item</h4>
+
+			<feature-item></feature-item>
 	
 		</content-wrapper>
 	

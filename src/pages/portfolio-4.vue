@@ -35,8 +35,8 @@ export default{
 			<tag-item class="tag-item-portfolio"> </tag-item>
 
 			<tiles-grid>
-				<tile-small> </tile-small>
-				<tile-small> </tile-small>
+				<tile-small text="1 small tile"> </tile-small>
+				<tile-small text="2 small tile"> </tile-small>
 				<tile-small> </tile-small>
 				<tile-small> </tile-small>
 				<tile-small> </tile-small>
