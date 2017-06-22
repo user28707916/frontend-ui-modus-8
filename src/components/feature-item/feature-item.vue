@@ -12,7 +12,7 @@
 <template>
 	<div class="feature-item">
 		<div class="feature-item-content">
-			<img src="./Images/thumb.png" alt="">
+			<img src="./images/thumb.png" alt="">
           	<h4>Suspendisse</h4>
           	<span> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </span>
 		</div>
