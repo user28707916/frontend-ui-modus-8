@@ -42,17 +42,28 @@
 }
 
 .page-footer .page-content-coll-one .phone {
-	   margin-right: 20px;
+	  font-family: 'Open Sans';
+	  margin-right: 20px;
 }
 
 .page-footer .page-content-coll-one .digits {
-       word-spacing: 5px;
+	  word-spacing: 5px;
+	  font-weight: 600;
+}
+
+.page-footer .page-content-coll-one .mailes {
+	  display: flex;
+	  color: #ffffff;
+      font-size: 20px;
 }
 
 .page-footer .page-content-coll-one .mail {
-      word-spacing: 20px;
-      color: #ffffff;
-      font-size: 20px;
+	  font-family: 'Open Sans';
+	  margin-right: 20px;
+}
+
+.page-footer .page-content-coll-one .mail-versus {
+	  font-weight: 600;
 }
 
 

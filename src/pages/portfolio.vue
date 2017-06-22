@@ -28,7 +28,7 @@ export default {
 	}
 };
 </script>
-<style src="../styles/common.css"/>
+
 <template>
 	<body>
 	
