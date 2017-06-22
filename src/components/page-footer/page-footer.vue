@@ -6,12 +6,15 @@
 	      <div class="content-footer">
 					<div class="page-content-coll-one tag-coll">
 						<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</div>
-						<div> 
-						<div class="phones">
-							<div class="phone">Phone:</div>
-							<div class="phone digits"> 182 2569 5896</div>
-						</div>
-							<div class="mail">e-mail: info@modu.versus</div>
+						 <div> 
+								<div class="phones">
+									<div class="phone">Phone:</div>
+									<div class="phone digits"> <i>182 2569 5896</i></div>
+								</div>
+								<div class="mailes">
+									<div class="mail">e-mail:</div>
+									<div class="mail-versus"> <i>info@modu.versus</i></div>
+								</div> 
 						</div>
 					</div>
 					<div class="page-content-coll-two tag-coll">
