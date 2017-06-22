@@ -4,7 +4,8 @@
 	export default {
 		components: {
 			LinkExternal
-		}
+		},
+		props: ['text']
 	};
 </script>
 
@@ -17,7 +18,7 @@
 			<div class="tile-medium-hover"> 
 				<button type="button" class="hover-button" />
 				<link-external></link-external>
-				<span> Lorem ipsum </span>
+				<div class="tile-medium-text">{{text}}</div>
 			</div> 
 		</div>
 	</div>
