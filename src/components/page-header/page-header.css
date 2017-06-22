@@ -17,6 +17,7 @@
 .header-menu {
 	position: absolute;
 	left: 300px;
+	top: 5px;
 }
 
 .header-search {

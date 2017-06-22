@@ -9,6 +9,7 @@
 		text-align: center;
 		width: auto;
 		height: 30px;
+		box-sizing: border-box;
 	}
 	
 	.main-menu .menu-item > .link {
@@ -17,7 +18,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		color: #fff;
-		padding: 10px 20px;
+		padding: 5px 20px;
 		line-height: 30px;
 	}
 	
@@ -27,9 +28,10 @@
 		border-bottom: 3px solid #e2534b;
 	}
 	
-	.main-menu .current:visited {
+	.main-menu .current {
 		background-color: #62a29e;
 		border-bottom: 3px solid #528b86;
+		border-radius: 5px;
 	}
 	
 	.main-menu .sub-menu {
@@ -48,7 +50,7 @@
 		background-color: #e5655d;
 		background-image: url(./arrow.png);
 		background-repeat: no-repeat;
-		background-position: 11px 18px;
+		background-position: 11px 14px;
 		margin-bottom: 5px;
 	}
 	
@@ -59,17 +61,14 @@
 	.main-menu .menu-list > .menu-item:hover .sub-menu {
 		display: block;
 	}
-	/*.menu-list .link:hover .sub-menu {
-		display: block;
-	}*/
 	
 	.main-menu .sub-menu .link-sub {
 		box-sizing: border-box;
 		display: block;
 		text-decoration: none;
 		color: #fff;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		padding-left: 25px;
 		padding-right: 15px;
 		width: 190px;
@@ -85,8 +84,8 @@
 		color: #fff;
 	}
 	
-	.main-menu .item-portfolio {
+	.main-menu .item-portfolio, .main-menu .item-portfolio > .current {
 		background-image: url(./ul_arrow.png);
 		background-repeat: no-repeat;
-		background-position: 8px 20px;
+		background-position: 8px 15px;
 	}
