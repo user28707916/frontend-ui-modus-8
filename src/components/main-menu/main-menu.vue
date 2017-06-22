@@ -7,10 +7,10 @@
 				<router-link to="/index" class="link" active-class="current">Main</router-link>
 			</li>
 			<li class="menu-item">
-				<router-link to="/about" class="link" active-class="current">Contacts</router-link>
+				<router-link to="/contacts" class="link" active-class="current">Contacts</router-link>
 			</li>
 			<li class="menu-item">
-				<router-link to="/services" class="link" active-class="current">Blog</router-link>
+				<router-link to="/blog" class="link" active-class="current">Blog</router-link>
 			</li>
 			<li class="menu-item item-portfolio">
 				<router-link to="/portfolio" class="link" active-class="current">Portfolio</router-link>

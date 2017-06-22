@@ -23,7 +23,6 @@ export default {
 				<slot> Duis dapidus aliquam mi, eget euismod sem scelerisque ut.</slot>
 			</h3>
 		</div>
-		<div class="image-file-container"></div>
 		<div class="datum">
 			<slot>25 May 2013</slot>,
 		</div>
