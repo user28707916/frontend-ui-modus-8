@@ -2,7 +2,7 @@
 	position: relative;
 	width: 900px;
 	height: 70px;
-	margin-bottom: 35px;
+	margin-bottom: 40px;
 }
 
 .blog-post-header div {
@@ -13,7 +13,7 @@
 	margin-left: 100px;
 }
 
-.blog-post-header .datum {
+.blog-post-header .datum-header {
 	margin-left: 100px;
 	margin-top: 10px;
 	margin-right: 5px;

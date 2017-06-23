@@ -19,11 +19,11 @@ export default {
 	<content-wrapper>
 	<div class="blog-post-header">
 		<div class="blog-title">
-			<h3>
+			<h2>
 				<slot> Duis dapidus aliquam mi, eget euismod sem scelerisque ut.</slot>
-			</h3>
+			</h2>
 		</div>
-		<div class="datum">
+		<div class="datum-header">
 			<slot>25 May 2013</slot>,
 		</div>
 		<div class="author">
