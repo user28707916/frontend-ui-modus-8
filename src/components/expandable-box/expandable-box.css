@@ -1,0 +1,8 @@
+.expandable-box {
+	position: relative;
+	height: 50px;
+	width: 870px;
+	background: #f8f8f8;
+	box-shadow: 0 4px 4px #e5e6e6;
+	border-radius: 5px;
+}

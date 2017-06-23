@@ -26,6 +26,8 @@ import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue'
 import AddressInfo from '../components/address-info/address-info.vue';
 import FeatureItem from '../components/feature-item/feature-item.vue';
 import BlogPost from '../components/blog-post/blog-post.vue';
+import ExpandableBox from '../components/expandable-box/expandable-box.vue';
+
 
 
 export default {
@@ -56,7 +58,8 @@ export default {
 		DataTable,
 		AddressInfo,
 		FeatureItem,
-		BlogPost
+		BlogPost,
+		ExpandableBox
 	}
 };
 </script>
@@ -81,8 +84,11 @@ export default {
 			<LinkExternal></LinkExternal>
 			</br>
 			<motivation-info></motivation-info>
+			<expandable-box></expandable-box>
+			</br>
 			<button-control></button-control>
 			<tile-small>
+			expandable-box
 			</tile-small>
 			<feedback-quote/>
 	
