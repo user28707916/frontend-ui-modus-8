@@ -22,14 +22,43 @@
 	left: 0;
 	text-transform: uppercase;
 	color: #7f8c8c;
-	padding: 0 15px;
-	line-height: 35px;
+	padding: 10px 15px;
+}
+
+.blog-post .datum-month {
+	font-size: 20px;
 }
 
 .datum-date {
 	display: block;
-	font-family: OpenSans;
 	font-weight: bold;
 	text-align: center;
+	margin-left: -10px;
 	font-size: 30px;
+	margin-top: 5px;
+}
+
+
+/*.blog-post .blog-image-content {
+	position: absolute;
+	top: 0;
+	left: 100px;
+	width: 770px;
+	height: 300px;
+	border-bottom: 3px solid #e5e6e6;
+}*/
+
+.blog-post .blog-post-link a {
+	text-decoration-line: none;
+	margin-left: 100px;
+}
+
+.blog-post .blog-post-link::after {
+	display: inline-block;
+	vertical-align: middle;
+	width: 12px;
+	height: 13px;
+	margin-left: 10px;
+	content: "";
+	background: url(./arrow-blog.png) no-repeat 0 0;
 }
