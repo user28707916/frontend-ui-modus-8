@@ -28,8 +28,6 @@ import FeatureItem from '../components/feature-item/feature-item.vue';
 import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 
-
-
 export default {
 	components: {
 		PageHeader,
