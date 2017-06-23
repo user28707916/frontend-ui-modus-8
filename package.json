@@ -22,7 +22,9 @@
 		"test": "neutrino test",
 		"test:watch": "neutrino test --watch",
 		"coverage": "neutrino test --coverage",
-		"lint": "eslint --ext .js,.jsx,.html src/"
+		"lint": "eslint --ext .js,.jsx,.html src/",
+		"precommit": "npm run lint",
+		"prepush": "npm test"
 	},
 	"neutrino": {
 		"use": [
@@ -33,12 +35,13 @@
 		"jquery": "~3.2.1",
 		"normalize-css": "~2.3.1",
 		"vue": "~2.3.3",
-		"vue-router": "~2.6.0"
+		"vue-router": "^2.6.0"
 	},
 	"devDependencies": {
+		"husky": "0.13.4",
+		"neutrino-preset-fabrika": "git://github.com/fabrikaodua/neutrino-preset-fabrika.git",
 		"stylelint": "7.11.0",
-		"stylelint-config-standard": "16.0.0",
-		"neutrino-preset-fabrika": "git://github.com/fabrikaodua/neutrino-preset-fabrika"
+		"stylelint-config-standard": "16.0.0"
 	},
 	"engines": {
 		"node": ">=6.9.0",

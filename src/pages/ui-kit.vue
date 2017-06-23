@@ -24,6 +24,7 @@ import DataTable from '../components/data-table/data-table.vue';
 import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
 import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
 import AddressInfo from '../components/address-info/address-info.vue';
+import FeatureItem from '../components/feature-item/feature-item.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
 
 
@@ -54,6 +55,7 @@ export default {
 		BlogPostHeader,
 		DataTable,
 		AddressInfo,
+		FeatureItem,
 		FormFeedback
 	}
 };
@@ -74,6 +76,7 @@ export default {
 			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
+			<blockquote>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </blockquote>
 	
 			<LinkExternal></LinkExternal>
 			</br>
@@ -109,6 +112,10 @@ export default {
 			<share-bar></share-bar>
 	
 			<blog-post-header> </blog-post-header>
+	
+			<h4>Feature Item</h4>
+	
+			<feature-item></feature-item>
 			<form-feedback />
 	
 		</content-wrapper>

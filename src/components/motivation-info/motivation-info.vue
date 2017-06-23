@@ -8,10 +8,9 @@
 		<span>Capacitance cascading integer reflective interface data development high bus cache dithering transponder.</span>
 	  </div>
 	  <div class="allwindows">
-	  	<!--<div class="motivation-info-frontWindow transformed"></div>-->
-	  	<div class="rearWindowLeft"></div>
-	  	<div class="rearWindowRigth"></div>
-		<div class="rearWindowLeft transformed"></div>
+	  	<div class="front-window transformed-left"><img src="" alt="Your Image"></div>
+	  	<div class="front-window transformed-right"><img src="" alt="Your Image"></div> 
+		<div class="front-window"><img src="" alt="Your Image"></div> 
 	  </div>
     </div>
 </template>

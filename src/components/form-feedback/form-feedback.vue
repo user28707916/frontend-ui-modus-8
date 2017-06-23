@@ -19,9 +19,15 @@ export default {
 <style src="./form-feedback.css" />
 <template>
 	<form-feedback class="feedback-section">
-		<input-text />
-		<input-url />
-		<input-email />
+		<form-label title="Name">
+			<input-text /> Name
+		</form-label>
+		<form-label title="E-mail">
+			<input-url /> E-mail
+		</form-label>
+		<form-label title="Web site">
+			<input-email /> Web site
+		</form-label>
 		<input-multiline />
 	</form-feedback>
 </template>

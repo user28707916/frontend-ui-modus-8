@@ -2,11 +2,12 @@ body {
     background: #f3f3f3;
     color: rgb(119, 119, 119);
     cursor: default;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif,'Helvetica Neue', Arial, Helvetica;
     font-size: 13px;
     font-style: normal;
     font-weight: normal;
     line-height: 21px;
+
 }
 
 a {
@@ -77,6 +78,6 @@ hr {
 
 blockquote {
     border-left: 5px solid #7f8c8c;
-    margin: 1.5em 25px;
-    padding: 0.5em 10px;
+    margin-right: 1.5em 25px;
+    padding: 1.5em 25px;
 }

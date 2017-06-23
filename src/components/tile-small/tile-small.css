@@ -40,8 +40,7 @@
 	background: url(./images/eye.png);
 }
 
-.tile-small-hover span {
-	display: block;
+.tile-small-hover .tile-small-text {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;

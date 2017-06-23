@@ -2,7 +2,5 @@
 
 <template>
 	<label class="form-label">
-		<slot>
-			"text"</slot>
 	</label>
 </template>

@@ -1,12 +1,12 @@
 /*_________pagination_________*/
 
-.pagination {
+.pagination-menu {
 	width: 570px;
 	padding: 10px;
 	white-space: nowrap;
 }
 
-.pagination .navlink {
+.pagination-menu .navlink {
 	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 16px;
@@ -25,15 +25,19 @@
 	margin-left: 10px;
 }
 
+.pagination-menu .pages {
+	width: 440px;
+}
+
 
 /*_________trasformation________*/
 
-.pagination .active {
+.pagination-menu .active {
 	background-color: #649792;
 	/*border-bottom: 3px solid #528b86;*/
 }
 
-.pagination .navlink:hover {
+.pagination-menu .navlink:hover {
 	background-color: #e5655d;
 	/*border-bottom: 3px solid #e2534b*/
 }
@@ -41,14 +45,14 @@
 
 /*________pointers_________*/
 
-.pagination .prev {
+.pagination-menu .prev {
 	margin-right: 10px;
 	background-image: url(./left_arrow.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
 
-.pagination .next {
+.pagination-menu .next {
 	margin-left: 20px;
 	background-image: url(./right_arrow.png);
 	background-repeat: no-repeat;

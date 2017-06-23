@@ -37,8 +37,8 @@ export default {
 			
 
 			<tiles-grid>
-				<tile-medium> </tile-medium>
-				<tile-medium> </tile-medium>
+				<tile-medium text="1 medium tile"> </tile-medium>
+				<tile-medium text="2 medium tile"> </tile-medium>
 				<tile-medium> </tile-medium>
 				<tile-medium> </tile-medium>
 				<tile-medium> </tile-medium>
