@@ -2,8 +2,8 @@ body {
     background: #f3f3f3;
     color: rgb(119, 119, 119);
     cursor: default;
-    font-family: 'Open Sans',sans-serif,'Helvetica Neue', Arial, Helvetica;
-    font-size: 13px;
+    font-family: 'Open Sans', sans-serif,'PT Sans' , Helvetica , 'Roboto' , Arial;
+	font-size: 13px;
     font-style: normal;
     font-weight: normal;
     line-height: 21px;
@@ -22,7 +22,7 @@ a:hover {
 
 p {
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif,'PT Sans' , Helvetica , 'Roboto' , Arial;
     font-style: normal;
     color: #7f8c8c;
     line-height: 1.6em;
@@ -30,7 +30,7 @@ p {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif,'PT Sans' , Helvetica , 'Roboto' , Arial;
     font-weight: 600;
     font-size: 20pt;
     font-style: normal;
@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif,'PT Sans' , Helvetica , 'Roboto' , Arial;
     font-weight: 600;
     font-size: 24pt;
     font-style: normal;
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif,'PT Sans' , Helvetica , 'Roboto' , Arial;
     font-weight: 700;
     font-size: 20pt;
     font-style: normal;
@@ -61,7 +61,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif,'PT Sans' , Helvetica , 'Roboto' , Arial;
     font-weight: 600;
     font-size: 20pt;
     font-style: normal;

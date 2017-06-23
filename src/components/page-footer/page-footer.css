@@ -43,10 +43,15 @@
 
 .page-footer .page-content-coll-one .phone {
 	  font-family: 'Open Sans';
+      font-style: normal;
+	  font-size: 13px;
 	  margin-right: 20px;
 }
 
 .page-footer .page-content-coll-one .digits {
+	  font-family: 'Open Sans';
+	  font-style: italic;
+	  font-size: 20px;
 	  word-spacing: 5px;
 	  font-weight: 600;
 }
@@ -59,11 +64,16 @@
 
 .page-footer .page-content-coll-one .mail {
 	  font-family: 'Open Sans';
+      font-style: normal;
+	  font-size: 13px;
 	  margin-right: 20px;
 }
 
 .page-footer .page-content-coll-one .mail-versus {
+	  font-family: 'Open Sans';
+	  font-style: italic;
 	  font-weight: 600;
+	  font-size: 20px;
 }
 
 
@@ -127,7 +137,9 @@
 
 .page-footer .from {
 	  position: absolute;
-	  left: 0;
+	  font-family: 'Open Sans';
+	  font-style: italic;
+      left: 0;
 	  top: 0;
 }
 

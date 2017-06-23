@@ -1,10 +1,10 @@
-a.link-external {
+.link-external {
 	position: relative;
 	box-sizing: border-box;
 	display: inline-block;
-	padding-left: 40px;
-	padding-top: 7px;
-	line-height: 24px;
+	vertical-align: top;
+	padding-left: 50px;
+	line-height: 40px;
 	text-decoration: none;
 	height: 40px;
 	width: auto;
@@ -16,8 +16,9 @@ a.link-external {
 	white-space: nowrap;
 }
 
-a.link-external::before {
-	content: url('link-external-green.png');
+.link-external::before {
+	content: '';
+	background: url(link-external-green.png) no-repeat 0 0;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -25,10 +26,15 @@ a.link-external::before {
 	width: 40px;
 }
 
-a.link-external:hover {
+.link-external:hover {
 	color: #e2534b;
 }
 
-a.link-external:hover:before {
-	content: url('link-external-red.png');
+.link-external:hover::before {
+	content: '';
+	background: url(link-external-red.png) no-repeat 0 0;
+}
+
+.link-external.empty {
+	padding-left: 40px;
 }

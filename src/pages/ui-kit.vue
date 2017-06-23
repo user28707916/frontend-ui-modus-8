@@ -25,8 +25,8 @@ import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
 import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
 import AddressInfo from '../components/address-info/address-info.vue';
 import FeatureItem from '../components/feature-item/feature-item.vue';
-import FormFeedback from '../components/form-feedback/form-feedback.vue';
-
+import BlogPost from '../components/blog-post/blog-post.vue';
+import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 
 export default {
 	components: {
@@ -56,7 +56,8 @@ export default {
 		DataTable,
 		AddressInfo,
 		FeatureItem,
-		FormFeedback
+		BlogPost,
+		ExpandableBox
 	}
 };
 </script>
@@ -73,7 +74,7 @@ export default {
 			<breadcrumbs-navigation/>
 	
 			<address-info></address-info>
-			<tag-item></tag-item>
+			<tag-item></tag-item> 
 	
 			<a href="">Open Sans</a>
 			<blockquote>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </blockquote>
@@ -81,8 +82,11 @@ export default {
 			<LinkExternal></LinkExternal>
 			</br>
 			<motivation-info></motivation-info>
+			<expandable-box></expandable-box>
+			</br>
 			<button-control></button-control>
 			<tile-small>
+			expandable-box
 			</tile-small>
 			<feedback-quote/>
 	
@@ -112,11 +116,13 @@ export default {
 			<share-bar></share-bar>
 	
 			<blog-post-header> </blog-post-header>
-	
+
 			<h4>Feature Item</h4>
-	
+
 			<feature-item></feature-item>
-			<form-feedback />
+
+			<h4>BLOG POST </h4>
+			<blog-post/>
 	
 		</content-wrapper>
 	
