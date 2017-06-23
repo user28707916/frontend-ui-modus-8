@@ -25,6 +25,7 @@ import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
 import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
 import AddressInfo from '../components/address-info/address-info.vue';
 import FeatureItem from '../components/feature-item/feature-item.vue';
+import BlogPost from '../components/blog-post/blog-post.vue';
 
 
 export default {
@@ -54,7 +55,8 @@ export default {
 		BlogPostHeader,
 		DataTable,
 		AddressInfo,
-		FeatureItem
+		FeatureItem,
+		BlogPost
 	}
 };
 </script>
@@ -114,6 +116,9 @@ export default {
 			<h4>Feature Item</h4>
 
 			<feature-item></feature-item>
+
+			<h4>BLOG POST </h4>
+			<blog-post/>
 	
 		</content-wrapper>
 	

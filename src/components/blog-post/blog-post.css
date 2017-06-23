@@ -1,0 +1,35 @@
+.blog-post {
+	position: relative;
+	width: 870px;
+	height: 590px;
+	border-bottom: 3px solid #e5e6e6;
+	margin-bottom: 40px;
+}
+
+.blog-post .blog-post-paragraph {
+	margin-left: 100px;
+}
+
+.blog-post .datum {
+	box-sizing: border-box;
+	width: 70px;
+	height: 73px;
+	background-color: #fff;
+	border-radius: 5px;
+	border-bottom: 3px solid #e5e6e6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-transform: uppercase;
+	color: #7f8c8c;
+	padding: 0 15px;
+	line-height: 35px;
+}
+
+.datum-date {
+	display: block;
+	font-family: OpenSans;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+}
