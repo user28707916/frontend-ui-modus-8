@@ -1,15 +1,16 @@
 <style src="./tag-item.css" />
 
 <template>
-	 <nav class="tag-item">
-		<div class="tag-design">
-				<div class="item-menu"><a href="#">ALL</a></div>
-				<div class="item-menu"><a href="#">WEB DESIGN</a></div>
-				<div class="item-menu logo"><a href="#">LOGO DESIGN</a>
+	 <tag-item class="tag-item">
+		<tag-item class="tag-design">
+				<tag-item class="item-menu"><a href="#">ALL</a></tag-item>
+				<tag-item class="item-menu"><a href="#">WEB DESIGN</a></tag-item>
+				<tag-item class="item-menu logo"><a href="#">LOGO DESIGN</a>
 				    <slot></slot>
-				</div>
-				<div class="item-menu"><a href="#">PHOTOGRAPHY</a></div>
-				<div class="item-menu"><a href="#">WORDPRESS</a></div>
-		</div> 
-	 </nav>
+				</tag-item>
+				<tag-item class="item-menu"><a href="#">PHOTOGRAPHY</a></tag-item>
+				<tag-item active class="item-menu"><a href="#">WORDPRESS</a></tag-item>
+		</tag-item> 
+	 </tag-item>
 </template>
+
