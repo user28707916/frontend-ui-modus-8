@@ -1,6 +1,6 @@
 .motivation-info {
 	position: relative;
-	width: 1172px;
+	width: 1170px;
 	height: 555px;
 	margin-bottom: 55px;
 	text-align: center;
@@ -74,14 +74,14 @@
 
 .motivation-info .front-window.transformed-left {
 	position: absolute;
-	left: -99px;
+	left: -100px;
 	transform: scale(0.65, 0.65);
 	background: #b0b8b9;
 }
 
 .motivation-info .front-window.transformed-right {
 	position: absolute;
-	left: 701px;
+	left: 700px;
 	transform: scale(0.65, 0.65);
 	background: #b0b8b9;
 }
