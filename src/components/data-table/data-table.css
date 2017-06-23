@@ -10,17 +10,17 @@
 
 .data-table th {
 	background: #ececec;
-	padding-left: 15px;
+	padding: 5px 15px 5px 15px;
 	box-shadow: 0 3px #e5e6e6;
 	border-right: 1px solid #ddd;
 	text-align: left;
 }
 
-.data-table .firstmain-col {
+.data-table th:first-child {
 	border-radius: 5px 0 0;
 }
 
-.data-table .lastmain-col {
+.data-table th:last-of-type {
 	border-radius: 0 5px 0 0;
 	border-right: none;
 }
@@ -29,8 +29,9 @@
 	border-right: 1px solid #ddd;
 	border-bottom: 1px solid #e5e6e6;
 	padding-left: 15px;
+	padding-right: 15px;
 }
 
-.data-table .lastcell {
+.data-table td:last-of-type {
 	border-right: none;
 }
