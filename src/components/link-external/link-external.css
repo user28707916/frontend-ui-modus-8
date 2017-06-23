@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 40px;
+	padding-left: 50px;
 	line-height: 40px;
 	text-decoration: none;
 	height: 40px;
@@ -35,6 +35,6 @@
 	background: url(link-external-red.png);
 }
 
-.link-external.empty {
-	margin-right: 10px;
+.link-external:empty {
+	padding-left: 40px;
 }
