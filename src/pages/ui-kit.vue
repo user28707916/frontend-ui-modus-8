@@ -27,6 +27,8 @@ import AddressInfo from '../components/address-info/address-info.vue';
 import FeatureItem from '../components/feature-item/feature-item.vue';
 import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
+import FormFeedback from '../components/form-feedback/form-feedback.vue';
+
 
 export default {
 	components: {
@@ -57,7 +59,8 @@ export default {
 		AddressInfo,
 		FeatureItem,
 		BlogPost,
-		ExpandableBox
+		ExpandableBox,
+		FormFeedback
 	}
 };
 </script>
@@ -74,7 +77,7 @@ export default {
 			<breadcrumbs-navigation/>
 	
 			<address-info></address-info>
-			<tag-item></tag-item> 
+			<tag-item></tag-item>
 	
 			<a href="">Open Sans</a>
 			<blockquote>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </blockquote>
@@ -86,7 +89,7 @@ export default {
 			</br>
 			<button-control></button-control>
 			<tile-small>
-			expandable-box
+				expandable-box
 			</tile-small>
 			<feedback-quote/>
 	
@@ -116,13 +119,14 @@ export default {
 			<share-bar></share-bar>
 	
 			<blog-post-header> </blog-post-header>
-
+	
 			<h4>Feature Item</h4>
-
+	
 			<feature-item></feature-item>
-
+	
 			<h4>BLOG POST </h4>
 			<blog-post/>
+			<form-feedback />
 	
 		</content-wrapper>
 	
