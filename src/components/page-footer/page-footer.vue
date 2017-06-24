@@ -58,7 +58,7 @@ export default {
 								<div class="member">
 											<ul class="blog-from">
 												<li class="from">from the</li>
-												<li class="blog"><strong>BLOG</strong></li>
+												<li class="blog">BLOG</li>
 											</ul>
 											<div class="image-one"><img src="./page-png/foto.png" alt="">
 											<div class="text-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit

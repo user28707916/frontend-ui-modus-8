@@ -151,6 +151,9 @@
 }
 
 .page-footer .blog {
+	  font-family: 'Open Sans';
+	  font-style: normal;
+	  font-weight: 700;
       position: absolute;
 	  left: 80px;
 }
