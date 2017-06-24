@@ -19,7 +19,7 @@ export default {
 	<content-wrapper>		
 
 		<h1 class="naiming">
-			<slot>Blog</slot>
+			Blog
 		</h1>
 		<breadcrumbs-navigation class="breadcrumbs"></breadcrumbs-navigation>
 		</content-wrapper>
