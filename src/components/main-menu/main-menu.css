@@ -85,8 +85,8 @@
 		color: #fff;
 	}
 	
-	.main-menu .item-portfolio, .main-menu .item-portfolio > .current {
+	.main-menu .item-portfolio, .main-menu .item-portfolio > .current, .main-menu .item-portfolio .link:hover {
 		background-image: url(./ul_arrow.png);
 		background-repeat: no-repeat;
-		background-position: 8px 13px;
+		background-position: 5px 11px;
 	}
