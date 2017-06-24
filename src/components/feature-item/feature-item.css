@@ -26,8 +26,6 @@
 }
 
 .feature-item-content h4 {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 800;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -36,7 +34,6 @@
 }
 
 .button-control {
-	font-family: 'Open Sans';
-	font-style: normal;
+	font-family: inherit;
 	font-weight: 600;
 }

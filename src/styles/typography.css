@@ -7,7 +7,86 @@ body {
     font-style: normal;
     font-weight: normal;
     line-height: 21px;
+}
 
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-style: normal;
+	font-weight: 400;
+	src: local('OpenSansRegular'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
+		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-style: normal;
+	font-weight: 600;
+	src: local('OpenSansRegular'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
+		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-style: normal;
+	font-weight: 700;
+	src: local('OpenSansRegular'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
+		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-style: normal;
+	font-weight: 800;
+	src: local('OpenSansRegular'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
+		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-style: italic;
+	font-weight: 400;
+	src: local('OpenSansRegular'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
+		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-style: italic;
+	font-weight: 600;
+	src: local('OpenSansRegular'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
+		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-style: italic;
+	font-weight: 700;
+	src: local('OpenSansRegular'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
+		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-style: italic;
+	font-weight: 800;
+	src: local('OpenSansRegular'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
+		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
 }
 
 a {

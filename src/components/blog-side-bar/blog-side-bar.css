@@ -5,8 +5,6 @@
 /*Categorius---------------------------------------------------------------------------*/
 
 .blog-side-bar .categories {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 800;
 	color: #7f8c8c;
 	margin: 0;
@@ -17,8 +15,6 @@
 
 	
 .blog-unordered  .blog-ipsum {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 600;
 	list-style-type: none;
 	font-size: 14px;
@@ -37,8 +33,6 @@
 /*Recent-post---------------------------------------------------------------------------*/
 
 .blog-side-bar .recent-post {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 800;
     color: #7f8c8c;
 	margin: 0;
@@ -56,8 +50,6 @@
 }
 
 .recent-post-arrow .post-arrow {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 600;
 	list-style-type: none;
 	font-size: 14px;
@@ -65,8 +57,6 @@
 }
 
 .recent-post-arrow .text {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 600;
 	list-style-type: none;
 	font-size: 14px;
@@ -87,8 +77,6 @@
 /*Tags---------------------------------------------------------------------------*/
 
 .blog-side-bar .tags {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 800;
     color: #7f8c8c;
 	margin: 0;

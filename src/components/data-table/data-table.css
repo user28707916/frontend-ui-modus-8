@@ -9,8 +9,6 @@
 }
 
 .data-table th {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 800;
 	font-size: 16px;
 	color: #7f8c8c;
@@ -31,6 +29,7 @@
 }
 
 .data-table td {
+	color: #777777;
 	font-size: 14px;
 	border-right: 1px solid #ddd;
 	border-bottom: 1px solid #e5e6e6;

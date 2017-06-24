@@ -8,14 +8,10 @@
 }
 
 .teaser-item > h4 {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
+    font-weight: 600;
 }
 
 .teaser-item > .link-external {
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 600;
 	position: absolute;
 	left: 600px;

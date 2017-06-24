@@ -42,14 +42,12 @@
 }
 
 .page-footer .page-content-coll-one .phone {
-	  font-family: 'Open Sans';
-      font-style: normal;
 	  font-size: 13px;
 	  margin-right: 20px;
 }
 
 .page-footer .page-content-coll-one .digits {
-	  font-family: 'Open Sans';
+	  font-family: 'Open Sans', sans-serif;
 	  font-style: italic;
 	  font-size: 20px;
 	  word-spacing: 5px;
@@ -63,14 +61,12 @@
 }
 
 .page-footer .page-content-coll-one .mail {
-	  font-family: 'Open Sans';
-      font-style: normal;
 	  font-size: 13px;
 	  margin-right: 20px;
 }
 
 .page-footer .page-content-coll-one .mail-versus {
-	  font-family: 'Open Sans';
+	  font-family: 'Open Sans', sans-serif;
 	  font-style: italic;
 	  font-weight: 600;
 	  font-size: 20px;
@@ -87,9 +83,7 @@
 .page-footer .page-content-coll-two .company {
       color: #000000;
       font-size: 20px;
-      font-family: 'Open Sans';
-	  font-style: normal;
-	  font-weight: 700;
+      font-weight: 700;
 	  opacity: 0.3;
 }
 .page-footer .page-content-coll-two .company-one {
@@ -111,8 +105,6 @@
 }
 
 .page-footer .page-content-coll-free .community {
-	  font-family: 'Open Sans';
-	  font-style: normal;
 	  font-weight: 700;
 	  font-size: 20px;
       color: #000000;
@@ -134,7 +126,6 @@
 
 
 .page-footer .blog-from {
-	  font-family: 'Open Sans';
 	  color: #ffffff;
 	  font-size: 20px;
 	  padding-bottom: 24px;
@@ -144,15 +135,13 @@
 
 .page-footer .from {
 	  position: absolute;
-	  font-family: 'Open Sans';
+	  font-family: 'Open Sans', sans-serif;
 	  font-style: italic;
       left: 0;
 	  top: 0;
 }
 
 .page-footer .blog {
-	  font-family: 'Open Sans';
-	  font-style: normal;
 	  font-weight: 700;
       position: absolute;
 	  left: 80px;
@@ -175,12 +164,10 @@
 .page-footer .page-content-coll-four .text {
       margin-top: 35px; 
 	  color: #ffffff;
-	  font-family: 'Open Sans';
 }
 
 .page-footer .page-content-coll-four .text-one {
 	  color: #ffffff;
-	  font-family: 'Open Sans';
 }
 
 
