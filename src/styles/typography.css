@@ -15,8 +15,7 @@ body {
 	font-weight: 400;
 	src: local('OpenSansRegular'),
 	     url('/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
-	     url('/fonts/OpenSansRegular/OpenSansRegular.eot') format('eot'),
-		 url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
+	     url('/fonts/OpenSansRegular/OpenSansRegular.ttf') format('ttf');
 		 unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
@@ -26,8 +25,7 @@ body {
 	font-weight: 600;
 	src: local('OpenSansSemiBold'),
 	     url('/fonts/OpenSansSemiBold/OpenSansSemiBold.woff') format('woff'),
-	     url('/fonts/OpenSansSemiBold/OpenSansSemiBold.eot') format('eot'),
-		 url('/fonts/OpenSansSemiBold/OpenSansSemiBold.ttf') format('ttf');
+	     url('/fonts/OpenSansSemiBold/OpenSansSemiBold.ttf') format('ttf');
 		 unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
@@ -37,8 +35,7 @@ body {
 	font-weight: 700;
 	src: local('OpenSansBold'),
 	     url('/fonts/OpenSansBold/OpenSansBold.woff') format('woff'),
-	     url('/fonts/OpenSansBold/OpenSansBold.eot') format('eot'),
-		 url('/fonts/OpenSansBold/OpenSansBold.ttf') format('ttf');
+	     url('/fonts/OpenSansBold/OpenSansBold.ttf') format('ttf');
 		 unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
@@ -48,8 +45,7 @@ body {
 	font-weight: 800;
 	src: local('OpenSansExtraBold'),
 	     url('/fonts/OpenSansExtraBold/OpenSansExtraBold.woff') format('woff'),
-	     url('/fonts/OpenSansExtraBold/OpenSansExtraBold.eot') format('eot'),
-		 url('/fonts/OpenSansExtraBold/OpenSansExtraBold.ttf') format('ttf');
+	     url('/fonts/OpenSansExtraBold/OpenSansExtraBold.ttf') format('ttf');
 		 unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
@@ -59,8 +55,7 @@ body {
 	font-weight: 400;
 	src: local('OpenSansItalic'),
 	     url('/fonts/OpenSansItalic/OpenSansItalic.woff') format('woff'),
-	     url('/fonts/OpenSansItalic/OpenSansItalic.eot') format('eot'),
-		 url('/fonts/OpenSansItalic/OpenSansItalic.ttf') format('ttf');
+	     url('/fonts/OpenSansItalic/OpenSansItalic.ttf') format('ttf');
 		 unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
@@ -70,8 +65,7 @@ body {
 	font-weight: 600;
 	src: local('OpenSansSemiBoldItalic'),
 	     url('/fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff') format('woff'),
-	     url('/fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot') format('eot'),
-		 url('/fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf') format('ttf');
+	     url('/fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf') format('ttf');
 		 unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
@@ -80,9 +74,8 @@ body {
 	font-style: normal;
 	font-weight: 700;
 	src: local('OpenSansBoldItalic'),
-	      url('/fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff') format('woff'),
-	     url('/fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot') format('eot'),
-		 url('/fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf') format('ttf');
+	     url('/fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff') format('woff'),
+	     url('/fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf') format('ttf');
 		 unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
@@ -92,8 +85,7 @@ body {
 	font-weight: 800;
 	src: local('OpenSansExtraBoldItalic'),
 	     url('/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff') format('woff'),
-	     url('/fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot') format('eot'),
-		 url('/fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf') format('ttf');
+	     url('/fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf') format('ttf');
 		 unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
