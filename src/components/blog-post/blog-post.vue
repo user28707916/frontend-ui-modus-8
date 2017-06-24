@@ -21,9 +21,7 @@ export default {
 	<div class="blog-post">
 		<div class="datum">
 			<span class="datum-month"> May</span>
-		<span class="datum-date">
-			26
-		</span>
+		<span class="datum-date">26</span>
 		</div>
 
 
