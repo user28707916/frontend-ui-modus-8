@@ -5,6 +5,9 @@
 /*Categorius---------------------------------------------------------------------------*/
 
 .blog-side-bar .categories {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
 	color: #7f8c8c;
 	margin: 0;
 	padding: 0;
@@ -14,6 +17,9 @@
 
 	
 .blog-unordered  .blog-ipsum {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
 	list-style-type: none;
 	font-size: 14px;
 	color: #e2534b;
@@ -31,6 +37,9 @@
 /*Recent-post---------------------------------------------------------------------------*/
 
 .blog-side-bar .recent-post {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
     color: #7f8c8c;
 	margin: 0;
 	padding: 0;
@@ -47,14 +56,20 @@
 }
 
 .recent-post-arrow .post-arrow {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
 	list-style-type: none;
 	font-size: 14px;
 	color: #e2534b;
 }
 
 .recent-post-arrow .text {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
 	list-style-type: none;
-	font-size: 12px;
+	font-size: 14px;
 	padding-left: 31px;
 	color: #e2534b;
 }
@@ -72,6 +87,9 @@
 /*Tags---------------------------------------------------------------------------*/
 
 .blog-side-bar .tags {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
     color: #7f8c8c;
 	margin: 0;
 	padding: 0;
@@ -114,6 +132,9 @@
 /*Archive---------------------------------------------------------------------------*/
 
 .blog-side-bar .archive {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
 	color: #7f8c8c;
 	padding-bottom: 22px;
     font-size: 16px;

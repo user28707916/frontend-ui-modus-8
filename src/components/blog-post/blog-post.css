@@ -31,9 +31,10 @@
 
 .datum-date {
 	display: block;
-	font-weight: bold;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
 	text-align: center;
-	margin-left: -10px;
 	font-size: 30px;
 	margin-top: 5px;
 }

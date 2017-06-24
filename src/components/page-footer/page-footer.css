@@ -85,9 +85,12 @@
 }
 
 .page-footer .page-content-coll-two .company {
-      color: #777777;
+      color: #000000;
       font-size: 20px;
-
+      font-family: 'Open Sans';
+	  font-style: normal;
+	  font-weight: 700;
+	  opacity: 0.3;
 }
 .page-footer .page-content-coll-two .company-one {
       font-size: 13px;
@@ -108,8 +111,12 @@
 }
 
 .page-footer .page-content-coll-free .community {
+	  font-family: 'Open Sans';
+	  font-style: normal;
+	  font-weight: 700;
 	  font-size: 20px;
-      color: #777777;
+      color: #000000;
+	  opacity: 0.3;
 }
 
 .page-footer .page-content-coll-free .community-one {

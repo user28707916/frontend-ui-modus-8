@@ -4,6 +4,9 @@
 	}
 	
 	.main-menu > .menu-list > .menu-item {
+		font-family: 'Open Sans';
+	    font-style: normal;
+	    font-weight: 600;
 		display: inline-block;
 		border-radius: 5px;
 		text-align: center;

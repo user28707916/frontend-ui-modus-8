@@ -6,6 +6,9 @@
 	border-radius: 4px;
 	display: inline-block;
 	margin-bottom: 37px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
 }
 
 .tag-item .item-menu:nth-child(-n+4) {
@@ -42,4 +45,5 @@
 .tag-item .item-menu:nth-child(5) {
 	background-color: #62a29e;
 	border-bottom: 3px solid #528b86;
+	
 }

@@ -24,6 +24,9 @@
 }
 
 .motivation-info > .text-message > h2 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 48px;
 	font-size: 40px;
@@ -109,10 +112,12 @@
 }
 
 .motivation-info .text-field {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
 	position: relative;
 	top: 120px;
 	font-size: 20px;
-	font-weight: 700;
 }
 
 .motivation-info .transformed-left .image-wrapper,

@@ -10,6 +10,9 @@
 }
 
 .blog-post-header .blog-title {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
 	margin-left: 100px;
 }
 
