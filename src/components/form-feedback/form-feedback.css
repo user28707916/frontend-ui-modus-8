@@ -7,3 +7,14 @@
 .input-text, .input-url, .input-email {
 	margin-bottom: 20px;
 }
+
+.feedback-batton {
+	background-color: #e8645a;
+	width: 200px;
+	height: 54px;
+	margin-top: 40px;
+}
+
+.form-naming {
+	margin-left: 30px;
+}
