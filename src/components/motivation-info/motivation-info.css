@@ -1,18 +1,18 @@
 .motivation-info {
 	position: relative;
-	width: 1170px;
-	height: 555px;
+	width: auto;
+	min-height: 555px;
 	margin-bottom: 55px;
 	text-align: center;
 }
 
-.motivation-info .topbg {
+.motivation-info > .topbg {
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: 400px;
 	width: 100%;
-	background: url(./motivation-info-border.png) repeat-x;
+	background: url(./motivation-info-border.png) repeat-x 0 0;
 	background-color: #ececec;
 }
 
@@ -26,25 +26,16 @@
 .motivation-info > .text-message > h2 {
 	font-family: 'Open Sans';
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 	line-height: 48px;
 	font-size: 40px;
 	color: #e1524b;
 }
 
-.motivation-info .allwindows {
-	position: absolute;
-	text-align: left;
-	padding: 0;
-	top: 194px;
-	height: 360px;
-	width: 100%;
-}
-
 .motivation-info .front-window {
 	position: absolute;
-	top: 0;
+	top: 194px;
 	left: 300px;
 	height: 360px;
 	width: 570px;

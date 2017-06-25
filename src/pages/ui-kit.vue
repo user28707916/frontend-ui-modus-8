@@ -84,7 +84,9 @@ export default {
 	
 			<LinkExternal></LinkExternal>
 			</br>
-			<motivation-info></motivation-info>
+			</content-wrapper>
+				<motivation-info></motivation-info>
+			<content-wrapper>
 			<expandable-box></expandable-box>
 			</br>
 			<button-control></button-control>
