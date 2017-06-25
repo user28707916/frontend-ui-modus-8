@@ -1,36 +1,41 @@
   /*	PORTFOLIO 	*/
-
-.tag-item-portfolio {
-	margin-bottom: 40px;
-}
-
-.pagination-portfolio {
-	margin-top: 70px;
-	margin-left: 250px;
-	margin-bottom: 70px;
-}
-
-.teaser-item-portfolio {
-	margin-bottom: 38px;
-}
-
-.blog-side-bar-right {
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-/*	CONTACTS 	*/
-
-.address-info.contacts-address {
-	position: absolute;
-	left: 900px;
-}
-
-.contacts-h {
-	display: block;
-	text-transform: uppercase;
-	font-size: 20px;
-	margin-bottom: 60px;
-	width: 900px;
-}
+  
+  .tag-item-portfolio {
+  	margin-bottom: 40px;
+  }
+  
+  .pagination-portfolio {
+  	margin-top: 70px;
+  	margin-left: 250px;
+  	margin-bottom: 70px;
+  }
+  
+  .teaser-item-portfolio {
+  	margin-bottom: 38px;
+  }
+  
+  .blog-side-bar-right {
+  	position: absolute;
+  	right: 0;
+  	top: 0;
+  }
+  /*	CONTACTS 	*/
+  
+  .address-info.contacts-address {
+  	position: absolute;
+  	left: 900px;
+  }
+  
+  .contacts-h {
+  	display: block;
+  	text-transform: uppercase;
+  	font-size: 20px;
+  	margin-bottom: 60px;
+  	width: 900px;
+  }
+  /*  H1 IN TOP BAR*/
+  
+  .naiming-top-bar {
+  	margin-left: 0;
+  	margin-top: 25px;
+  }
