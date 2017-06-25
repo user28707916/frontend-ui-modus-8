@@ -1,10 +1,10 @@
 .search-box {
 	position: relative;
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 	height: 85px;
 	width: 200px;
 	padding: 0;
-	margin-bottom: 20px;
 }
 
 .search-box button {
@@ -13,8 +13,8 @@
 	left: 0;
 	margin: 0;
 	padding: 0;
-	background: url(search-box-button.png) no-repeat;
-	height: 34px;
+	background: url(search-box-button.png) no-repeat 10px 10px;
+	height: 32px;
 	width: 34px;
 	outline: none;
 	border: none;
@@ -25,7 +25,7 @@
 	position: absolute;
 	left: -165px;
 	bottom: 0;
-	background: url(search-box-bg.png) no-repeat;
+	background: url(search-box-bg.png) no-repeat 0 0;
 	width: 100%;
 	height: 46px;
 }
@@ -47,6 +47,12 @@
 	height: 30px;
 	width: 190px;
 	border-radius: 2px;
+}
+
+.search-box button:hover {
+	background-color: #e8645a;
+	border-radius: 5px;
+	box-shadow: 0 3px #e2534b;
 }
 
 .search-box button:active {
