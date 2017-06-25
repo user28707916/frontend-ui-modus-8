@@ -25,6 +25,10 @@
 	width: 100%;
 }
 
+.tile-small-content {
+	height: 100%;
+}
+
 .tile-small:hover .tile-small-hover {
 	text-align: center;
 	display: inline-block;
@@ -47,6 +51,10 @@
 	color: white;
 	position: relative;
 	top: 60px;
+}
+
+.tile-small-content:hover .image-content {
+	display: none;
 }
 
 /* .tile-small:nth-child(4n+4){

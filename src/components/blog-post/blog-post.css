@@ -39,15 +39,14 @@
 	margin-top: 5px;
 }
 
-
-/*.blog-post .blog-image-content {
+.blog-post .blog-image-placeholder {
 	position: absolute;
 	top: 0;
 	left: 100px;
 	width: 770px;
 	height: 300px;
 	border-bottom: 3px solid #e5e6e6;
-}*/
+}
 
 .blog-post .blog-post-link a {
 	text-decoration-line: none;
@@ -62,4 +61,11 @@
 	margin-left: 10px;
 	content: "";
 	background: url(./arrow-blog.png) no-repeat 0 0;
+}
+
+.blog-article {
+	position: absolute;
+	top: 330px;
+	width: 800px;
+	height: auto;
 }
