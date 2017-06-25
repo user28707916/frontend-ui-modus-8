@@ -10,7 +10,7 @@
 	
 
 	export default {
-		components: { 
+		components: {
 			PageHeader,
 			TopBar,
 			ContentWrapper,
