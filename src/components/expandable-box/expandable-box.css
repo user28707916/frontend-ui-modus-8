@@ -2,52 +2,35 @@
 	position: relative;
 	display: inline-block;
 	box-sizing: border-box;
-	vertical-align: middle;
-	height: 50px;
+	vertical-align: top;
+	min-height: 50px;
 	width: 100%;
 	background: #f8f8f8;
 	box-shadow: 0 4px 4px #e5e6e6;
 	border-radius: 5px;
-	padding: 0 20px 0 22px;
 	margin-bottom: 10px;
-}
-
-.expandable-box::before {
-	content: '';
-	position: absolute;
-	right: 20px;
-	top: 18px;
-	background: url(expandable-box-plus.png) no-repeat 0 0;
-	height: 18px;
-	width: 18px;
-	border-radius: 9px;
-}
-
-.expandable-box.expanded::before {
-	content: '';
-	position: absolute;
-	right: 20px;
-	top: 18px;
-	background: url(expandable-box-minus.png) no-repeat 0 0;
-	height: 18px;
-	width: 18px;
-	border-radius: 9px;
+	overflow: hidden;
 }
 
 .expandable-box.expanded {
 	position: relative;
 	display: inline-block;
 	box-sizing: border-box;
-	vertical-align: middle;
-	height: 120px;
+	vertical-align: top;
+	min-height: 120px;
 	width: 100%;
 	background: #f8f8f8;
 	box-shadow: 0 4px 4px #e5e6e6;
 	border-radius: 5px;
-	padding: 0 20px 0 22px;
 }
 
-.accordion-title {
+.expandable-box .accordion-title {
+	padding-left: 22px;
+	padding-right: 0;
+	text-align: left;
+	outline: none;
+	border: none;
+	background-color: #f8f8f8;
 	position: absolute;
 	height: 50px;
 	width: 100%;
@@ -58,13 +41,39 @@
 	color: #7f8c8c;
 }
 
+.expandable-box .accordion-title::after {
+	content: '';
+	position: absolute;
+	right: 20px;
+	top: 18px;
+	background: url(expandable-box-plus.png) no-repeat 0 0;
+	height: 18px;
+	width: 18px;
+	border-radius: 9px;
+}
+
+.expandable-box.expanded .accordion-title::after {
+	content: '';
+	position: absolute;
+	right: 20px;
+	top: 18px;
+	background: url(expandable-box-minus.png) no-repeat 0 0;
+	height: 18px;
+	width: 18px;
+	border-radius: 9px;
+}
+
 .expandable-box .text-message {
 	display: none;
 }
 
 .expandable-box.expanded .text-message {
-	display: initial;
+	display: inline-block;
 	position: relative;
+	box-sizing: border-box;
+	padding-left: 22px;
+	padding-bottom: 10px;
+	text-align: left;
 	top: 50px;
 	font-size: 13px;
 	line-height: 1.6em;
