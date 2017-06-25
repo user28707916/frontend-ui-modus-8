@@ -25,6 +25,10 @@
 	width: 100%;
 }
 
+.tile-large-content {
+	height: 100%;
+}
+
 .tile-large:hover .tile-large-hover {
 	text-align: center;
 	display: inline-block;
@@ -46,6 +50,10 @@
 	color: white;
 	position: relative;
 	top: 60px;
+}
+
+.tile-large-content:hover .image-content {
+	display: none;
 }
 
 /* .tile-large:nth-child(2n+2){

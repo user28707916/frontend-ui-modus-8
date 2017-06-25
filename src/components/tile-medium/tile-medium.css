@@ -25,6 +25,10 @@
 	width: 100%;
 }
 
+.tile-medium-content {
+	height: 100%;
+}
+
 .tile-medium:hover .tile-medium-hover {
 	text-align: center;
 	display: inline-block;
@@ -49,6 +53,9 @@
 	top: 60px;
 }
 
+.tile-medium-content:hover .image-content {
+	display: none;
+}
 /* .tile-medium:nth-child(3n+3){
 	margin-right: 0;
 } */
