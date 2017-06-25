@@ -1,15 +1,22 @@
   /*	PORTFOLIO 	*/
-  
-  .tag-item-portfolio {
-  	margin-bottom: 40px;
-  }
-  
-  .pagination-portfolio {
-  	margin-top: 70px;
-  	margin-left: 250px;
-  	margin-bottom: 70px;
-  }
-  
-  .teaser-item-portfolio {
-  	margin-bottom: 38px;
-  }
+
+.tag-item-portfolio {
+	margin-bottom: 40px;
+}
+
+.pagination-portfolio {
+	margin-top: 70px;
+	margin-left: 250px;
+	margin-bottom: 70px;
+}
+
+.teaser-item-portfolio {
+	margin-bottom: 38px;
+}
+
+.blog-side-bar-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
