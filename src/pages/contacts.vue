@@ -31,8 +31,8 @@
 		</top-bar>
 
 		<content-wrapper>
-			<h4>Send inquiry</h4>
 			<address-info class="contacts-address"></address-info>
+			<span class="contacts-h">Send inquiry</span>
 			<form-feedback class="contacts-form"></form-feedback>				
 		</content-wrapper>
 
