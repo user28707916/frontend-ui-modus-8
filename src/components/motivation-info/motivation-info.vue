@@ -19,17 +19,17 @@
 	  </div>
 	  		<div class="front-window transformed-left">
 			  	<div class="image-wrapper">
-			  		<image-placeholer></image-placeholer>
+			  		<image-placeholder></image-placeholder>
 				</div>
 			</div>
 	  		<div class="front-window transformed-right">
 		  		<div class="image-wrapper">
-		  			<image-placeholer></image-placeholer>
+		  			<image-placeholder></image-placeholder>
 				</div> 
 			</div>
 			<div class="front-window">
 				<div class="image-wrapper">
-					<image-placeholer></image-placeholer>
+					<image-placeholder></image-placeholder>
 				</div> 
 			</div>	  	
     </div>
