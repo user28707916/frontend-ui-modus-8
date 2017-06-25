@@ -1,14 +1,14 @@
 <style src="./blog-post.css"/>
 
 <script>
-import ImageContent from '../image-content/image-content.vue';
+import ImagePlaceholder from '../image-placeholder/image-placeholder.vue';
 import ContentWrapper from '../content-wrapper/content-wrapper.vue';
 import BlogPostHeader from '../blog-post-header/blog-post-header.vue';
 
 
 export default {
 	components: {
-		ImageContent,
+		ImagePlaceholder,
 		ContentWrapper,
 		BlogPostHeader
 	}
@@ -24,7 +24,7 @@ export default {
 		<span class="datum-date">26</span>
 		</div>
 
-
+		<image-placeholder class="blog-image-placeholder"></image-placeholder>
 
 		<article class="blog-article">
 
