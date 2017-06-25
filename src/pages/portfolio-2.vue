@@ -8,6 +8,7 @@ import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
 import TilesGrid from '../components/tiles-grid/tiles-grid.vue';
 import TileLarge from '../components/tile-large/tile-large.vue';
 import ImageContent from '../components/image-content/image-content.vue';
+import ImagePlaceholder from '../components/image-placeholder/image-placeholder.vue';
 
 
 export default {
@@ -20,7 +21,8 @@ export default {
 		PaginationMenu,
 		TilesGrid,
 		TileLarge,
-		ImageContent
+		ImageContent,
+		ImagePlaceholder
 	}
 };
 </script>
@@ -38,8 +40,12 @@ export default {
 			<tag-item class="tag-item-portfolio"> </tag-item>
 
 			<tiles-grid>
-				<tile-large text="1 large tile"> <image-content src="./components/image-content/image-placeholder.png"></image-content> </tile-large>
-				<tile-large text="2 large tile"> </tile-large>
+				<tile-large text="1 large tile">
+					<image-placeholder></image-placeholder>
+				</tile-large>
+				<tile-large text="2 large tile">
+					<image-placeholder></image-placeholder>
+				</tile-large>
 				<tile-large > </tile-large>
 				<tile-large> </tile-large>
 				<tile-large> </tile-large>
