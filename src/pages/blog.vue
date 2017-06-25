@@ -4,7 +4,6 @@
 	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 	import TopBar from '../components/top-bar/top-bar.vue';
 	import BlogPost from '../components/blog-post/blog-post.vue';
-	import ListUnordered from '../components/list-unordered/list-unordered.vue';
 	import ImageContent from '../components/image-content/image-content.vue';
 	import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 	import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
@@ -20,7 +19,7 @@
 			BlogPost,
 			PaginationMenu,
 			PageFooter
-		 }
+		}
 	};
 </script>
 
