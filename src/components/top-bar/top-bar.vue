@@ -17,10 +17,7 @@ export default {
 	
 	<div class="top-bar">
 	<content-wrapper>		
-		
-		<h1 class="naiming">
-			Blog
-		</h1>
+	<slot></slot>
 		
 		<breadcrumbs-navigation class="breadcrumbs"></breadcrumbs-navigation>
 		</content-wrapper>

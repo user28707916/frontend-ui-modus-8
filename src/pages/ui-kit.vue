@@ -69,7 +69,7 @@ export default {
 	<body>
 	
 		<page-header></page-header>
-		<top-bar/>
+		<top-bar> <h1 class="naiming-top-bar"> Examples</h1> </top-bar>
 		<content-wrapper>
 	
 			UI Kit
