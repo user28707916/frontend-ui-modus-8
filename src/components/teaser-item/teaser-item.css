@@ -8,7 +8,7 @@
 }
 
 .teaser-item > h4 {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 .teaser-item > .link-external {
@@ -20,4 +20,15 @@
 .teaser-item > .button-control {
 	position: absolute;
 	right: 0;
+}
+
+.teaser-item > .teaser-img {
+	display: block;
+	float: left;
+	height: 270px;
+	width: 570px;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-right: 30px;
+	border-bottom: solid 3px #e5e6e6;
 }
