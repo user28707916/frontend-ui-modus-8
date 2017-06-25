@@ -1,14 +1,12 @@
-.feedback-quote dd {
+.feedback-quote .feedback-review {
     width: 270px;
     height: auto;
     background: #f8f8f8;
     position: relative;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
     border-radius: 10px;
 }
 
-.feedback-quote dd:before {
+.feedback-quote .feedback-review:before {
     content: "";
     width: 0;
     height: 0;
@@ -19,14 +17,20 @@
     border-left: 25px solid transparent;
 }
 
-.feedback-quote dd p {
+.feedback-quote .feedback-review {
     padding: 15px;
 }
 
-.feedback-quote dt {
+.feedback-quote .feedback-review q {
+    font-style: italic;
+    quotes: none;
+}
+
+.feedback-quote .feedback-author {
     position: relative;
-	font-weight: 600;
+    font-weight: 600;
     font-size: 16px;
-    left: 9%;
+    left: 6%;
     border: 0;
+    margin-top: 10px;
 }

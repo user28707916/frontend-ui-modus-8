@@ -3,13 +3,13 @@
 <template>
 	<div class="feedback-quote">
 	
-		<dd>
+		<div class="feedback-review">
 			<p>
-				<em>Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis.</em> Nulla ac massa at dolor condimentum
+				<q>Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis.</q> Nulla ac massa at dolor condimentum
 			</p>
-		</dd>
-		<dt>
+		</div>
+		<div class="feedback-author">
 			Jhon Doe
-		</dt>
+		</div>
 	</div>
 </template>
