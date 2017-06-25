@@ -9,6 +9,7 @@
 	box-shadow: 0 4px 4px #e5e6e6;
 	border-radius: 5px;
 	padding: 0 20px 0 22px;
+	margin-bottom: 10px;
 }
 
 .expandable-box::before {
