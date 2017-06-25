@@ -4,16 +4,13 @@
 	font-size: 16px;
 }
 
-.address-info > h4 {
+.address-info > .contacts-term {
 	text-transform: uppercase;
+	font-family: inherit;
+	font-size: 20px;
 }
 
-.address-info > .contact_list {
-	list-style: none;
-	padding-left: 0;
-}
-
-/*Margin for list-item with location-info*/
+/*Margin location-info*/
 .address-info .contact_item_loc {
 	margin: 35px 0 25px;
 }
@@ -50,9 +47,3 @@
 	float: left;
 	margin-right: 10px;
 }
-
-/*Not working*/
-/*.address-info .contact_item_loc {
-	list-style-image: url('./icon-location.png');
-	list-style-position: ;
-}*/
