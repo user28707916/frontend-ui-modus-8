@@ -1,9 +1,14 @@
 .motivation-info {
 	position: relative;
+	box-sizing: border-box;
 	width: auto;
-	min-height: 555px;
 	margin-bottom: 55px;
+	max-height: 554px;
 	text-align: center;
+	background: url(./motivation-info-border.png) repeat-x 0 0;
+	background-color: #ececec;
+	background-clip: content-box;
+	padding-bottom: 154px;
 }
 
 .motivation-info > .topbg {
@@ -23,8 +28,15 @@
 	line-height: 1.6em;
 }
 
+.motivation-info .all-windows {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin: auto;
+	top: 125px;
+}
+
 .motivation-info > .text-message > h2 {
-	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -34,9 +46,8 @@
 }
 
 .motivation-info .front-window {
-	position: absolute;
-	top: 194px;
-	left: 300px;
+	position: relative;
+	margin: auto;
 	height: 360px;
 	width: 570px;
 	background: #c1c7c8;
@@ -68,24 +79,16 @@
 
 .motivation-info .front-window.transformed-left {
 	position: absolute;
-	left: -100px;
+	left: -400px;
 	transform: scale(0.65, 0.65);
 	background: #b0b8b9;
 }
 
 .motivation-info .front-window.transformed-right {
 	position: absolute;
-	left: 700px;
+	left: 400px;
 	transform: scale(0.65, 0.65);
 	background: #b0b8b9;
-}
-
-.motivation-info img {
-	position: absolute;
-	left: 0;
-	width: inherit;
-	height: inherit;
-	border-radius: 6px;
 }
 
 .motivation-info .image-wrapper {
@@ -102,21 +105,7 @@
 	text-align: center;
 }
 
-.motivation-info .text-field {
-	font-weight: 600;
-	position: relative;
-	top: 120px;
-	font-size: 20px;
-}
-
 .motivation-info .transformed-left .image-wrapper,
 .motivation-info .transformed-right .image-wrapper {
 	background: #62b9b0;
-	font-size: 30px;
 }
-
-.motivation-info .transformed-left .text-field,
-.motivation-info .transformed-right .text-field {
-	font-size: 30px;
-}
-
