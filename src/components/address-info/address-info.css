@@ -6,8 +6,8 @@
 
 .address-info > .contacts-term {
 	text-transform: uppercase;
-	font-family: inherit;
 	font-size: 20px;
+	margin-top: 0;
 }
 
 /*Margin location-info*/

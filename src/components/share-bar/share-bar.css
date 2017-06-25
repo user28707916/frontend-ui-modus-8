@@ -1,0 +1,26 @@
+.share-bar {
+	height: 70px;
+	width: 870px;
+	margin: 20px;
+	background: red;
+}
+
+.share-bar share {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.button-left {
+	margin-right: 10px;
+	background-image: url(./image/left_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.button-right {
+	margin-left: 20px;
+	background-image: url(./image/right_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}

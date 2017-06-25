@@ -1,8 +1,9 @@
 <script>
 	import PageHeader from '../components/page-header/page-header.vue';
+	import ShareBar from '../components/share-bar/share-bar.vue';
 
 	export default {
-		components: { PageHeader }
+		components: { PageHeader, ShareBar }
 	};
 </script>
 
@@ -11,6 +12,6 @@
 		<page-header />
 		
 		Blog post
-
+		<share-bar />
 	</body>
 </template>
