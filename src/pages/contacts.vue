@@ -31,6 +31,7 @@
 		</top-bar>
 
 		<content-wrapper>
+			<p>Etiam tincidunt laoreet turpis a vulputate. Etiam diam lorem, convallis ac laoreet a, pretium id nisl. Morbi tincidunt nibh a ante fringilla at tincidunt eros venenatis. Nunc a dui mi, in imperdiet sem. Aenean eu nulla massa. Ut interdum tristique est commodo pharetra.</p>
 			<address-info class="contacts-address"></address-info>
 			<span class="contacts-h">Send inquiry</span>
 			<form-feedback class="contacts-form"></form-feedback>				
