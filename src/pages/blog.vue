@@ -4,7 +4,7 @@
 	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 	import TopBar from '../components/top-bar/top-bar.vue';
 	import BlogPost from '../components/blog-post/blog-post.vue';
-	import ImageContent from '../components/image-content/image-content.vue';
+	import ImagePlaceholder from '../components/image-placeholder/image-placeholder.vue';
 	import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 	import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
 	
@@ -14,7 +14,7 @@
 			PageHeader,
 			TopBar,
 			ContentWrapper,
-			ImageContent,
+			ImagePlaceholder,
 			BlogSideBar,
 			BlogPost,
 			PaginationMenu,
@@ -29,7 +29,7 @@
 		<top-bar><h1>Blog</h1></top-bar>
 			<content-wrapper>
 				<blog-post>
-					<image-content></image-content>
+					<image-placeholder></image-placeholder>
 				</blog-post>
 				<blog-post>
 					<slide-show></slide-show>
