@@ -1,27 +1,22 @@
 <style src="./share-bar.css" />
 
 <template>
+
 	<div class="share-bar">
 
-		<div class="share">share</div>	
-
 		<ul>
-			<li>Facebook</li>
-			<li>Twitter</li>
-			<li>Google+</li>
-			<li>LinkedIn</li>
+			<li>share</li>
+			<li><a href=""><img src="./image/icon_facebook.png" alt="facebook"></a></li>
+			<li><a href=""><img src="./image/icon_twitter.png" alt="twitter"></a></li>
+			<li><a href=""><img src="./image/icon_google.png" alt="google+"></a></li>
+			<li><a href=""><img src="./image/icon_linkedin.png" alt="linkedin"></a></li>
 		</ul>
 
-		<div class="button-bar">
-			<ul>
-				<li>
-					<button type="button" class="button-left"></button>
-				</li>
-				<li>
-					<button type="button" class="button-right"></button>
-				</li>
-			</ul>
-		</div>
+		<ul class="button-bar">
+			<li><button type="button" class="button-left"></button></li>
+			<li><button type="button" class="button-right"></button></li>
+		</ul>
+		
 	</div>
 
 </template>
