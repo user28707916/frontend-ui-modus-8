@@ -1,7 +1,12 @@
 export default {
+	data() {
+		return {
+			expanded: true
+		};
+	},
 	methods: {
 		toggle() {
-			document.querySelector('.expandable-box .text-message').classList.toggle('shown');
+			this.expanded = !this.expanded;
 		}
 	}
 };

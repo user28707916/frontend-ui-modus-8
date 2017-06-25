@@ -1,43 +1,17 @@
 .expandable-box {
 	position: relative;
 	display: inline-block;
-	vertical-align: top;
-	min-height: 50px;
-	height: auto;
-	min-width: 270px;
-	max-width: 870px;
-	width: auto;
+	box-sizing: border-box;
+	vertical-align: middle;
+	height: 50px;
+	width: 100%;
 	background: #f8f8f8;
 	box-shadow: 0 4px 4px #e5e6e6;
 	border-radius: 5px;
+	padding: 0 20px 0 22px;
 }
 
-.accordion-title {
-	font-weight: 800;
-	position: absolute;
-	font-size: 16px;
-	line-height: 50px;
-	text-transform: uppercase;
-	left: 22px;
-	color: #7f8c8c;
-}
-
-.text-message {
-	display: none;
-	position: relative;
-	top: 50px;
-	left: 22px;
-	font-size: 13px;
-	line-height: 1.6em;
-	height: 70px;
-	width: auto;
-}
-
-.expandable-box .text-message.shown {
-	display: initial;
-}
-
-.expandable-box::after {
+.expandable-box::before {
 	content: '';
 	position: absolute;
 	right: 20px;
@@ -48,7 +22,8 @@
 	border-radius: 9px;
 }
 
-.expandable-box:hover::after {
+.expandable-box.expanded::before {
+	content: '';
 	position: absolute;
 	right: 20px;
 	top: 18px;
@@ -56,4 +31,42 @@
 	height: 18px;
 	width: 18px;
 	border-radius: 9px;
+}
+
+.expandable-box.expanded {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+	height: 120px;
+	width: 100%;
+	background: #f8f8f8;
+	box-shadow: 0 4px 4px #e5e6e6;
+	border-radius: 5px;
+	padding: 0 20px 0 22px;
+}
+
+.accordion-title {
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #7f8c8c;
+}
+
+.expandable-box .text-message {
+	display: none;
+}
+
+.expandable-box.expanded .text-message {
+	display: initial;
+	position: relative;
+	top: 50px;
+	font-size: 13px;
+	line-height: 1.6em;
+	height: 70px;
+	width: auto;
 }
