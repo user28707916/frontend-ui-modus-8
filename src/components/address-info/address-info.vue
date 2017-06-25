@@ -3,7 +3,7 @@
 
 <template>
 	<div class="address-info" >
-		<p class="contacts-term">Address</p>
+		<span class="contacts-term">Address</span>
 		<div class="contact_list">
 			<div class="contact_item_loc">Ut interdum tristique est com modo pharetra.</div>
 			<div class="contact_item_tel"><a href="tel:11156985698">111 5698 5698</a></div>
