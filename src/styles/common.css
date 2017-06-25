@@ -13,6 +13,7 @@
   .teaser-item-portfolio {
   	margin-bottom: 38px;
   }
+  /* BLOG */
   
   .blog-side-bar-right {
   	position: absolute;
@@ -21,17 +22,30 @@
   }
   /*	CONTACTS 	*/
   
-  .address-info.contacts-address {
-  	position: absolute;
-  	left: 900px;
+  .page-contacts-paragraph {
+  	border-radius: 5px;
+  	background: #ececec;
+  	padding: 11px 20px 5px;
+  	margin-bottom: 60px;
   }
   
   .contacts-h {
+  	text-transform: uppercase;
+  	font-size: 20px;
+  	margin-bottom: 60px;
+  }
+  
+  .address-content {
+  	position: absolute;
+  	left: 900px;
+  	font-size: 20px;
+  }
+  
+  .form-h {
   	display: block;
   	text-transform: uppercase;
   	font-size: 20px;
   	margin-bottom: 60px;
-  	width: 900px;
   }
   /*  H1 IN TOP BAR*/
   
