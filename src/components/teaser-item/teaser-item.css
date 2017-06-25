@@ -3,8 +3,8 @@
 	height: 270px;
 }
 
-.teaser-item > p {
-	height: 140px;
+.teaser-item > .teaser-text {
+	margin-bottom: 50px;
 }
 
 .teaser-item > h4 {
