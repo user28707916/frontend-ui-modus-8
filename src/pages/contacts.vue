@@ -1,15 +1,41 @@
 <script>
 	import PageHeader from '../components/page-header/page-header.vue';
+	import TopBar from '../components/top-bar/top-bar.vue';
+	import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
+	// import MapGoogle from '../components/map-google/map-google.vue';
+	import FormFeedback from '../components/form-feedback/form-feedback.vue';
+	import AddressInfo from '../components/address-info/address-info.vue';
+	import PageFooter from '../components/page-footer/page-footer.vue';
+	
 
 	export default {
-		components: { PageHeader }
+		components: { 
+			PageHeader,
+			TopBar,
+			ContentWrapper,
+			// MapGoogle,
+			FormFeedback,
+			AddressInfo,
+			PageFooter
+		 }
 	};
 </script>
 
 <template>
 	<body>
+
 		<page-header />
 
-		Contacts
+		<top-bar>
+			<h1>Contact us</h1>
+		</top-bar>
+
+		<content-wrapper>
+			<h4>Send inquiry</h4>
+			<address-info class="contacts-address"></address-info>
+			<form-feedback class="contacts-form"></form-feedback>				
+		</content-wrapper>
+
+		<page-footer/>
 	</body>
 </template>
