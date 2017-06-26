@@ -19,7 +19,6 @@ import ListUnordered from '../components/list-unordered/list-unordered.vue';
 import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 import TeaserItem from '../components/teaser-item/teaser-item.vue';
 import MotivationInfo from '../components/motivation-info/motivation-info.vue';
-import ShareBar from '../components/share-bar/share-bar.vue';
 import DataTable from '../components/data-table/data-table.vue';
 import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
 import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
@@ -53,7 +52,6 @@ export default {
 		BlogSideBar,
 		TeaserItem,
 		MotivationInfo,
-		ShareBar,
 		FeedbackQuote,
 		BlogPostHeader,
 		DataTable,
@@ -119,8 +117,6 @@ export default {
 			<blog-side-bar></blog-side-bar>
 	
 			<data-table></data-table>
-	
-			<share-bar></share-bar>
 	
 			<blog-post-header> </blog-post-header>
 	
