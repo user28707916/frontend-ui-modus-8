@@ -3,7 +3,12 @@
 <script>
 	export default {
 		components: {  },
-		props: ['tip', 'active', 'author'] // The list of supported custom attributes
+		props: { // List of supported custom attributes, where key is attribute name and value is an attribute value type
+			tip: String,
+			author: String,
+			active: Boolean
+		},
+		// props: ['tip', 'author'] // ALternative simplified version of properties listThe list of supported custom attributes, but it doesn't support Boolean values
 	};
 </script>
 

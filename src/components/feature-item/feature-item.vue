@@ -4,17 +4,19 @@
 	export default {
 		components: {
 			ButtonControl
-		}
+		},
+		props: ['heading', 'description']
 	};
 </script>
+
 <style src="./feature-item.css" />
 
 <template>
 	<div class="feature-item">
 		<div class="feature-item-content">
-			<img src="./images/thumb.png" alt="">
-          	<h4>Suspendisse</h4>
-          	<span> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </span>
+			<slot></slot> 
+          	<div class="feature-item-heading">{{heading}}</div>
+          	<div class="feature-item-description">{{description}}</div>
 		</div>
 		<button-control>Read more</button-control>
 	</div>
