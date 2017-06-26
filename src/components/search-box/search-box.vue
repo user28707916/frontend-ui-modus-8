@@ -2,7 +2,7 @@
 
 <template>
   <div class="search-box">
-	 <div id="show-input">
+	 <div>
 	 	<button class="search-box-button" v-on:click="toggle"></button>
 	 </div>
 	 <div class="search-box-input">
