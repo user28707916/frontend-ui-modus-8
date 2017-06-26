@@ -1,15 +1,20 @@
 .share-bar {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
 	height: 70px;
 	width: 870px;
 	background: #ececec;
 	border-radius: 5px;
 }
 
-.share-bar li:first-child {
+.share-bar .text-share {
+	position: absolute;
 	font-family: 'Open Sans';
 	font-size: 14px;
 	text-transform: uppercase;
-	margin-left: -30px;
+	top: 25px;
+	left: 15px;
 }
 
 .share-bar img {
@@ -27,14 +32,18 @@
 .share-bar li {
 	display: inline-block;
 	margin: 5px;
-	overflow: hidden;
 }
 
-.share-bar .button-bar {
+.share-bar .link-container {
 	position: relative;
-	float: right;
-	top: -76px;
-	margin-right: 20px;
+	left: 30px;
+	bottom: 3px;
+}
+
+.share-bar .button-container {
+	position: relative;
+	top: 10px;
+	left: 500px;
 }
 
 .share-bar .button-left {
@@ -47,6 +56,7 @@
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	cursor: pointer;
+	margin: 5px;
 }
 
 .share-bar .button-right {
@@ -59,6 +69,7 @@
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	cursor: pointer;
+	margin: 5px;
 }
 
 .share-bar .button-left:hover {
