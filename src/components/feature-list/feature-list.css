@@ -1,0 +1,9 @@
+.feature-list {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.feature-list-content {
+	margin-right: -50px;
+}

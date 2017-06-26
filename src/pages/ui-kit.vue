@@ -28,6 +28,7 @@ import FeatureItem from '../components/feature-item/feature-item.vue';
 import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
+import FeatureList from '../components/feature-list/feature-list.vue';
 
 
 export default {
@@ -60,7 +61,8 @@ export default {
 		FeatureItem,
 		BlogPost,
 		ExpandableBox,
-		FormFeedback
+		FormFeedback,
+		FeatureList
 	}
 };
 </script>
@@ -122,10 +124,12 @@ export default {
 	
 			<blog-post-header> </blog-post-header>
 	
-			<h4>Feature Item</h4>
-	
-			<feature-item></feature-item>
-	
+			<h4>Feature List</h4>
+			
+			<feature-list>
+				
+			</feature-list>
+
 			<h4>BLOG POST </h4>
 			<blog-post/>
 			<form-feedback />
