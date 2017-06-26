@@ -1,25 +1,86 @@
 .share-bar {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
 	height: 70px;
 	width: 870px;
-	margin: 20px;
-	background: red;
+	background: #ececec;
+	border-radius: 5px;
 }
 
-.share-bar share {
+.share-bar .text-share {
+	position: absolute;
 	font-family: 'Open Sans';
 	font-size: 14px;
 	text-transform: uppercase;
+	top: 25px;
+	left: 15px;
 }
 
-.button-left {
-	margin-right: 10px;
+.share-bar img {
+	border-radius: 5px;
+}
+
+.share-bar a {
+	text-decoration: none;
+}
+
+.share-bar ul {
+	list-style: none;
+}
+
+.share-bar li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.share-bar .link-container {
+	position: relative;
+	left: 30px;
+	bottom: 3px;
+}
+
+.share-bar .button-container {
+	position: relative;
+	top: 10px;
+	left: 500px;
+}
+
+.share-bar .button-left {
+	height: 40px;
+	width: 40px;
+	border: none;
+	border-radius: 5px;
+	background: #ccc;
+	background-image: url(./image/left_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.share-bar .button-right {
+	height: 40px;
+	width: 40px;
+	border: none;
+	border-radius: 5px;
+	background: #ccc;
+	background-image: url(./image/right_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.share-bar .button-left:hover {
+	background: #e2534b;
 	background-image: url(./image/left_arrow.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
 
-.button-right {
-	margin-left: 20px;
+.share-bar .button-right:hover {
+	background: #e2534b;
 	background-image: url(./image/right_arrow.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;

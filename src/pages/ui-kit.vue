@@ -19,7 +19,6 @@ import ListUnordered from '../components/list-unordered/list-unordered.vue';
 import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 import TeaserItem from '../components/teaser-item/teaser-item.vue';
 import MotivationInfo from '../components/motivation-info/motivation-info.vue';
-import ShareBar from '../components/share-bar/share-bar.vue';
 import DataTable from '../components/data-table/data-table.vue';
 import FeedbackQuote from '../components/feedback-quote/feedback-quote.vue';
 import BlogPostHeader from '../components/blog-post-header/blog-post-header.vue';
@@ -28,6 +27,7 @@ import FeatureItem from '../components/feature-item/feature-item.vue';
 import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
+import FeatureList from '../components/feature-list/feature-list.vue';
 
 
 export default {
@@ -52,7 +52,6 @@ export default {
 		BlogSideBar,
 		TeaserItem,
 		MotivationInfo,
-		ShareBar,
 		FeedbackQuote,
 		BlogPostHeader,
 		DataTable,
@@ -60,7 +59,8 @@ export default {
 		FeatureItem,
 		BlogPost,
 		ExpandableBox,
-		FormFeedback
+		FormFeedback,
+		FeatureList
 	}
 };
 </script>
@@ -69,7 +69,7 @@ export default {
 	<body>
 	
 		<page-header></page-header>
-		<top-bar/>
+		<top-bar> <h1 class="naiming-top-bar"> Examples</h1> </top-bar>
 		<content-wrapper>
 	
 			UI Kit
@@ -118,14 +118,14 @@ export default {
 	
 			<data-table></data-table>
 	
-			<share-bar></share-bar>
-	
 			<blog-post-header> </blog-post-header>
 	
-			<h4>Feature Item</h4>
-	
-			<feature-item></feature-item>
-	
+			<h4>Feature List</h4>
+			
+			<feature-list>
+				
+			</feature-list>
+
 			<h4>BLOG POST </h4>
 			<blog-post/>
 			<form-feedback />

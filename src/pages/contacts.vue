@@ -27,7 +27,7 @@
 		<page-header />
 
 		<top-bar>
-			<h1>Contact us</h1>
+			<h1 class="naiming-top-bar">Contact us</h1>
 		</top-bar>
 
 		<content-wrapper>

@@ -26,11 +26,9 @@
 <template>
 	<body>
 		<page-header />
-		<top-bar><h1>Blog</h1></top-bar>
+		<top-bar><h1 class="naiming-top-bar">Blog</h1></top-bar>
 			<content-wrapper>
-				<blog-post>
-					<image-placeholder></image-placeholder>
-				</blog-post>
+				<blog-post></blog-post>
 				<blog-post>
 					<slide-show></slide-show>
 				</blog-post>
