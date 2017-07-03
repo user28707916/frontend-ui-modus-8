@@ -1,6 +1,6 @@
 .feedback-section {
 	width: 770px;
-	height: 510px;
+	height: auto;
 	display: block;
 }
 
@@ -8,11 +8,8 @@
 	margin-bottom: 20px;
 }
 
-.feedback-batton {
-	background-color: #e8645a;
-	width: 200px;
-	height: 54px;
-	margin-top: 40px;
+.input-multiline {
+	margin-bottom: 37px;
 }
 
 .form-naming {

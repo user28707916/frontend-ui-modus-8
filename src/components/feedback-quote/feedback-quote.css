@@ -1,12 +1,12 @@
 .feedback-quote .feedback-review {
-    width: 270px;
+    width: auto;
     height: auto;
     background: #f8f8f8;
     position: relative;
     border-radius: 10px;
 }
 
-.feedback-quote .feedback-review:before {
+.feedback-quote .feedback-review:after {
     content: "";
     width: 0;
     height: 0;

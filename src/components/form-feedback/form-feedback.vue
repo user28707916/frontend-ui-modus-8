@@ -22,20 +22,20 @@ export default {
 <template>
 	<form-feedback class="feedback-section">
 		<form-label title="Name">
-			<input-text />
+			<input-text></input-text>
 			<span class="form-naming">Name</span>
 		</form-label>
 		<form-label title="E-mail">
-			<input-url />
+			<input-url></input-url>
 			<span class="form-naming"> E-mail </span>
 		</form-label>
 		<form-label title="Web site">
-			<input-email />
+			<input-email></input-email>
 			<span class="form-naming"> Web site </span>
 		</form-label>
 		<form-label title="Comments">
-			<input-multiline />
+			<input-multiline></input-multiline>
 		</form-label>
-		<button-control class="feedback-batton"> Send </button-control>
+		<button-control type="submit"> Send </button-control>
 	</form-feedback>
 </template>

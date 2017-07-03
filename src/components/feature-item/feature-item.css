@@ -18,10 +18,9 @@
 
 .feature-item-content > .feature-item-description {
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #777;
-	margin: 35px 15px 0;
+	margin: 35px 27px 0;
 	line-height: 21px;
 }
 

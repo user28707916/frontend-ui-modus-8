@@ -1,5 +1,5 @@
 .share-bar {
-	position: absolute;
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	height: 70px;
@@ -10,7 +10,6 @@
 
 .share-bar .text-share {
 	position: absolute;
-	font-family: 'Open Sans';
 	font-size: 14px;
 	text-transform: uppercase;
 	top: 25px;
