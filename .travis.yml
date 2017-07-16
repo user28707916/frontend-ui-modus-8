@@ -19,7 +19,7 @@ deploy:
     branch: master
 notifications:
     slack: 
-      on_pull_requests: false
+      on_pull_requests: true
       rooms:
         - fabrikafrontend:Rj7FzEUdapSihjbouEbWzkmf
       on_success: change # default: always
