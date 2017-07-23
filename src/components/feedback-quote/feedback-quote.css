@@ -1,36 +1,36 @@
 .feedback-quote .feedback-review {
-    width: auto;
-    height: auto;
-    background: #f8f8f8;
-    position: relative;
-    border-radius: 10px;
+	width: auto;
+	height: auto;
+	background: #f8f8f8;
+	position: relative;
+	border-radius: 10px;
 }
 
 .feedback-quote .feedback-review:after {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    right: 80%;
-    top: 100%;
-    border-top: 25px solid #f8f8f8;
-    border-left: 25px solid transparent;
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 80%;
+	top: 100%;
+	border-top: 25px solid #f8f8f8;
+	border-left: 25px solid transparent;
 }
 
 .feedback-quote .feedback-review {
-    padding: 15px;
+	padding: 15px;
 }
 
 .feedback-quote .feedback-review q {
-    font-style: italic;
-    quotes: none;
+	font-style: italic;
+	quotes: none;
 }
 
 .feedback-quote .feedback-author {
-    position: relative;
-    font-weight: 600;
-    font-size: 16px;
-    left: 6%;
-    border: 0;
-    margin-top: 10px;
+	position: relative;
+	font-weight: 600;
+	font-size: 16px;
+	left: 6%;
+	border: 0;
+	margin-top: 10px;
 }

@@ -1,5 +1,7 @@
 .blank-prop-component {
+	display: block;
 }
 
 .blank-prop-component.state-active {
+	visibility: visible;
 }
