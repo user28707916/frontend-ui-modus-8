@@ -11,16 +11,14 @@
     vertical-align: top;
     width: 370px;
     height: 100%;
-    margin-left: 3px;
+}
+
+.page-footer .bottom-part {
+    margin: 0 -2px;
 }
 
 
 /*==========  Part-logo  ==========*/
-
-* {
-    margin: 0;
-    padding: 0;
-}
 
 .page-footer .part-logo {
     width: 100%;
@@ -109,7 +107,6 @@
         font-size: 24px;
     }
 }
-
 
 /*==========  Part-list  ==========*/
 
@@ -276,18 +273,12 @@
     color: #fff;
 }
 
-
-/* Extra Small Devices, Phones */
-
 @media (min-width: 480px) and (max-width: 768px) {
     .page-footer .blog-text {
         min-width: 330px;
         font-size: 16px;
     }
 }
-
-
-/* Custom, iPhone Retina */
 
 @media (min-width: 320px) and (max-width: 400px) {
     .page-footer .blog-text {
