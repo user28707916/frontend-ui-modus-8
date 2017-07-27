@@ -1,49 +1,34 @@
-.tag-item .item-menu {
-	font-size: 14px;
-	line-height: 30px;
+.tag-item {
 	background: #98a3a3;
 	border-bottom: 3px solid #7f8c8c;
 	border-radius: 4px;
 	display: inline-block;
-	margin-bottom: 37px;
 	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-}
-
-.tag-item .item-menu:nth-child(-n+4) {
+	font-size: 19px;
+	line-height: 30px;
+	margin-bottom: 37px;
 	margin-right: 20px;
+	text-transform: uppercase;
 }
 
-.tag-item .tag-design {
-	display: inline-block;
-	
-}
-
-.tag-item a{
-	list-style: none;
+.tag-item a {
+	color: #fff;
 	display: block;
-	text-decoration: none;
-	color: #ffffff;
+	line-height: 30px;
+	list-style: none;
 	padding-left: 11px;
 	padding-right: 13px;
-	line-height: 30px;
+	text-decoration: none;
 }
 
 .tag-item a:hover {
-	color: #ffffff;
 	background: #e8645a;
 	border-radius: 4px;
 	box-shadow: 0 3px #e2534b;
+	color: #fff;
 }
 
-.tag-item .logo {
-	background: #e8645a;
-	border-bottom: 3px solid #e2534b;
-}
-
-.tag-item .item-menu:nth-child(5) {
-	background-color: #62a29e;
-	border-bottom: 3px solid #528b86;
-	
+.tag-item a:active {
+	background: #62a29e;
+	box-shadow: 0 3px #528b86;
 }
