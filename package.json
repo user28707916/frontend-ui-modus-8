@@ -2,7 +2,7 @@
 	"name": "frontend-ui-modus",
 	"private": true,
 	"description": "Web site on VueJS",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
 	"author": "Constantine Genchevsky",
 	"main": "src/index.js",
@@ -22,14 +22,10 @@
 		"test": "neutrino test",
 		"test:watch": "neutrino test --watch",
 		"coverage": "neutrino test --coverage",
-		"lint": "eslint --ext .js,.jsx,.html src/",
-		"precommit": "npm run lint",
-		"prepush": "npm test"
-	},
-	"neutrino": {
-		"use": [
-			"neutrino-preset-fabrika"
-		]
+		"lint": "neutrino lint",
+		"lint:css": "stylelint \"src/**/*.css\"",
+		"!precommit": "npm run lint",
+		"!prepush": "npm test"
 	},
 	"dependencies": {
 		"jquery": "3.2.1",
@@ -39,9 +35,9 @@
 	},
 	"devDependencies": {
 		"husky": "0.14.3",
-		"neutrino-preset-fabrika": "1.1.0",
-		"stylelint": "7.13.0",
-		"stylelint-config-standard": "17.0.0"
+		"neutrino": "6.1.4",
+		"neutrino-preset-fabrika": "2.0.0",
+		"eslint-plugin-vue": "*"
 	},
 	"engines": {
 		"node": ">=6.9.0",
