@@ -108,6 +108,7 @@
     }
 }
 
+
 /*==========  Part-list  ==========*/
 
 .part-bottom-list {
@@ -319,7 +320,7 @@
 }
 
 .page-footer .fa-go-tw-rs .facebook {
-    background: url(./page-png/facebook.png) no-repeat;
+    background: url(./page-png/Facebook.png) no-repeat;
     width: 21px;
     height: 22px;
     position: absolute;
