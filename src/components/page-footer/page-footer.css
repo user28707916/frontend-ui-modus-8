@@ -1,238 +1,396 @@
-
 .page-footer {
-	position: relative;
-	width: 100%;
-	height: 350px;
-	background: url(./page-png/footer-border.png) repeat-x;
-	background-color: #76c7c0;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background: url(./page-png/footer-border.png) repeat-x;
+    background-color: #76c7c0;
+}
+
+.page-footer .bottom-part {
+    display: inline-block;
+    vertical-align: top;
+    width: 370px;
+    height: 100%;
+    margin-left: 3px;
 }
 
 
-.page-footer .content-footer {
-	display: flex;
+/*==========  Part-logo  ==========*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-footer .part-logo {
+    width: 100%;
+    padding-top: 48px;
+    margin-right: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .main-logo {
+        width: 282px;
+        height: 36px;
+    }
+}
+
+@media (min-width: 480px) {
+    .page-footer .part-logo {
+        width: 370px;
+    }
+}
+
+.page-footer .part-phone {
+    margin-bottom: 8px;
+}
+
+.page-footer p {
+    color: #fff;
+    font-size: 13px;
+    margin: 30px 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer p {
+        min-width: 80%;
+        font-size: 18px;
+    }
+}
+
+.page-footer .part-phone-list {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-size: 13px;
+}
+
+.page-footer .part-phone-mail {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-size: 13px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .part-phone-list,
+    .page-footer .part-phone-mail {
+        font-size: 18px;
+    }
+}
+
+.page-footer .part-phone-list:first-child {
+    margin-right: 20px;
+}
+
+.page-footer .part-phone-list:last-child {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    word-spacing: 5px;
+    font-weight: 600;
+}
+
+.page-footer .part-phone-mail:first-child {
+    margin-right: 20px;
+}
+
+.page-footer .part-phone-mail:last-child {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .part-phone-list:last-child,
+    .page-footer .part-phone-mail:last-child {
+        font-size: 24px;
+    }
 }
 
 
+/*==========  Part-list  ==========*/
 
-.page-footer .tag-coll {
-	height: 250px;
+.part-bottom-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    padding-top: 49px;
+    margin: 0 -2px;
 }
 
-.page-footer .page-content-coll-one {
-	background: url(./page-logo/modus.png) no-repeat;
-	width: 370px;
-	margin-right: 30px;
-	margin-top: 50px;
+.page-footer .part-company {
+    margin-right: 30px;
 }
 
-.page-footer .page-content-coll-one .text {
-	padding-top: 50px;
-	color: #ffffff;
-	font-size: 13px;
-	padding-bottom: 30px;
+.page-footer .part-list {
+    margin-right: 20px;
 }
 
-
-
-.page-footer .page-content-coll-one .phones {
-	color: #ffffff;
-	font-size: 20px;
-	margin-bottom: 7px;
-	display: flex;
+.page-footer .company-menu {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.3;
 }
 
-.page-footer .page-content-coll-one .phone {
-	font-size: 13px;
-	margin-right: 20px;
+.page-footer .part-bottom-list .tant-list {
+    list-style-type: none;
+    color: #fff;
+    font-size: 13px;
 }
 
-.page-footer .page-content-coll-one .digits {
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-	font-size: 20px;
-	word-spacing: 5px;
-	font-weight: 600;
+.page-footer .part-bottom-list .tant-list:first-child {
+    padding-top: 24px;
 }
 
-.page-footer .page-content-coll-one .mailes {
-	display: flex;
-	color: #ffffff;
-	font-size: 20px;
+.page-footer .community-menu {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.3;
 }
 
-.page-footer .page-content-coll-one .mail {
-	font-size: 13px;
-	margin-right: 20px;
+.page-footer .bottom-menu-list {
+    list-style-image: url(./page-png/rentagle.png);
+    margin-left: 35px;
 }
 
-.page-footer .page-content-coll-one .mail-versus {
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-	font-weight: 600;
-	font-size: 20px;
-}
-
-
-.page-footer .page-content-coll-two {
-	color: #ffffff;
-	width: 170px;
-	margin-right: 30px;
-	margin-top: 44px;
-}
-
-.page-footer .page-content-coll-two .company {
-	color: #000000;
-	font-size: 20px;
-	font-weight: 700;
-	opacity: 0.3;
-}
-
-.page-footer .page-content-coll-two .company-one {
-	font-size: 13px;
-	list-style-type: none;
-	margin-top: 22px;
-	margin-left: -10px;
-}
-
-.page-footer .page-content-coll-two .companymenu {
-	word-spacing: 7px; 
-}
-
-.page-footer .page-content-coll-free {
-	color: #ffffff;
-	width: 170px;
-	margin-right: 30px;
-	margin-top: 44px;
-}
-
-.page-footer .page-content-coll-free .community {
-	font-weight: 700;
-	font-size: 20px;
-	color: #000000;
-	opacity: 0.3;
-}
-
-.page-footer .page-content-coll-free .community-one {
-	font-size: 13px;
-	list-style-type: none;
-	margin-top: 22px;
-	margin-left: -10px;
-}
-
-.page-footer .page-content-coll-free .communitymenu {
-	word-spacing: 7px;
-	  
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .company-menu,
+    .page-footer .community-menu {
+        font-size: 22px;
+    }
+    .page-footer .community-menu {
+        margin-left: -20px
+    }
+    .page-footer .part-bottom-list .tant-list {
+        font-size: 16px;
+    }
+    .page-footer .part-bottom-list .list-left {
+        margin-left: -20px;
+    }
 }
 
 
+/*==========  Blog  ==========*/
+
+.page-footer .part-blog {
+    padding-top: 53px;
+}
 
 .page-footer .blog-from {
-	color: #ffffff;
-	font-size: 20px;
-	padding-bottom: 24px;
-	list-style-type: none;
-	position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 28px;
+    list-style-type: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .blog-from {
+        margin-left: 40px;
+    }
 }
 
 .page-footer .from {
-	position: absolute;
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-	left: 0;
-	top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .from {
+        font-size: 28px;
+    }
+    .page-footer .blog {
+        font-size: 36px;
+    }
 }
 
 .page-footer .blog {
-	font-weight: 700;
-	position: absolute;
-	left: 80px;
+    font-weight: 700;
+}
+
+.page-footer .part-from {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page-footer .margin-image {
+    height: 20px;
+}
+
+.page-footer td {
+    vertical-align: top;
+}
+
+.page-footer .figure img {
+    height: 70px;
+    width: auto;
+    overflow: hidden;
+}
+
+.page-footer .left-img {
+    float: left;
+    margin-right: 16px;
+}
+
+@media (min-width: 820px) and (max-width: 1169px) {
+    .page-footer .part-bottom-none {
+        display: none;
+    }
+    .page-footer .part-blog {
+        width: 740px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .figure img {
+        height: 90px;
+        width: 90px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 820px) {
+    .page-footer .part-none {
+        display: none;
+    }
+}
+
+@media (min-width: 1170px) {
+    .page-footer .part-none {
+        display: none;
+    }
+}
+
+.page-footer .left-image {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.page-footer .blog-text {
+    width: 330px;
+    font-size: 13px;
+    color: #fff;
 }
 
 
-.page-footer .page-content-coll-four .image-one img{
-	float: left;
-	height: 70px;
-	width: 70px;
-	overflow: hidden;
-	margin-right: 14px;
-}
+/* Extra Small Devices, Phones */
 
-.page-footer .page-content-coll-four .imageblog {
-	width: 330px;
-	margin-top: 51px;
-}
-
-.page-footer .page-content-coll-four .text {
-	margin-top: 35px; 
-	color: #ffffff;
-}
-
-.page-footer .page-content-coll-four .text-one {
-	color: #ffffff;
+@media (min-width: 480px) and (max-width: 768px) {
+    .page-footer .blog-text {
+        min-width: 330px;
+        font-size: 16px;
+    }
 }
 
 
+/* Custom, iPhone Retina */
 
-.page-footer .page-content-coll-four .image-two img{
-	float: left;
-	height: 70px;
-	width: 70px;
-	overflow: hidden;
-	margin-right: 14px;
-      
+@media (min-width: 320px) and (max-width: 400px) {
+    .page-footer .blog-text {
+        width: 200px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
 }
+
+@media (min-width: 400px) and (max-width: 480px) {
+    .page-footer .blog-text {
+        min-width: 200px;
+        font-size: 18px;
+    }
+}
+
+
+/*==========  bottom-line ==========*/
 
 .page-footer .page-bottom-line {
-	width: 100%;
-	height: 50px; 
-	background-color: #6ab3ac;
-	margin-top: 50px;
+    position: relative;
+    height: 50px;
+    background-color: #6ab3ac;
+    margin-top: 50px;
 }
 
-.page-footer .bottom-fotter {
-	padding-top: 21px;
+.page-footer .page-bottom-line .modus-versus {
+    position: relative;
+    padding-top: 14px;
+    font-size: 12px;
+    color: #ffffff;
 }
 
-.page-footer .page-bottom-line .ModusVersus {
-	position: relative;
-	font-size: 12px;
-	color: #ffffff;
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .page-bottom-line .modus-versus {
+        font-size: 18px;
+    }
 }
 
-.page-footer .page-bottom-line .facebook {
-	width: 21px;
-	height: 21px;
-	overflow: hidden;
-	position: absolute;
-	right: 142px;
-	top: 0px;
-	margin-top: 14px;
+.page-footer .fa-go-tw-rs .facebook {
+    background: url(./page-png/facebook.png) no-repeat;
+    width: 21px;
+    height: 22px;
+    position: absolute;
+    right: 142px;
+    top: 0px;
+    margin-top: 14px;
 }
 
-.page-footer .page-bottom-line .google {
-	width: 21px;
-	height: 21px;
-	overflow: hidden;
-	position: absolute;
-	right: 94px;
-	top: 0px;
-	margin-top: 14px;
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .fa-go-tw-rs .facebook {
+        right: 111px;
+        top: 0px;
+    }
 }
 
-.page-footer .page-bottom-line .twetter {
-	width: 21px;
-	height: 21px;
-	position: absolute;
-	right: 47px;
-	top: 0px;
-	margin-top: 14px;
+.page-footer .fa-go-tw-rs .google {
+    background: url(./page-png/google.png) no-repeat;
+    width: 21px;
+    height: 22px;
+    position: absolute;
+    right: 94px;
+    top: 0px;
+    margin-top: 14px;
 }
 
-.page-footer .page-bottom-line .rss {
-	width: 21px;
-	height: 21px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	margin-top: 14px;
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .fa-go-tw-rs .google {
+        right: 74px;
+        top: 0px;
+    }
+}
+
+.page-footer .fa-go-tw-rs .twitter {
+    background: url(./page-png/twitter.png) no-repeat;
+    width: 21px;
+    height: 22px;
+    position: absolute;
+    right: 47px;
+    top: 0px;
+    margin-top: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .fa-go-tw-rs .twitter {
+        right: 37px;
+        top: 0px;
+    }
+}
+
+.page-footer .fa-go-tw-rs .rss {
+    background: url(./page-png/rss.png) no-repeat;
+    height: 21px;
+    width: 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page-footer .fa-go-tw-rs .rss {
+        right: 0px;
+        top: 0px;
+    }
 }
