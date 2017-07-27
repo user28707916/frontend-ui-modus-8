@@ -1,7 +1,7 @@
 .blog-post {
 	position: relative;
 	width: 870px;
-	height: 590px;
+	min-height: 590px;
 	border-bottom: 3px solid #e5e6e6;
 	margin-bottom: 40px;
 }

@@ -1,7 +1,7 @@
 .blog-post-header {
 	position: relative;
-	width: 900px;
-	height: 70px;
+	max-width: 900px;
+	min-height: 70px;
 	margin-bottom: 40px;
 }
 
@@ -12,6 +12,7 @@
 .blog-post-header .blog-title {
 	font-weight: 600;
 	margin-left: 100px;
+	max-width: 800px;
 }
 
 .blog-post-header .datum-header {
