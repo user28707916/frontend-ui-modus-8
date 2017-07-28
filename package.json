@@ -24,8 +24,8 @@
 		"coverage": "neutrino test --coverage",
 		"lint": "neutrino lint",
 		"lint:css": "stylelint \"src/**/*.css\"",
-		"!precommit": "npm run lint",
-		"!prepush": "npm test"
+		"precommit": "npm run lint",
+		"prepush": "npm test"
 	},
 	"dependencies": {
 		"jquery": "3.2.1",
