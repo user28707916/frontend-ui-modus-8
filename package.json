@@ -23,7 +23,7 @@
 		"test:watch": "neutrino test --watch",
 		"coverage": "neutrino test --coverage",
 		"lint": "neutrino lint",
-		"lint:css": "stylelint \"src/**/*.css\"",
+		"stylelint": "neutrino stylelint",
 		"precommit": "npm run lint",
 		"prepush": "npm test"
 	},
