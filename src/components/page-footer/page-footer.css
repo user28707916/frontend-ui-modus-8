@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .page-footer {
     position: relative;
     width: 100%;
@@ -16,10 +11,6 @@
     vertical-align: top;
     width: 370px;
     height: 100%;
-}
-
-.page-footer .bottom-part {
-    margin: 0 -2px;
 }
 
 
@@ -45,7 +36,14 @@
 }
 
 .page-footer .part-phone {
+    margin: 0;
+    padding: 0;
     margin-bottom: 8px;
+}
+
+.page-footer .part-mail {
+    margin: 0;
+    padding: 0;
 }
 
 .page-footer p {
@@ -120,6 +118,8 @@
     display: inline-block;
     vertical-align: top;
     width: 40%;
+    margin: 0;
+    padding: 0;
     padding-top: 49px;
     margin: 0 -2px;
 }
@@ -186,6 +186,8 @@
 
 .page-footer .blog-from {
     color: #ffffff;
+    margin: 0;
+    padding: 0;
     font-size: 20px;
     padding-bottom: 28px;
     list-style-type: none;
