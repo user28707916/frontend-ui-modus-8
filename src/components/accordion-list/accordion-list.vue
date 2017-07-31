@@ -1,5 +1,5 @@
 <script>
-import PageHeader from '../components/page-header/page-header.vue';
+import ExpandableBox from '../expandable-box/expandable-box.vue';
 
 export default {
 	components: { ExpandableBox }
