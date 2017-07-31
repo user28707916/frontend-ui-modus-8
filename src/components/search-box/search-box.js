@@ -1,7 +1,12 @@
 export default {
+	data() {
+		return {
+			shown: false
+		};
+	},
 	methods: {
 		toggle() {
-			document.querySelector('.search-box .search-box-input').classList.toggle('shown');
+			this.shown = !this.shown;
 		}
 	}
 };

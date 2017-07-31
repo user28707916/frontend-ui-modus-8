@@ -2,12 +2,10 @@
 
 <template>
   <div class="search-box">
-	 <div>
 	 	<button class="search-box-button" v-on:click="toggle"></button>
-	 </div>
-	 <div class="search-box-input">
-	 	<input type="text" placeholder="Search the site">
-	 </div>
+	    <div class="search-box-input" :class="{shown: shown}">
+	 		<input type="text" placeholder="Search the site">
+	 	</div>
   </div>  
 </template>
 
