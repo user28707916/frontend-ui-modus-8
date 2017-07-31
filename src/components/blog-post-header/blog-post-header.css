@@ -20,19 +20,19 @@
 	.blog-post-header .blog-title {
 		margin-left: -20px;
 	}
+	.blog-post-header .datum-header {
+		display: block;
+		margin-left: 0;
+	}
+	.blog-post-header .category::before {
+		margin-left: 0;
+	}
 }
 
 .blog-post-header .datum-header {
 	margin-left: 100px;
 	margin-top: 10px;
 	margin-right: 5px;
-}
-
-@media (max-width: 850px) {
-	.blog-post-header .datum-header {
-		display: block;
-		margin-left: 0;
-	}
 }
 
 .blog-post-header .category::before {
@@ -49,10 +49,4 @@
 
 .blog-post-header a {
 	text-decoration: none;
-}
-
-@media (max-width: 850px) {
-	.blog-post-header .category::before {
-		margin-left: 0;
-	}
 }
