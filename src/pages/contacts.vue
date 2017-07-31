@@ -34,12 +34,15 @@
 			<div class="page-contacts-paragraph">
 				<p>Etiam tincidunt laoreet turpis a vulputate. Etiam diam lorem, convallis ac laoreet a, pretium id nisl. Morbi tincidunt nibh a ante fringilla at tincidunt eros venenatis. Nunc a dui mi, in imperdiet sem. Aenean eu nulla massa. Ut interdum tristique est commodo pharetra.</p>
 			</div>
+			<div class="feedback-content">
+				<span class="form-h">Send inquiry</span>
+				<form-feedback class="contacts-form"></form-feedback>	
+			</div>	
 			<div class="address-content">
 				<span class="contacts-h">Address</span>
 				<address-info class="page-contacts-address"></address-info>
 			</div>
-			<span class="form-h">Send inquiry</span>
-			<form-feedback class="contacts-form"></form-feedback>				
+		
 		</content-wrapper>
 
 		<page-footer/>

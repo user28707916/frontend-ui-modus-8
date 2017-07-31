@@ -36,9 +36,15 @@
 }
   
 .address-content {
-	position: absolute;
-	left: 900px;
+	display: inline-block;
+	vertical-align: top;
 	font-size: 20px;
+	
+}
+
+.feedback-content{
+	display: inline-block;
+	margin-right: 110px;
 }
   
 .form-h {
