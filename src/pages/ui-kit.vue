@@ -28,6 +28,7 @@ import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
 import FeatureList from '../components/feature-list/feature-list.vue';
+import AccordionList from '../components/accordion-list/accordion-list.vue';
 
 
 export default {
@@ -60,7 +61,8 @@ export default {
 		BlogPost,
 		ExpandableBox,
 		FormFeedback,
-		FeatureList
+		FeatureList,
+		AccordionList
 	}
 };
 </script>
@@ -78,6 +80,7 @@ export default {
 	
 			<address-info></address-info>
 			<search-box></search-box>
+			<accordion-list></accordion-list>
 			<tag-item>All</tag-item>
 			<tag-item>Web design</tag-item>
 			<tag-item>Logo design</tag-item>

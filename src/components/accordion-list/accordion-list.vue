@@ -5,10 +5,11 @@ export default {
 	components: { ExpandableBox }
 };
 </script>
+
 <style src="./accordion-list.css"/>
 
 <template>
-<div class="accordion-list" :class="{expanded: expanded}">
+<div class="accordion-list">
 	<expandable-box></expandable-box>
 	<expandable-box></expandable-box>
 	<expandable-box></expandable-box>
