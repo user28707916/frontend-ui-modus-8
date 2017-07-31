@@ -14,21 +14,6 @@
 	.blog-post .blog-post-paragraph {
 		margin-left: 0;
 	}
-}
-
-.blog-post .datum {
-	box-sizing: border-box;
-	max-width: 70px;
-	max-height: 73px;
-	background-color: #fff;
-	border-radius: 5px;
-	border-bottom: 3px solid #e5e6e6;
-	text-transform: uppercase;
-	color: #7f8c8c;
-	padding: 10px 15px;
-}
-
-@media (max-width: 850px) {
 	.blog-post .datum {
 		display: inline-block;
 		padding: 5px 10px;
@@ -41,6 +26,21 @@
 	.blog-post .datum-date {
 		font-size: 15px;
 	}
+	.blog-post .blog-post-link a {
+		margin-left: 0;
+	}
+}
+
+.blog-post .datum {
+	box-sizing: border-box;
+	max-width: 70px;
+	max-height: 73px;
+	background-color: #fff;
+	border-radius: 5px;
+	border-bottom: 3px solid #e5e6e6;
+	text-transform: uppercase;
+	color: #7f8c8c;
+	padding: 10px 15px;
 }
 
 .blog-post .datum-month {
@@ -79,12 +79,6 @@
 	margin-left: 100px;
 }
 
-@media (max-width:850px) {
-	.blog-post .blog-post-link a {
-		margin-left: 0;
-	}
-}
-
 .blog-post .blog-post-link::after {
 	display: inline-block;
 	vertical-align: middle;
@@ -98,6 +92,5 @@
 .blog-article {
 	position: absolute;
 	top: 330px;
-	max-width: 800px;
 	height: auto;
 }
