@@ -143,22 +143,22 @@ export default {
 			<!--TABS       -->
 			<tabs class="tabs">
 				<tab name="tab 1" :selected="true">
-					<div class="content">
+					<div class="tab-content">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit omnis dolorem totam unde hic dolorum quaerat quos modi, minus enim tempora saepe explicabo quidem ipsam alias voluptatem, commodi vero laboriosam!</p>
 					</div>
 				</tab>
 				<tab name="tab 2">
-					<div class="content">
+					<div class="tab-content">
 						<p>Velit voluptatum suscipit voluptatem, est expedita incidunt saepe impedit? Magni tempore neque, voluptas quos aliquam aperiam eos nemo, quo ut eaque, laborum aspernatur inventore qui accusantium quasi fuga eius fugiat.</p>
 					</div>
 				</tab>
 				<tab name="tab 3">
-					<div class="content">
+					<div class="tab-content">
 						<p>Eum a minima reprehenderit placeat ea impedit vero ipsa, ullam nulla! Dignissimos beatae eius minima rerum explicabo consequatur dolorem tempore sed ut molestiae necessitatibus ducimus esse eveniet maxime, omnis totam?</p>
 					</div>
 				</tab>
 				<tab name="tab 4">
-					<div class="content">
+					<div class="tab-content">
 						<p>Hic quidem perferendis magnam sint delectus ea debitis, officiis. Nesciunt maiores dicta neque unde voluptatem, ipsum beatae officia, ab, animi error recusandae quidem itaque in magnam. Nisi possimus culpa atque.</p>
 					</div>
 				</tab>

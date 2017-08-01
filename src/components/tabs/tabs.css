@@ -9,7 +9,7 @@
 	margin-right: 12px;
 	cursor: pointer;
 	font-size: 16px;
-	color: #fff;
+	color: #2c2c2c;
 	text-transform: uppercase;
 	background-color: #62b9b0;
 	height: 50px;
@@ -19,9 +19,17 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.selectedMenuItem {
+.tab-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
+li.selectedMenuItem, li.selectedMenuItem:hover {
 	font-weight: bold;
 	background-color: #f8f8f8;
+}
+
+.selectedMenuItem a {
 	color: #a2aaaa;
 }
 
@@ -29,4 +37,9 @@
 	display: block;
 	height: 50px;
 	line-height: 50px;
+}
+
+.tab-item:hover {
+	color: #fff;
+	background-color: #e2534b;
 }

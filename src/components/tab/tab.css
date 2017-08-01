@@ -1,38 +1,8 @@
-.content {
+.tab-content {
 	max-width: 850px;
 	background-color: #f8f8f8;
-	border-radius: 0 5px 5px 5px;
+	border-radius: 0 5px 5px;
 	padding: 30px 22px;
 	border-bottom: 2px solid #e5e6e6;
 	font-family: Arial, Helvetica, sans-serif;
-}
-
-.menuItem {
-	background-color: #f8f8f8;
-}
-
-.tab-item {
-	display: inline-block;
-	margin-right: 12px;
-	cursor: pointer;
-	font-size: 16px;
-	color: #fff;
-	text-transform: uppercase;
-	background-color: #62b9b0;
-	height: 50px;
-	line-height: 50px;
-	padding: 0 25px;
-	border-radius: 5px 5px 0 0;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-.selectedMenuItem {
-	font-weight: bold;
-	background-color: #f8f8f8;
-	color: #a2aaaa;
-}
-
-.tab-item:hover {
-	color: #fff;
-	background-color: #e2534b;
 }
