@@ -1,8 +1,7 @@
-<style src="./video-content.css" />
 <script>
 	export default {
-		props: ['src']
-	}
+		props: ['src', 'alt']
+	};
 
 </script>
 

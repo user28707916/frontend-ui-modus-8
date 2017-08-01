@@ -3,7 +3,7 @@ import VideoContent from '../video-content/video-content.vue';
 
 export default {
 	components: {
-		VideoContent,
+		VideoContent
 	}
 };
 </script>
