@@ -1,18 +1,10 @@
-<script>
-import ExpandableBox from '../expandable-box/expandable-box.vue';
-
-export default {
-	components: { ExpandableBox }
-};
-</script>
-
 <style src="./accordion-list.css"/>
 
 <template>
 <div class="accordion-list">
-	<expandable-box></expandable-box>
-	<expandable-box></expandable-box>
-	<expandable-box></expandable-box>
+	<expandable-box :expanded="expandedItems[0]" @click="expand(0)"></expandable-box>
+	<expandable-box :expanded="expandedItems[1]" @click="expand(1)"></expandable-box>
+	<expandable-box :expanded="expandedItems[2]" @click="expand(2)"></expandable-box>
 </div>
 </template>
 
