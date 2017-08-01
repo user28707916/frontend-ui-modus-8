@@ -29,6 +29,11 @@
 	.blog-post .blog-post-link a {
 		margin-left: 0;
 	}
+	.blog-post .blog-image-placeholder {
+		margin-left: 0;
+		margin-top: 45px;
+		margin-bottom: 40px;
+	}
 }
 
 .blog-post .datum {
@@ -58,20 +63,11 @@
 }
 
 .blog-post .blog-image-placeholder {
-	position: absolute;
-	top: 0;
+	display: inline-block;
+	margin-top: -70px;
 	margin-left: 100px;
-	max-width: 770px;
-	max-height: 300px;
+	width: 100%;
 	border-bottom: 3px solid #e5e6e6;
-}
-
-@media (max-width: 850px) {
-	.blog-post .blog-image-placeholder {
-		margin-left: 0;
-		margin-top: 45px;
-		margin-bottom: 40px;
-	}
 }
 
 .blog-post .blog-post-link a {
