@@ -28,6 +28,7 @@ import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
 import FeatureList from '../components/feature-list/feature-list.vue';
+import ProgressSemiRadial from '../components/progress-semi-radial/progress-semi-radial.vue';
 
 
 export default {
@@ -60,7 +61,8 @@ export default {
 		BlogPost,
 		ExpandableBox,
 		FormFeedback,
-		FeatureList
+		FeatureList,
+		ProgressSemiRadial
 	}
 };
 </script>
@@ -134,7 +136,16 @@ export default {
 			<h4>BLOG POST </h4>
 			<blog-post/>
 			<form-feedback />
-	
+
+			<h4>Progress Bar</h4>
+			<progress-semi-radial value='40' heading='Suspendisse'>
+			</progress-semi-radial>
+			<progress-semi-radial value='70' heading='Maecenas'>
+			</progress-semi-radial>
+			<progress-semi-radial value='80' heading='Aliquam'>
+			</progress-semi-radial>
+			<progress-semi-radial value='100' heading='Habitasse'>
+			</progress-semi-radial>
 		</content-wrapper>
 	
 		<page-footer></page-footer>
