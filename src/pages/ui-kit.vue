@@ -141,7 +141,7 @@ export default {
 			<form-feedback />
 	
 			<!--TABS       -->
-			<tabs class="tabs">
+			<tabs class="example-tabs">
 				<tab name="tab 1" :selected="true">
 					<div class="tab-content">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit omnis dolorem totam unde hic dolorum quaerat quos modi, minus enim tempora saepe explicabo quidem ipsam alias voluptatem, commodi vero laboriosam!</p>

@@ -4,7 +4,7 @@
 	padding: 0;
 }
 
-.tab-item {
+.tab-list .tab-item {
 	display: inline-block;
 	margin-right: 12px;
 	cursor: pointer;
@@ -19,21 +19,21 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.tab-item a {
+.tab-list .tab-item a {
 	color: #fff;
 	text-decoration: none;
 }
 
-li.selectedMenuItem, li.selectedMenuItem:hover {
+.tab-list li.selectedMenuItem, .tab-list li.selectedMenuItem:hover {
 	font-weight: bold;
 	background-color: #f8f8f8;
 }
 
-.selectedMenuItem a {
+.tab-list .selectedMenuItem a {
 	color: #a2aaaa;
 }
 
-.menuItem {
+.tab-list .menuItem {
 	display: block;
 	height: 50px;
 	line-height: 50px;
