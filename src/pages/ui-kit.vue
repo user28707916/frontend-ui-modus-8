@@ -28,12 +28,8 @@ import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
 import FeatureList from '../components/feature-list/feature-list.vue';
-<<<<<<< HEAD
 import ProgressSemiRadial from '../components/progress-semi-radial/progress-semi-radial.vue';
-
-=======
 import MapGoogle from '../components/map-google/map-google.vue';
->>>>>>> master
 
 export default {
 	components: {
@@ -66,11 +62,8 @@ export default {
 		ExpandableBox,
 		FormFeedback,
 		FeatureList,
-<<<<<<< HEAD
-		ProgressSemiRadial
-=======
+		ProgressSemiRadial,
 		MapGoogle
->>>>>>> master
 	}
 };
 </script>
@@ -145,7 +138,6 @@ export default {
 			<blog-post/>
 			<form-feedback />
 
-<<<<<<< HEAD
 			<h4>Progress Bar</h4>
 			<progress-semi-radial value='40'>Suspendisse
 			</progress-semi-radial>
@@ -155,11 +147,10 @@ export default {
 			</progress-semi-radial>
 			<progress-semi-radial value='100'>Habitasse
 			</progress-semi-radial>
-=======
+			
 			<h4>Google Map</h4>
 			<map-google> </map-google>
 			
->>>>>>> master
 		</content-wrapper>
 	
 		<page-footer></page-footer>
