@@ -138,13 +138,13 @@ export default {
 			<form-feedback />
 
 			<h4>Progress Bar</h4>
-			<progress-semi-radial value='40' heading='Suspendisse'>
+			<progress-semi-radial value='40'>Suspendisse
 			</progress-semi-radial>
-			<progress-semi-radial value='70' heading='Maecenas'>
+			<progress-semi-radial value='70'>Maecenas
 			</progress-semi-radial>
-			<progress-semi-radial value='80' heading='Aliquam'>
+			<progress-semi-radial value='0'>Aliquam
 			</progress-semi-radial>
-			<progress-semi-radial value='100' heading='Habitasse'>
+			<progress-semi-radial value='100'>Habitasse
 			</progress-semi-radial>
 		</content-wrapper>
 	

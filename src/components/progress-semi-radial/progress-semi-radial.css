@@ -7,14 +7,14 @@
 	color: #7f8c8c;
 }
 
-.progress-semi-radial-overflow {
+.progress-semi-radial .progress-semi-radial-overflow {
 	overflow: hidden;
 	width: auto;
 	height: 60px;
 	margin-bottom: -30px;
 }
 
-.progress-semi-radial-bar {
+.progress-semi-radial .progress-semi-radial-bar {
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
@@ -30,9 +30,3 @@
 	line-height: 36px;
 }
 
-.progress-semi-radial .heading {
-	display: block;
-	font-size: 16px;
-	line-height: 19px;
-	text-transform: uppercase;
-}

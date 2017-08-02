@@ -2,7 +2,7 @@
 
 <script>
 	export default {
-		props: ['value', 'heading'],
+		props: ['value'],
 		computed: {
     		rotationAngle(){ 
 				let angle = 45 + (this.value * 1.8);
@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<span class="value">{{value}}</span>
-		<span class="heading">{{heading}}</span>
+		<slot></slot>
 	</div>
 </template>
 
