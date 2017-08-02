@@ -1,14 +1,12 @@
 <style src='./map-google.css' />
 
 <script>
-import Vue from 'vue'
-import * as VueGoogleMaps from 'vue2-google-maps'
-Vue.use(VueGoogleMaps, {
-  load: {
-    key: 'AIzaSyB-VS9zRd77p3RjXf_t679ivDJrwW3AM8A',
+import {Map as GmapMap, Marker as GmapMarker, load} from 'vue2-google-maps';
+
+load({
+    key: 'AIzaSyBvWE_sIwKbWkiuJQOf8gSk9qzpO96fhfY',
     libraries: 'places'
-  }
-})
+	})
 
 export default {
     data () {
@@ -18,9 +16,12 @@ export default {
           position: {lat: 46.47377371, lng: 30.75932622}
         }]
       }
-    }
-  }
-
+    },
+	components: {
+		GmapMap,
+		GmapMarker
+	}
+}
 </script>
 
 <template>
