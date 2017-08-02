@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<span class="value">{{value}}</span>
-		<slot></slot>
+		<span class="heading"><slot></slot></span>
 	</div>
 </template>
 
