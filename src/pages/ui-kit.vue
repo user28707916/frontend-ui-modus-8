@@ -29,6 +29,7 @@ import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
 import FeatureList from '../components/feature-list/feature-list.vue';
 import AccordionList from '../components/accordion-list/accordion-list.vue';
+import MapGoogle from '../components/map-google/map-google.vue';
 
 
 export default {
@@ -62,7 +63,8 @@ export default {
 		ExpandableBox,
 		FormFeedback,
 		FeatureList,
-		AccordionList
+		AccordionList,
+		MapGoogle
 	}
 };
 </script>
@@ -137,7 +139,10 @@ export default {
 			<h4>BLOG POST </h4>
 			<blog-post/>
 			<form-feedback />
-	
+
+			<h4>Google Map</h4>
+			<map-google> </map-google>
+			
 		</content-wrapper>
 	
 		<page-footer></page-footer>
